@@ -1,0 +1,13 @@
+html { height: 100%; }
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 1em;
+    background: linear-gradient(180deg, #dff3f8 0%, #d9f5f5 100%);
+    /*display: flex;*/
+    justify-content: space-around;
+    color: #2f2c48;
+}
+
+.heading {
+    line-height: 1em;
+}
