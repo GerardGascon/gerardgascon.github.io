@@ -11,3 +11,7 @@ body {
 .heading {
     line-height: 1em;
 }
+.heading iframe {
+    margin: 0 auto;
+    display: block;
+}
