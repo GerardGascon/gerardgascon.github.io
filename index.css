@@ -8,10 +8,32 @@ body {
     color: #2f2c48;
 }
 
+.header {
+    position: relative;
+    height: 475px;
+}
 .heading {
     line-height: 1em;
+
+    background: #E8AA14;
+    position: fixed;
+    height: 450px;
+    left: 0;
+    margin-top: 0px;
+    width: 100%;
+    z-index: 100;
+    padding-bottom: 16px;
 }
 .heading iframe {
     margin: 0 auto;
     display: block;
+}
+
+.link-button {
+    appearance: none;
+    font-family: inherit;
+    outline: 0;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
 }
