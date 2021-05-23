@@ -3,32 +3,50 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     padding: 1em;
     background: linear-gradient(180deg, #dff3f8 0%, #d9f5f5 100%);
-    /*display: flex;*/
     justify-content: space-around;
     color: #2f2c48;
 }
 
-.header {
-    position: relative;
-    height: 475px;
+.dynamic {
+    height: calc(100vh + 200px);
 }
+
 .heading {
     line-height: 1em;
 
-    background: #E8AA14;
-    position: fixed;
-    height: 450px;
-    left: 0;
-    margin-top: 0px;
-    width: 100%;
-    z-index: 100;
-    padding-bottom: 16px;
+    overflow: hidden;
+    background-color: #E8AA14;
+    position: inherit;
+    border-radius: 25px;
 }
 .heading iframe {
     margin: 0 auto;
     display: block;
 }
 
+.game {
+    background: white;
+    display: flex;
+    border-radius: 25px;
+}
+
+.game aside {
+    padding-right: 16px;
+}
+.game aside img {
+    border-radius: 25px;
+}
+
+.links {
+    overflow: hidden;
+    background-color: #E8AA14;
+    position: fixed;
+    padding-top: 5px;
+    padding-bottom: 2.5px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 .link-button {
     appearance: none;
     font-family: inherit;
