@@ -51,22 +51,16 @@ header nav button:hover {
     cursor: pointer;
 }
 
-.heading {
-    line-height: 1em;
-    overflow: hidden;
-    background-color: #E8AA14;
-    border-radius: 2.5vh;
-}
-.heading iframe {
-    float: left;
-}
 
-.games {
-    background-color: rgb(22, 110, 192);
-    border-radius: 2.5vh;
-    width: 85vw;
-    margin-left: auto;
-    margin-right: auto;
+.itchio-logo {
+    position: fixed;
+    top: 95px;
+    left: 2vh;
+}
+.itchio-logo button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
 }
 
 .game {
@@ -97,63 +91,4 @@ header nav button:hover {
     padding: 6px 16px;
     margin-bottom: 16px;
     cursor: pointer;
-}
-.more-games-button {
-    border: 0;
-    background: #2F2C48;
-    border-top: 4px solid transparent;
-    border-bottom: 4px solid #1e1d2b;
-    color: #fff;
-    border-radius: 6px;
-    outline: 0;
-    padding: 6px 16px;
-    margin-bottom: 16px;
-    cursor: pointer;
-}
-
-.links {
-    overflow: hidden;
-    background-color: #E8AA14;
-    position: block;
-    padding-top: 5px;
-    padding-bottom: 2.5px;
-    margin-top: 2.5vh;
-    border-radius: 2.5vh;
-    width: 100%;
-}
-.link-button {
-    appearance: none;
-    font-family: inherit;
-    outline: 0;
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    transition-duration: .1s;
-}
-.link-button:hover {
-    transform: scale(1.1, 1.1);
-}
-
-.projects {
-    background-color: #E8AA14;
-    border-radius: 2.5vh;
-    width: 85vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.project {
-    background: white;
-    display: flex;
-    border-radius: 2.5vh;
-    margin-bottom: 2.5vh;
-    width: 75vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-.project aside {
-    padding-right: 16px;
-}
-.project aside img {
-    border-radius: 2.5vh;
 }
