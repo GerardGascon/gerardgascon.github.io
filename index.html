@@ -12,13 +12,16 @@
     <body>
         <header>
             <div class="logo">
-                <h1 style="margin: .5vw 0px 0px 1vh;">Gerard Gascón</h1>
-                <h3 style="margin: -.5vw 0px .5vw 1vh; color: rgb(22, 110, 192);">Game Developer</h3>
+                <button onclick="location.href = 'index.html'"><img src="Logo.png"/></button>
+                <aside>
+                    <h1 style="margin: .5vw 0px 0px 1vh;">Gerard Gascón</h1>
+                    <h3 style="margin: -.5vw 0px .5vw 1vh; color: rgb(22, 110, 192);">Game Developer</h3>
+                </aside>
             </div>
 
             <nav>
                 <button onclick="location.href = 'index.html'">Home</button>
-                <button href="#">About me</button>
+                <button onclick="location.href = 'about-me.html'">About me</button>
                 <button onclick="location.href = 'games.html'">Games</button>
                 <button onclick="location.href = 'TileMapEditor/tileMap.html';">Tile Map Editor</button>
             </nav>
@@ -98,6 +101,20 @@
                         <button class="learn-more-button">Learn More</button>
                     </div>
                 </div>
+
+                <div class="project">
+                    <aside>
+                        <img src="MainPageResources/GameImages/Unity.png"/>
+                    </aside>
+                    <div style="padding-right: 2.5vh;">
+                        <h1>Simple Tools Project</h1>
+                        <p>A Unity package that contains simple tools to use in your project.</p>
+                        <p>While I was in a game jam in 2020, I saw that I was spending too much time programming the exact same tools, so one day I decided to put them all inside a package with the main goal of spending as few time as possible implementing them.</p>
+                        <button onclick="window.open('https://github.com/GerardGascon/SimpleTools', '_blank')" class="learn-more-button">Visit Repository</button>
+                    </div>
+                </div>
+
+                <div class="empty-space" style="height: .5vh;"></div>
             </div>
 
             <div class="empty-space" style="height: 5vh;"></div>
