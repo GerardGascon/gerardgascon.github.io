@@ -26,6 +26,19 @@
                 <button onclick="location.href = 'tileMap.html';">Tile Map Editor</button>
             </nav>
         </div>
+
+        <div id="exportImageSettings" class="overlay">
+            <div id="popupBody">
+                <h2 style="margin-top: -10px;">Export Settings</h2>
+                <a id="close" href="#">&times;</a>
+                <div class="popup-content">
+                    <p><strong>Layers to export:</strong></p>
+                    <input type="checkbox" checked>Top Layer<br><br>
+                    <input type="checkbox" checked>Middle Layer<br><br>
+                    <input type="checkbox" checked>Bottom Layer<br><br>
+                </div>
+            </div>
+        </div>
     </body>
 
     <div body>
@@ -34,13 +47,23 @@
                 <h1>Tilemap Editor</h1>
                 <div>
                     <button class="button-as-link" onclick="clearCanvas()">Clear Canvas</button>
-                    <button class="primary-button" onclick="exportImage()">Export Image</button>
+                    <div class="dropdown">
+                        <button onclick="openActionDropdown()" class="dropdown-button">Actions</button>
+                        <div id="actionDropdown" class="dropdown-content">
+                            <a href="#" onclick="exportImage()">Export Image</a>
+                            <a href="#exportImageSettings">Export Image Settings</a>
+                            <a href="#">Save Image</a>
+                        </div>
+                    </div>
                 </div>
             </header>
     
             <div class="card_body">
                 <aside>
-                    <label>Tiles</label>
+                    <div style="display: flex;">
+                        <button><strong>Tiles</strong></button>
+                        <button><strong>Colliders</strong></button>
+                    </div>
                     <div class="tileset-container">
                         <img src="" id="tileset-source" crossorigin="anonymous"/>
                         <div class="tileset-container_selection"></div>
@@ -48,9 +71,10 @@
                     </div>
                 </aside>
                 <div class="card_right-column">
+                    <p id="color-count">Color count:</p>
                     <!--The main canvas-->
                     <div class="canvas-position">
-                        <canvas class="canvas" width="480" height="480"></canvas>
+                        <canvas class="canvas" width="480" height="480"></canvas><br><output></output>
                         <canvas class="invisible-canvas" width="480" height="480"></canvas>
                         <div class="draw-tile_position"></div>
                         <!--<div class="draw-tile_position"></div>-->
@@ -70,7 +94,8 @@
                     </div>
                 </div>
             </div>
-            <script src="tileMap.js"></script>
         </div>
+
+        <script src="tileMap.js"></script>
     </div>
 </html>

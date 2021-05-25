@@ -65,12 +65,56 @@ body {
     cursor: pointer;
 }
 
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .7);
+    transition: opacity 500ms;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+#popupBody {
+    width: 46%;
+    padding: 4%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #ccc;
+    background: #fff;
+    position: relative;
+    margin: 20% auto;
+    margin-top: 30vh;
+    transition: all 200ms;
+}
+#close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f00;
+    transition: all 200ms;
+}
+
 .instructions {
     font-size: .8em;
     color: #aaa;
     text-align: center;
     margin: 0;
     margin-bottom: 16px;
+}
+
+#color-count {
+    font-size: 1em;
+    color: rgb(107, 107, 107);
+    margin: 0;
 }
 
 .card {
@@ -97,6 +141,48 @@ body {
 .card aside {
     padding-left: 16px;
     padding-right: 16px;
+}
+
+.dropdown-button {
+    border: 0;
+    background: #4e84fa;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid #3166c7;
+    color: #fff;
+    border-radius: 6px;
+    outline: 0;
+    padding: 6px 16px;
+    cursor: pointer;
+}
+.dropdown-button:hover, .dropdown-button:focus {
+    background-color: #3a75e2;
+    border-bottom: 4px solid #3166c7;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 6px;
+}
+.show {
+    display: block;
 }
 
 .card_body {
@@ -157,6 +243,19 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+.card .card_body aside button {
+    appearance: none;
+    font-family: inherit;
+    outline: 0;
+    background: transparent;
+    border: 0;
+    font-size: 16px;
+    padding: 0px 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
 }
 .card .card_body button {
     appearance: none;
