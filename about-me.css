@@ -68,3 +68,19 @@ header nav button:hover {
 .heading img {
     float: left;
 }
+
+.beginning {
+    background-color: rgb(22, 110, 192);
+    border-radius: 2.5vh;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+}
+.beginning a {
+    color: whitesmoke;
+}
+.beginning p {
+    margin: 2.5vw;
+    text-align: justify;
+}
