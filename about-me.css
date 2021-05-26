@@ -58,6 +58,7 @@ header nav button:hover {
     margin-bottom: 16px;
     margin-left: 16px;
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 .heading {
@@ -65,6 +66,7 @@ header nav button:hover {
     overflow: hidden;
     background-color: #E8AA14;
     border-radius: 2.5vh;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
 }
 .heading img {
     float: left;
@@ -77,6 +79,7 @@ header nav button:hover {
     margin-left: auto;
     margin-right: auto;
     color: whitesmoke;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
 }
 .beginning a {
     color: whitesmoke;

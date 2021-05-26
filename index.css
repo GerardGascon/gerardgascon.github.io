@@ -57,6 +57,7 @@ header nav button:hover {
     margin-bottom: 16px;
     margin-left: 16px;
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 .heading {
@@ -64,6 +65,7 @@ header nav button:hover {
     overflow: hidden;
     background-color: #E8AA14;
     border-radius: 2.5vh;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
 }
 .heading iframe {
     float: left;
@@ -75,10 +77,11 @@ header nav button:hover {
     width: 85vw;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
 }
 
 .game {
-    background: white;
+    background: whitesmoke;
     display: flex;
     border-radius: 2.5vh;
     margin-bottom: 2.5vh;
@@ -86,6 +89,7 @@ header nav button:hover {
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
 }
 .game aside {
     padding-right: 16px;
@@ -105,6 +109,12 @@ header nav button:hover {
     padding: 6px 16px;
     margin-bottom: 16px;
     cursor: pointer;
+    transition-duration: 100ms;
+}
+.learn-more-button:hover {
+    transform: scale(1.025);
+    background: #2F2C48;
+    border-bottom: 4px solid #1e1d2b;
 }
 .more-games-button {
     border: 0;
@@ -148,6 +158,7 @@ header nav button:hover {
     width: 85vw;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
 }
 
 .project {
@@ -158,6 +169,7 @@ header nav button:hover {
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
 }
 .project aside {
     padding-right: 16px;
