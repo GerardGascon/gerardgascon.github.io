@@ -32,10 +32,15 @@
                 <h2 style="margin-top: -10px;">Export Settings</h2>
                 <a id="close" href="#">&times;</a>
                 <div class="popup-content">
-                    <p><strong>Layers to export:</strong></p>
-                    <input type="checkbox" checked>Top Layer<br><br>
-                    <input type="checkbox" checked>Middle Layer<br><br>
-                    <input type="checkbox" checked>Bottom Layer<br><br>
+                    <p><strong>Canvas layers to export:</strong></p>
+                    <input type="checkbox" id="topLayerCheckbox" onclick="updateCheckbox('topLayerCheckbox')" checked>Top Layer<br><br>
+                    <input type="checkbox" id="middleLayerCheckbox" onclick="updateCheckbox('middleLayerCheckbox')" checked>Middle Layer<br><br>
+                    <input type="checkbox" id="bottomLayerCheckbox" onclick="updateCheckbox('bottomLayerCheckbox')" checked>Bottom Layer<br><br>
+                    
+                    <p><strong>Physic layers to export:</strong></p>
+                    <input type="checkbox" id="physicsTopLayerCheckbox" onclick="updateCheckbox('physicsTopLayerCheckbox')" checked>Top Layer<br><br>
+                    <input type="checkbox" id="physicsMiddleLayerCheckbox" onclick="updateCheckbox('physicsMiddleLayerCheckbox')" checked>Middle Layer<br><br>
+                    <input type="checkbox" id="physicsBottomLayerCheckbox" onclick="updateCheckbox('physicsBottomLayerCheckbox')" checked>Bottom Layer<br><br>
                 </div>
             </div>
         </div>
