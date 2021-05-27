@@ -5,6 +5,7 @@ body {
     background: linear-gradient(180deg, #dff3f8 0%, #d9f5f5 100%);
     justify-content: space-around;
     color: #2f2c48;
+    font-size: 20px;
 }
 
 header {
