@@ -66,15 +66,45 @@ header nav button:hover {
     transform: scale(1.05);
 }
 
-.heading {
-    line-height: 1em;
-    overflow: hidden;
-    background-color: #E8AA14;
-    border-radius: 2.5vh;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+@media screen and (min-width: 960px) {
+    .heading {
+        line-height: 1em;
+        overflow: hidden;
+        background-color: #E8AA14;
+        border-radius: 2.5vh;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    }
+    .heading img {
+        float: left;
+        margin: 20px 20px 20px 20px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+        border-radius: 2vh;
+    }
 }
-.heading img {
-    float: left;
+@media screen and (max-width: 960px){
+    .heading {
+        line-height: 1em;
+        background-color: #E8AA14;
+        border-radius: 2.5vh;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    }
+    #geri-photo {
+        width: 100%;
+        display: block;
+        object-fit: contain;
+        height: 300px;
+    }
+    .heading img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+        max-width: 395px;
+        height: auto;
+        max-height: 300px;
+        border-radius: 2.5vh;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    }
 }
 
 .beginning {
