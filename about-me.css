@@ -15,7 +15,7 @@ header {
     background: #E8AA14;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, .5);
     position: fixed;
-    z-index: 1;
+    z-index: 10;
 }
 header .logo {
     float: left;
@@ -92,32 +92,4 @@ header nav button:hover {
 .beginning p {
     margin: 2.5vw;
     text-align: justify;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    text-align: center;
-}
-.column {
-    flex: 50%;
-    padding: 0 4px;
-}
-.column img {
-    margin-left: 2.5px;
-    margin-right: 2.5px;
-    margin-top: 7px;
-    vertical-align: middle;
-    border-radius: 2.5vh;
-    transition-duration: .1s;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
-}
-.column img:hover {
-    margin-left: 2.5px;
-    margin-right: 2.5px;
-    margin-top: 7px;
-    vertical-align: middle;
-    border-radius: 2.5vh;
-    transform: scale(1.05);
 }
