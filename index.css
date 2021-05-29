@@ -15,6 +15,7 @@ header {
     background: #E8AA14;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, .5);
     position: fixed;
+    z-index: 10;
 }
 header .logo {
     float: left;
@@ -119,7 +120,6 @@ header nav button:hover {
 
 .game {
     background: whitesmoke;
-    display: flex;
     border-radius: 2.5vh;
     margin-bottom: 2.5vh;
     width: 75vw;
@@ -127,12 +127,33 @@ header nav button:hover {
     margin-right: auto;
     text-align: justify;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
-}
-.game aside {
-    padding-right: 16px;
+    overflow: hidden;
 }
 .game aside img {
     border-radius: 2.5vh;
+}
+@media screen and (min-width: 920px){
+    .game {
+        display: flex;
+    }
+    .game aside {
+        padding-right: 16px;
+    }
+}
+@media screen and (max-width: 919px){
+    .game aside img {
+        width: 100%;
+        display: block;
+        object-fit: contain;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 378px;
+        max-height: 300px;
+        border-radius: 2.5vh;
+    }
+
 }
 
 .learn-more-button {
@@ -205,18 +226,41 @@ header nav button:hover {
 }
 
 .project {
-    background: white;
-    display: flex;
+    background: whitesmoke;
     border-radius: 2.5vh;
     margin-bottom: 2.5vh;
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    overflow: hidden;
 }
-.project aside {
-    padding-right: 16px;
+.project p {
+    text-align: justify;
 }
 .project aside img {
     border-radius: 2.5vh;
+}
+@media screen and (min-width: 920px){
+    .project {
+        display: flex;
+    }
+    .project aside {
+        padding-right: 16px;
+    }
+}
+@media screen and (max-width: 919px){
+    .project aside img {
+        width: 100%;
+        display: block;
+        object-fit: contain;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 380px;
+        max-height: 253px;
+        border-radius: 2.5vh;
+    }
+
 }
