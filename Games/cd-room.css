@@ -2,27 +2,192 @@ html { height: 100%; }
 body {
     font-family: 'Source Sans Pro', sans-serif;
     padding: 1em;
-    background: linear-gradient(180deg, #dff3f8 0%, #d9f5f5 100%);
+    background: url("Images/CDRoomBackground.png");
+    background-attachment: fixed;
     justify-content: space-around;
     color: #2f2c48;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #E8AA14;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .5);
+    position: fixed;
+    z-index: 1;
+}
+header .logo {
+    float: left;
+    display: flex;
+}
+header .logo button {
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin-top: 1vh;
+    cursor: pointer;
+    transition-duration: 100ms;
+}
+header .logo button:hover {
+    transform: scale(1.1);
+}
+header nav {
+    float: right;
+    margin-right: 3vw;
+    padding-top: 2.25vh;
+}
+header nav button {
+    border: 0;
+    background: #2F2C48;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid #1e1d2b;
+    color: #fff;
+    border-radius: 20px;
+    outline: 0;
+    padding: 6px 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    cursor: pointer;
+    transition-duration: .1s;
+}
+header nav button:hover {
+    border: 0;
+    background: #166EC0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid #125a9c;
+    color: #fff;
+    border-radius: 20px;
+    outline: 0;
+    padding: 6px 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.development a {
+    color: whitesmoke;
 }
 
 .heading {
     line-height: 1em;
     overflow: hidden;
     background-color: #E8AA14;
-    position: inherit;
-    border-radius: 25px;
+    border-radius: 2.5vh;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    width: 75vw;
+    margin: auto;
+}
+.heading img {
+    float: left;
+}
+.heading button {
+    border: 0;
+    background: #166EC0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid #125a9c;
+    color: #fff;
+    border-radius: 6px;
+    outline: 0;
+    padding: 6px 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition-duration: 100ms;
+}
+.heading button:hover {
+    background: #2F2C48;
+    border-bottom: 4px solid #1e1d2b;
 }
 
-.sub-heading {
+.synopsis, .conclusions {
     margin-top: 16px;
-    line-height: 1em;
+    background-color: #166EC0;
+    border-radius: 2.5vh;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
-    background-color: #fdc541;
-    position: inherit;
-    border-radius: 25px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
 }
-.sub-heading p {
-    margin: 16px;
+.synopsis img, .conclusions img {
+    float: left;
+    margin-left: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    border-radius: 2vh;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.development {
+    margin-top: 16px;
+    background-color: #166EC0;
+    border-radius: 2.5vh;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+}
+
+.development img {
+    margin-left: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    border-radius: 2vh;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.development iframe {
+    margin-left: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    border-radius: 2vh;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.team {
+    margin-top: 16px;
+    background-color: #E8AA14;
+    border-radius: 2.5vh;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+}
+
+.person {
+    border-radius: 2.5vh;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.person img {   
+    float: left;
+    margin-left: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    border-radius: 200px;
+    height: 125px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition-duration: 100ms;
+}
+.person img:hover {
+    transform: scale(1.05);
+}
+.person h3 {
+    margin-top: -30px;
+}
+.person p {
+    margin-top: -15px;
+    text-align: justify;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 20px;
+    line-height: 20px;
 }
