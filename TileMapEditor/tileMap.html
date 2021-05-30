@@ -6,26 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tilemap Editor</title>
         <link rel="stylesheet" href="tileMap.css">
+        <link rel="stylesheet" href="/header.css">
         <link rel="shortcut icon" href="/MainPageResources/tilemap.png"/>
+        <script src="https://kit.fontawesome.com/28575038bf.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/header.css">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script>
+            $(function(){
+                $("#header").load("/Games/header.html");
+            })
+        </script>
     </head>
 
     <body>
-        <div class="header">
-            <div class="logo">
-                <a href = "index.html"><button><img src="/Logo.png"/></button></a>
-                <aside>
-                    <h1 style="margin: .5vw 0px 0px 1vh;">Gerard Gascón</h1>
-                    <h3 style="margin: -.5vw 0px .5vw 1vh; color: rgb(22, 110, 192);">Game Developer</h3>
-                </aside>
-            </div>
-
-            <nav>
-                <a href="/index.html"><button>Home</button></a>
-                <a href="/about-me.html"><button>About me</button></a>
-                <a href="/games.html"><button>Games</button></a>
-                <a href="tileMap.html"><button>Tile Map Editor</button></a>
-            </nav>
-        </div>
+        <div id="header"></div>
 
         <div id="exportImageSettings" class="overlay">
             <div id="popupBody">
@@ -48,7 +42,7 @@
 
     <div body>
         <div class="card">
-            <header>
+            <div class="header">
                 <h1>Tilemap Editor</h1>
                 <div>
                     <button class="button-as-link" onclick="clearCanvas()">Clear Canvas</button>
@@ -61,7 +55,7 @@
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
     
             <div class="card_body">
                 <aside>

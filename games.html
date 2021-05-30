@@ -8,53 +8,18 @@
         <title>Games</title>
         <link rel="shortcut icon" href="MainPageResources/logo.png"/>
         <script src="https://kit.fontawesome.com/28575038bf.js" crossorigin="anonymous"></script>
+        <!--Load header using jQuery-->
+        <link rel="stylesheet" href="header.css">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script>
+            $(function(){
+                $("#header").load("assets/header.html");
+            })
+        </script>
     </head>
 
     <body>
-        <header>
-            <div class="logo">
-                <a href = "index.html"><button><img src="Logo.png"/></button></a>
-                <aside>
-                    <h1 style="margin: .5vw 0px 0px 1vh;">Gerard Gascón</h1>
-                    <h3 style="margin: -.5vw 0px .5vw 1vh; color: rgb(22, 110, 192);">Game Developer</h3>
-                </aside>
-            </div>
-
-            <nav class="pc-nav">
-                <a href="index.html"><button>Home</button></a>
-                <a href="about-me.html"><button>About me</button></a>
-                <a href="games.html"><button>Games</button></a>
-                <a href="TileMapEditor/tileMap.html"><button>Tile Map Editor</button></a>
-            </nav>
-
-            <a class="openMenu"><i class="fa fa-bars"></i></a>
-
-            <div class="mobile-nav">
-                <div class="closeMenu"><i class="fa fa-times" style="color: whitesmoke; cursor: pointer; position: absolute; right: 20px; top: 10px; font-size: 50px;"></i></div>
-                <ul class="mainMenu">
-                    <li><a href="index.html"><strong>Home</strong></a></li>
-                    <li><a href="about-me.html"><strong>About me</strong></a></li>
-                    <li><a href="games.html"><strong>Games</strong></a></li>
-                    <li><a href="TileMapEditor/tileMap.html"><strong>Tile Map Editor</strong></a></li>
-                </ul>
-            </div>
-            <script>
-                const mainMenu = document.querySelector('.mobile-nav');
-                const closeMenu = document.querySelector('.closeMenu');
-                const openMenu = document.querySelector('.openMenu');
-
-                openMenu.addEventListener('click', show);
-                closeMenu.addEventListener('click', close);
-
-                function show(){
-                    mainMenu.style.display = 'flex';
-                    mainMenu.style.top = '0';
-                }
-                function close(){
-                    mainMenu.style.top = '-100%'
-                }
-            </script>
-        </header>
+        <div id="header"></div>
 
         <div class="itchio-logo">
             <button><a href="https://geri8.itch.io" target="_blank"><img src="MainPageResources/itchio-noround.png"/></a></button>
