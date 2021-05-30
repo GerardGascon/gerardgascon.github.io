@@ -48,11 +48,35 @@ body {
         box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
     }
 }
+@media screen and (max-width: 960px){
+    .iframe-container {
+        position: relative;
+        width: calc(100% - 40px);
+        height: 0;
+        padding-bottom: 56.25%;
+        margin-bottom: 8%;
+    }
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 22.5px);
+    }
+}
+@media screen and (min-width: 960px){
+    .iframe-container {
+        text-align: center;
+    }
+    .heading-text {
+        margin-top: 200px;
+    }
+}
 
 .beginning {
     background-color: rgb(22, 110, 192);
     border-radius: 2.5vh;
-    width: 65vw;
+    width: 85vw;
     margin-left: auto;
     margin-right: auto;
     color: whitesmoke;

@@ -44,7 +44,18 @@ figure {
     margin: 0 0 .5em .5em;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 720px) and (max-width: 960px) {
+    .xop-wrapper {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .xop-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em;
+    }
+}
+@media screen and (min-width: 960px) and (max-width: 1280px) {
     .xop-wrapper {
         max-width: 960px;
         margin: 0 auto;
@@ -54,6 +65,19 @@ figure {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1em;
     }
+}
+@media screen and (min-width: 1280px) {
+    .xop-wrapper {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+    .xop-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1em;
+    }
+}
+@media screen and (min-width: 720px) {
     .project {
         width: 100%;
         height: 300px;
