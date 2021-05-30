@@ -5,8 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="cd-room.css">
-        <link rel="shortcut icon" href="Images/Icons/Mercorona.png"/>
-        <title>Mercorona</title>
+        <link rel="shortcut icon" href="Images/Icons/CDRoom.png"/>
+        <title>CD-ROOM</title>
+        <script src="https://kit.fontawesome.com/28575038bf.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -19,12 +20,40 @@
                 </aside>
             </div>
 
-            <nav>
+            <nav class="pc-nav">
                 <a href="/index.html"><button>Home</button></a>
                 <a href="/about-me.html"><button>About me</button></a>
                 <a href="/games.html"><button>Games</button></a>
                 <a href="/TileMapEditor/tileMap.html"><button>Tile Map Editor</button></a>
             </nav>
+
+            <a class="openMenu"><i class="fa fa-bars"></i></a>
+
+            <div class="mobile-nav">
+                <div class="closeMenu"><i class="fa fa-times" style="color: whitesmoke; cursor: pointer; position: absolute; right: 20px; top: 10px; font-size: 50px;"></i></div>
+                <ul class="mainMenu">
+                    <li><a href="/index.html"><strong>Home</strong></a></li>
+                    <li><a href="/about-me.html"><strong>About me</strong></a></li>
+                    <li><a href="/games.html"><strong>Games</strong></a></li>
+                    <li><a href="/TileMapEditor/tileMap.html"><strong>Tile Map Editor</strong></a></li>
+                </ul>
+            </div>
+            <script>
+                const mainMenu = document.querySelector('.mobile-nav');
+                const closeMenu = document.querySelector('.closeMenu');
+                const openMenu = document.querySelector('.openMenu');
+
+                openMenu.addEventListener('click', show);
+                closeMenu.addEventListener('click', close);
+
+                function show(){
+                    mainMenu.style.display = 'flex';
+                    mainMenu.style.top = '0';
+                }
+                function close(){
+                    mainMenu.style.top = '-100%'
+                }
+            </script>
         </header>
 
         <div class="empty-space" style="height: 7.5vh;"></div>
@@ -35,7 +64,7 @@
                 <div style="padding-top: 70px;">
                     <h1 style="font-size: 50px; text-align: center;">CD-ROOM</h1>
                     <h3 style="text-align: center; font-size: 30px; line-height: 30px;">CD-Room is a small bullet-hell style game developed for the Disc Room Game Jam.</h3>
-                    <p style="margin-top: -10px; text-align: justify; margin-right: 16px; font-size: 20px; line-height: 20px;"><a href="https://charliebluewood.itch.io/cd-room" target="_blank">CD-ROOM</a> was developed for the <a href="https://itch.io/jam/disc-room-game-jam" target="_blank">Disc Room Game Jam</a>, which was held from October 17 to October 31 2020. This Game Jam had no theme, the only rule that you had to follow was to <strong>make a game about Discs and Rooms</strong>. This game was made with Unity and didn't won any prize but it's worth to mention this game for being one of the most polished games I made during that year.</p>
+                    <p style="margin-top: -10px; text-align: justify; margin-left: 16px; margin-right: 16px; font-size: 20px; line-height: 20px;"><a href="https://charliebluewood.itch.io/cd-room" target="_blank">CD-ROOM</a> was developed for the <a href="https://itch.io/jam/disc-room-game-jam" target="_blank">Disc Room Game Jam</a>, which was held from October 17 to October 31 2020. This Game Jam had no theme, the only rule that you had to follow was to <strong>make a game about Discs and Rooms</strong>. This game was made with Unity and didn't won any prize but it's worth to mention this game for being one of the most polished games I made during that year.</p>
                     <a href="https://charliebluewood.itch.io/cd-room" target="_blank"><button style="font-size: 20px;">Play it on itch.io</button></a>
                 </div>
             </div>
@@ -75,7 +104,7 @@
                     </div>
                 </div>
                 <div style="overflow: hidden;">
-                    <aside><iframe width="700" style="float: right;" height="390" src="https://www.youtube.com/embed/7Z5qZcbzz1Y?controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></aside>
+                    <aside><iframe width="700" style="float: right;" height="390" src="https://www.youtube.com/embed/7MjKsAyn7cY?controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></aside>
                     <div style="color: whitesmoke;">
                         <h3 style="font-size: 30px; margin-left: 16px; line-height: 25px;">The music</h3>
                         <p style="margin-top: -10px; text-align: justify; margin-left: 16px; margin-right: 16px; font-size: 20px; line-height: 20px;">It was March 16th and the lockdown had just started, then someone decided to start a Game Jam called the "Coronavirus Game Jam", a lot of people joined and some games such as <a href="https://geri8.itch.io/isoulated" target="_blank">Isoulated</a> were created there, in this case, Mercorona started as a game from another team. They made a huge effort for making that possible and a lot of hard work was inverted in there. This version consisted in just the infinite runner part and quite a lot of bugs.</p>
