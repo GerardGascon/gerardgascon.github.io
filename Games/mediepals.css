@@ -20,11 +20,65 @@ body {
     background-color: #E8AA14;
     border-radius: 2.5vh;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
-    width: 75vw;
     margin: auto;
 }
-.heading img {
-    float: left;
+@media screen and (max-width: 919px){
+    .heading img {
+        width: 100%;
+        display: block;
+        object-fit: contain;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 562.5px;
+        max-height: 450px;
+        border-radius: 2.5vh;
+    }
+    .heading p {
+        margin-left: 16px;
+    }
+    .heading button {
+        margin-left: 16px;
+    }
+
+    .synopsis img, .conclusions img {
+        width: 100%;
+        display: block;
+        object-fit: contain;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 2.5vh;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    }
+    .synopsis p, .synopsis ul, .synopsis h3 {
+        margin-top: -10px;
+        text-align: justify;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+}
+@media screen and (min-width: 920px){
+    .heading img {
+        float: left;
+        border-radius: 2vh;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .synopsis img, .conclusions img {
+        float: left;
+        margin-left: 20px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+        border-radius: 2vh;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
 }
 .heading button {
     border: 0;
@@ -48,20 +102,11 @@ body {
     margin-top: 16px;
     background-color: #166EC0;
     border-radius: 2.5vh;
-    width: 70vw;
+    width: 85vw;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
-}
-.synopsis img, .conclusions img {
-    float: left;
-    margin-left: 20px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
-    border-radius: 2vh;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
 }
 
 .development {
