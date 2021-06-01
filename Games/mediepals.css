@@ -59,6 +59,17 @@ body {
         margin-right: 16px;
         margin-left: 16px;
     }
+    .development img {
+        width: 100%;
+        display: block;
+        object-fit: contain;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 2.5vh;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    }
 }
 @media screen and (min-width: 920px){
     .heading img {
@@ -72,6 +83,14 @@ body {
 
     .synopsis img, .conclusions img {
         float: left;
+        margin-left: 20px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+        border-radius: 2vh;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .development img {
         margin-left: 20px;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
         border-radius: 2vh;
@@ -113,27 +132,18 @@ body {
     margin-top: 16px;
     background-color: #166EC0;
     border-radius: 2.5vh;
-    width: 70vw;
+    width: 85vw;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
 }
 
-.development img {
-    margin-left: 20px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
-    border-radius: 2vh;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
-}
-
 .team {
     margin-top: 16px;
     background-color: #E8AA14;
     border-radius: 2.5vh;
-    width: 70vw;
+    width: 85vw;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -142,7 +152,7 @@ body {
 
 .person {
     border-radius: 2.5vh;
-    width: 50vw;
+    width: 65vw;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;

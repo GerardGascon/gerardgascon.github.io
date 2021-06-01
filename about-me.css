@@ -23,7 +23,7 @@ body {
         border-radius: 2vh;
     }
 }
-@media screen and (max-width: 960px){
+@media screen and (max-width: 959px){
     .heading {
         line-height: 1em;
         background-color: #E8AA14;
