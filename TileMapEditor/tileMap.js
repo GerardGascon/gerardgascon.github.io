@@ -10,8 +10,10 @@ var colliderContainer = document.querySelector(".collider-container");
 var colliderSelection = document.querySelector(".collider-container_selection");
 var colliderSelectionHover = document.querySelector(".collider-container_selection-hover");
 var colliderCanvas = document.querySelector(".collider-canvas");
+var colliderImage = document.querySelector("#collider-source");
 
 var selection = [0, 0]; //Which tile we will paint from the menu
+var isCurrentlyOnTileCanvas = true;
 
 var isMouseDown = false;
 var currentLayer = 0;
@@ -26,8 +28,25 @@ var layers = [
     //Top
     {}
 ];
+var collisionDrawLayers = [
+    //Bottom
+    {},
+    //Middle
+    {},
+    //Top
+    {}
+];
 
 var size_of_crop = 32;
+
+var collisionLayers = [];
+for(let i = 0; i < size_of_crop; i++){ //Rows
+    collisionLayers[i] = [];
+    for(let j = 0; j < size_of_crop; j++){ //Columns
+        collisionLayers[i][j] = 0;
+    }
+}
+console.log(collisionLayers);
 
 //Select the tile from the Tiles grid
 tilesetContainer.addEventListener("mousedown", (event) => {
@@ -66,10 +85,6 @@ colliderContainer.addEventListener("mouseenter", (event) => {
 colliderContainer.addEventListener("mouseout", (event) => {
     colliderSelectionHover.style.outlineColor = "#00ffff00";
 });
-var context = colliderCanvas.getContext("2d");
-context.rect(0, 0, 480, 480);
-context.fillStyle = "#ffffff80";
-context.fill();
 
 function openActionDropdown(){
     document.getElementById("actionDropdown").classList.toggle("show");
@@ -91,10 +106,12 @@ function selectPicker(tileset){
         tilesetSelection.style.outlineColor = "#00ffff";
         colliderSelection.style.outlineColor = "#00ffff00";
         colliderCanvas.style.display = "none";
+        isCurrentlyOnTileCanvas = true;
     }else{
         tilesetSelection.style.outlineColor = "#00ffff00";
         colliderSelection.style.outlineColor = "#00ffff";
         colliderCanvas.style.display = "block";
+        isCurrentlyOnTileCanvas = false;
     }
 }
 
@@ -109,6 +126,23 @@ function addTile(mouseEvent){
         layers[currentLayer][key] = [selection[0], selection[1]];
     }
     draw();
+}
+function addCollisionTile(mouseEvent){
+    var clicked = getCoords(event, 32, 32);
+    var key = clicked[0] + "-" + clicked[1];
+
+    const {x, y} = event.target.getBoundingClientRect();
+    const mouseX = event.clientX - x;
+    const mouseY = event.clientY - y;
+
+    if(mouseEvent.shiftKey){
+        delete collisionDrawLayers[currentLayer][key];
+        collisionLayers[Math.floor(mouseY / 32)][Math.floor(mouseX / 32)] = 0;
+    }else{
+        collisionDrawLayers[currentLayer][key] = [selection[0], selection[1]];
+        collisionLayers[Math.floor(mouseY / 32)][Math.floor(mouseX / 32)] = 3 * selection[1] + selection[0] + 1;
+    }
+    drawCollision();
 }
 
 function drawPosition(){
@@ -142,6 +176,29 @@ canvas.addEventListener("mouseout", (event) => {
     tilemapPosition.style.backgroundColor = "#ffffff00";
 });
 
+colliderCanvas.addEventListener("mousedown", () => {
+    isMouseDown = true;
+});
+colliderCanvas.addEventListener("mouseup", () => {
+    isMouseDown = false;
+});
+colliderCanvas.addEventListener("mouseleave", () => {
+    isMouseDown = false;
+});
+colliderCanvas.addEventListener("mousedown", addCollisionTile);
+colliderCanvas.addEventListener("mousemove", (event) => {
+    if(isMouseDown){
+        addCollisionTile(event);
+    }
+    drawPosition();
+});
+colliderCanvas.addEventListener("mouseenter", (event) => {
+    tilemapPosition.style.backgroundColor = "#ffffff80";
+});
+colliderCanvas.addEventListener("mouseout", (event) => {
+    tilemapPosition.style.backgroundColor = "#ffffff00";
+});
+
 //Utility for getting coordinates of mouse click
 function getCoords(e, sizeX, sizeY){
     const {x, y} = e.target.getBoundingClientRect();
@@ -152,11 +209,11 @@ function getCoords(e, sizeX, sizeY){
 
 //Converts data to image: data string and pipes into new browser tab
 function exportImage(){
-    var text = "int level[y][x] = {";
+    var text = `int level[${canvas.height}][${canvas.width}] = {`;
     for(var y = 0; y < canvas.height / 32; y++){
         text += "\n\t{ ";
         for(var x = 0; x < canvas.width / 32; x++){
-            text += "0, ";
+            text += collisionLayers[y][x] + ", ";
         }
         text += "},";
     }
@@ -227,8 +284,13 @@ function getCookie(cname){
 
 //Reset state to empty
 function clearCanvas(){
-    layers = [{}, {}, {}];
-    draw();
+    if(isCurrentlyOnTileCanvas){
+        layers = [{}, {}, {}];
+        draw();
+    }else{
+        collisionLayers = [];
+        drawCollision();
+    }
 }
 
 function setLayer(newLayer){
@@ -291,6 +353,32 @@ function draw(){
         });
     });
 }
+function drawCollision(){
+    var ctx = colliderCanvas.getContext("2d");
+    ctx.clearRect(0, 0, colliderCanvas.width, colliderCanvas.height);
+
+    collisionDrawLayers.forEach((layer) => {
+        Object.keys(layer).forEach((key) => {
+            //Determine x/y position of this placement from key ("3-4" -> x=3, y=4)
+            var positionX = Number(key.split("-")[0]);
+            var positionY = Number(key.split("-")[1]);
+            var[tilesheetX, tilesheetY] = layer[key];
+
+            var tilesetImg = colliderImage;
+            ctx.drawImage(
+                tilesetImg,
+                tilesheetX * 64,
+                tilesheetY * 64,
+                size_of_crop,
+                size_of_crop,
+                positionX * 32,
+                positionY * 32,
+                size_of_crop,
+                size_of_crop
+            );
+        });
+    });
+}
 
 function countColors(){
     var ctx = canvas.getContext("2d");
@@ -338,21 +426,6 @@ tilesetImage.onload = function(){
         document.getElementById("bottomLayerCheckbox").checked = getCookie("bottomLayerCheckbox") == 'true';
     }else{
         setCookie("bottomLayerCheckbox", true, 100);
-    }
-    if(getCookie("physicsTopLayerCheckbox") != null){
-        document.getElementById("physicsTopLayerCheckbox").checked = getCookie("physicsTopLayerCheckbox") == 'true';
-    }else{
-        setCookie("physicsTopLayerCheckbox", true, 100);
-    }
-    if(getCookie("physicsMiddleLayerCheckbox") != null){
-        document.getElementById("physicsMiddleLayerCheckbox").checked = getCookie("physicsMiddleLayerCheckbox") == 'true';
-    }else{
-        setCookie("physicsMiddleLayerCheckbox", true, 100);
-    }
-    if(getCookie("physicsBottomLayerCheckbox") != null){
-        document.getElementById("physicsBottomLayerCheckbox").checked = getCookie("physicsBottomLayerCheckbox") == 'true';
-    }else{
-        setCookie("physicsBottomLayerCheckbox", true, 100);
     }
 
     layers = defaultState;

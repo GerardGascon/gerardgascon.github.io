@@ -36,9 +36,9 @@ body {
     box-shadow: 0 0 5px #ccc;
     background: #fff;
     position: relative;
-    margin: 20% auto;
-    margin-top: 20vh;
     transition: all 200ms;
+    margin: 0 auto;
+    margin-top: 28vh;
 }
 #close {
     position: absolute;
@@ -148,8 +148,10 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    background: #aaaaaa80;
+    opacity: .8;
     z-index: 1;
-    display: none;
+    display: none
 }
 .invisible-canvas {
     display: none;
@@ -171,7 +173,7 @@ body {
 }
 .tileset-container_selection-hover {
     position: absolute;
-    outline: solid #00ffff80 2px;
+    outline: solid #00ffff00 2px;
     outline-offset: -2px;
     pointer-events: none;
     left: 0;
