@@ -6,6 +6,11 @@ var tilesetSelectionHover = document.querySelector(".tileset-container_selection
 var tilemapPosition = document.querySelector(".draw-tile_position");
 var tilesetImage = document.querySelector('#tileset-source');
 
+var colliderContainer = document.querySelector(".collider-container");
+var colliderSelection = document.querySelector(".collider-container_selection");
+var colliderSelectionHover = document.querySelector(".collider-container_selection-hover");
+var colliderCanvas = document.querySelector(".collider-canvas");
+
 var selection = [0, 0]; //Which tile we will paint from the menu
 
 var isMouseDown = false;
@@ -26,12 +31,13 @@ var size_of_crop = 32;
 
 //Select the tile from the Tiles grid
 tilesetContainer.addEventListener("mousedown", (event) => {
-    selection = getCoords(event);
+    selectPicker(true);
+    selection = getCoords(event, 32, 32);
     tilesetSelection.style.left = selection[0] * 32 + "px";
     tilesetSelection.style.top = selection[1] * 32 + "px";
 });
 tilesetContainer.addEventListener("mousemove", (event) => {
-    var position = getCoords(event);
+    var position = getCoords(event, 32, 32);
     tilesetSelectionHover.style.left = Math.max(position[0] * 32, 0) + "px";
     tilesetSelectionHover.style.top = Math.max(position[1] * 32, 0) + "px";
 });
@@ -41,6 +47,29 @@ tilesetContainer.addEventListener("mouseenter", (event) => {
 tilesetContainer.addEventListener("mouseout", (event) => {
     tilesetSelectionHover.style.outlineColor = "#00ffff00";
 });
+
+//Select the collider from the Colliders grid
+colliderContainer.addEventListener("mousedown", (event) => {
+    selectPicker(false);
+    selection = getCoords(event, 64, 64);
+    colliderSelection.style.left = selection[0] * 64 + "px";
+    colliderSelection.style.top = selection[1] * 64 + "px";
+});
+colliderContainer.addEventListener("mousemove", (event) => {
+    var position = getCoords(event, 64, 64);
+    colliderSelectionHover.style.left = Math.max(position[0] * 64, 0) + "px";
+    colliderSelectionHover.style.top = Math.max(position[1] * 64, 0) + "px";
+});
+colliderContainer.addEventListener("mouseenter", (event) => {
+    colliderSelectionHover.style.outlineColor = "#00ffff80";
+});
+colliderContainer.addEventListener("mouseout", (event) => {
+    colliderSelectionHover.style.outlineColor = "#00ffff00";
+});
+var context = colliderCanvas.getContext("2d");
+context.rect(0, 0, 480, 480);
+context.fillStyle = "#ffffff80";
+context.fill();
 
 function openActionDropdown(){
     document.getElementById("actionDropdown").classList.toggle("show");
@@ -57,9 +86,21 @@ window.onclick = function(event) {
     }
 }
 
+function selectPicker(tileset){
+    if(tileset){
+        tilesetSelection.style.outlineColor = "#00ffff";
+        colliderSelection.style.outlineColor = "#00ffff00";
+        colliderCanvas.style.display = "none";
+    }else{
+        tilesetSelection.style.outlineColor = "#00ffff00";
+        colliderSelection.style.outlineColor = "#00ffff";
+        colliderCanvas.style.display = "block";
+    }
+}
+
 //Handler for placing new tiles on the map
 function addTile(mouseEvent){
-    var clicked = getCoords(event);
+    var clicked = getCoords(event, 32, 32);
     var key = clicked[0] + "-" + clicked[1];
 
     if(mouseEvent.shiftKey){
@@ -71,7 +112,7 @@ function addTile(mouseEvent){
 }
 
 function drawPosition(){
-    var position = getCoords(event);
+    var position = getCoords(event, 32, 32);
     tilemapPosition.style.left = position[0] * 32 + "px";
     tilemapPosition.style.top = position[1] * 32 + "px";
 }
@@ -102,11 +143,11 @@ canvas.addEventListener("mouseout", (event) => {
 });
 
 //Utility for getting coordinates of mouse click
-function getCoords(e){
+function getCoords(e, sizeX, sizeY){
     const {x, y} = e.target.getBoundingClientRect();
     const mouseX = e.clientX - x;
     const mouseY = e.clientY - y;
-    return [Math.floor(mouseX / 32), Math.floor(mouseY / 32)];
+    return [Math.floor(mouseX / sizeX), Math.floor(mouseY / sizeY)];
 }
 
 //Converts data to image: data string and pipes into new browser tab

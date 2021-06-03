@@ -144,6 +144,13 @@ body {
 .canvas {
     background: #f4f8f9;
 }
+.collider-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
 .invisible-canvas {
     display: none;
 }
@@ -162,7 +169,6 @@ body {
     width: 32px;
     height: 32px;
 }
-
 .tileset-container_selection-hover {
     position: absolute;
     outline: solid #00ffff80 2px;
@@ -172,6 +178,30 @@ body {
     top: 0;
     width: 32px;
     height: 32px;
+}
+
+.collider-container {
+    position: relative;
+}
+.collider-container_selection {
+    position: absolute;
+    outline: solid #00ffff00 4px;
+    outline-offset: -4px;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    width: 64px;
+    height: 64px;
+}
+.collider-container_selection-hover {
+    position: absolute;
+    outline: solid #00ffff00 4px;
+    outline-offset: -4px;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    width: 64px;
+    height: 64px;
 }
 
 .canvas-position {
