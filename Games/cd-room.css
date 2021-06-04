@@ -70,6 +70,14 @@ body {
         border-radius: 2.5vh;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
     }
+    .development iframe {
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+        border-radius: 2vh;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 85vw;
+        height: calc(85vw / 1.77777777777777777);
+    }
 }
 @media screen and (min-width: 920px){
     .heading img {
@@ -99,12 +107,13 @@ body {
         margin-right: 20px;
     }
     .development iframe {
-        margin-left: 20px;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
         border-radius: 2vh;
         margin-bottom: 20px;
         margin-top: 20px;
         margin-right: 20px;
+        margin-left: 20px;
+        float: right;
     }
 }
 .heading button {
