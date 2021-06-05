@@ -22,7 +22,15 @@ body {
     box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
     margin: auto;
 }
-@media screen and (max-width: 919px){
+
+code {
+    font-family: Consolas, "courier new";
+    color: darkmagenta;
+    padding: 2px;
+    font-size: 90%;
+}
+
+@media screen and (max-width: 1079px){
     .heading img {
         width: 100%;
         display: block;
@@ -89,7 +97,7 @@ body {
         box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
     }
 }
-@media screen and (min-width: 920px){
+@media screen and (min-width: 1080px){
     .heading img {
         float: left;
         border-radius: 2vh;
