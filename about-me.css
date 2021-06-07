@@ -73,6 +73,24 @@ body {
     }
 }
 
+.more-games-button {
+    border: 0;
+    background: #2F2C48;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid #1e1d2b;
+    color: #fff;
+    border-radius: 6px;
+    outline: 0;
+    padding: 6px 16px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 100ms;
+}
+.more-games-button:hover {
+    transform: scale(1.1);
+}
+
 .beginning {
     background-color: rgb(22, 110, 192);
     border-radius: 2.5vh;
