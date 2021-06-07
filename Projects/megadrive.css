@@ -2,7 +2,6 @@ html { height: 100%; }
 body {
     font-family: 'Source Sans Pro', sans-serif;
     padding: 1em;
-    background: url("Images/MercoronaBackground.png");
     background-attachment: fixed;
     justify-content: space-around;
     color: #2f2c48;
@@ -152,9 +151,20 @@ code {
     border-bottom: 4px solid #1e1d2b;
 }
 
-.synopsis, .conclusions {
+.synopsis {
     margin-top: 16px;
     background-color: #166EC0;
+    border-radius: 2.5vh;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+}
+
+.conclusions {
+    margin-top: 16px;
+    background-color: #E8AA14;
     border-radius: 2.5vh;
     width: 85vw;
     margin-left: auto;
