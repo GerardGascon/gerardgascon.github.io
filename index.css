@@ -11,7 +11,7 @@ body {
 .heading {
     line-height: 1em;
     background-color: #E8AA14;
-    border-radius: 2.5vh;
+    border-radius: 28px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
     overflow: hidden;
 }
@@ -41,7 +41,7 @@ body {
 
 .games {
     background-color: rgb(22, 110, 192);
-    border-radius: 2.5vh;
+    border-radius: 28px;
     width: 85vw;
     margin-left: auto;
     margin-right: auto;
@@ -50,8 +50,8 @@ body {
 
 .game {
     background: whitesmoke;
-    border-radius: 2.5vh;
-    margin-bottom: 2.5vh;
+    border-radius: 28px;
+    margin-bottom: 20px;
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
@@ -60,7 +60,7 @@ body {
     overflow: hidden;
 }
 .game aside img {
-    border-radius: 2.5vh;
+    border-radius: 28px;
 }
 @media screen and (min-width: 920px){
     .game {
@@ -81,7 +81,7 @@ body {
         display: block;
         max-width: 378px;
         max-height: 300px;
-        border-radius: 2.5vh;
+        border-radius: 28px;
     }
 }
 
@@ -127,8 +127,8 @@ body {
     position: block;
     padding-top: 5px;
     padding-bottom: 2.5px;
-    margin-top: 2.5vh;
-    border-radius: 2.5vh;
+    margin-top: 28px;
+    border-radius: 28px;
     width: 265px;
     margin-left: auto;
     margin-right: auto;
@@ -148,7 +148,7 @@ body {
 
 .projects {
     background-color: #E8AA14;
-    border-radius: 2.5vh;
+    border-radius: 28px;
     width: 85vw;
     margin-left: auto;
     margin-right: auto;
@@ -157,8 +157,8 @@ body {
 
 .project {
     background: whitesmoke;
-    border-radius: 2.5vh;
-    margin-bottom: 2.5vh;
+    border-radius: 28px;
+    margin-bottom: 20px;
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
@@ -169,7 +169,7 @@ body {
     text-align: justify;
 }
 .project aside img {
-    border-radius: 2.5vh;
+    border-radius: 28px;
 }
 @media screen and (min-width: 920px){
     .project {
@@ -190,6 +190,6 @@ body {
         display: block;
         max-width: 380px;
         max-height: 253px;
-        border-radius: 2.5vh;
+        border-radius: 28px;
     }
 }
