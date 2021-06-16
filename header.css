@@ -7,6 +7,25 @@ header {
     position: fixed;
     z-index: 10;
 }
+.logo aside h1 {
+    margin: 5px 0px 0px 10px;
+    cursor: context-menu;
+    user-select: none;
+}
+.logo aside h3 {
+    margin: -5px 0px 2.5px 10px;
+    color: rgb(22, 110, 192);
+    cursor: context-menu;
+    user-select: none;
+}
+.closeMenu i {
+    color: whitesmoke;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 50px;
+}
 header .logo {
     float: left;
     display: flex;
@@ -103,6 +122,9 @@ header .pc-nav button:hover {
     .openMenu {
         visibility: hidden;
     }
+    .mobile-nav {
+        visibility: hidden;
+    }
 }
 @media screen and (max-width: 730px){
     header .pc-nav {
@@ -110,6 +132,9 @@ header .pc-nav button:hover {
         display: none;
     }
     .openMenu {
+        visibility: visible;
+    }
+    .mobile-nav {
         visibility: visible;
     }
 }

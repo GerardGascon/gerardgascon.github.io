@@ -13,21 +13,21 @@ body {
         line-height: 1em;
         overflow: hidden;
         background-color: #E8AA14;
-        border-radius: 2.5vh;
+        border-radius: 28px;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
     }
     .heading img {
         float: left;
         margin: 20px 20px 20px 20px;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
-        border-radius: 2vh;
+        border-radius: 28px;
     }
 }
 @media screen and (max-width: 959px){
     .heading {
         line-height: 1em;
         background-color: #E8AA14;
-        border-radius: 2.5vh;
+        border-radius: 28px;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
     }
     #geri-photo {
@@ -44,7 +44,7 @@ body {
         max-width: 395px;
         height: auto;
         max-height: 300px;
-        border-radius: 2.5vh;
+        border-radius: 28px;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
     }
 }
@@ -93,7 +93,7 @@ body {
 
 .beginning {
     background-color: rgb(22, 110, 192);
-    border-radius: 2.5vh;
+    border-radius: 28px;
     width: 85vw;
     margin-left: auto;
     margin-right: auto;
