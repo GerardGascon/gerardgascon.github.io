@@ -18,7 +18,7 @@ body {
     line-height: 1em;
     overflow: hidden;
     background-color: #E8AA14;
-    border-radius: 2.5vh;
+    border-radius: 28px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
     margin: auto;
 }
@@ -33,7 +33,7 @@ body {
         display: block;
         max-width: 562.5px;
         max-height: 450px;
-        border-radius: 2.5vh;
+        border-radius: 28px;
     }
     .heading p {
         margin-left: 16px;
@@ -50,7 +50,7 @@ body {
         margin-left: auto;
         margin-right: auto;
         display: block;
-        border-radius: 2.5vh;
+        border-radius: 28px;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
     }
     .synopsis p, .synopsis ul, .synopsis h3 {
@@ -67,14 +67,14 @@ body {
         margin-left: auto;
         margin-right: auto;
         display: block;
-        border-radius: 2.5vh;
+        border-radius: 28px;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
     }
 }
 @media screen and (min-width: 920px){
     .heading img {
         float: left;
-        border-radius: 2vh;
+        border-radius: 28px;
         margin-bottom: 20px;
         margin-top: 20px;
         margin-right: 20px;
@@ -85,7 +85,7 @@ body {
         float: left;
         margin-left: 20px;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
-        border-radius: 2vh;
+        border-radius: 28px;
         margin-bottom: 20px;
         margin-top: 20px;
         margin-right: 20px;
@@ -93,7 +93,7 @@ body {
     .development img {
         margin-left: 20px;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
-        border-radius: 2vh;
+        border-radius: 28px;
         margin-bottom: 20px;
         margin-top: 20px;
         margin-right: 20px;
@@ -120,7 +120,7 @@ body {
 .synopsis, .conclusions {
     margin-top: 16px;
     background-color: #166EC0;
-    border-radius: 2.5vh;
+    border-radius: 28px;
     width: 85vw;
     margin-left: auto;
     margin-right: auto;
@@ -131,7 +131,7 @@ body {
 .development {
     margin-top: 16px;
     background-color: #166EC0;
-    border-radius: 2.5vh;
+    border-radius: 28px;
     width: 85vw;
     margin-left: auto;
     margin-right: auto;
@@ -142,7 +142,7 @@ body {
 .team {
     margin-top: 16px;
     background-color: #E8AA14;
-    border-radius: 2.5vh;
+    border-radius: 28px;
     width: 85vw;
     margin-left: auto;
     margin-right: auto;
@@ -151,7 +151,7 @@ body {
 }
 
 .person {
-    border-radius: 2.5vh;
+    border-radius: 28px;
     width: 65vw;
     margin-left: auto;
     margin-right: auto;
