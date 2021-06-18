@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="Hey! I'm Gerard, also known as Geri, a young student who makes games as a hobby."/>
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:creator" content="@G_of_Geri" />
+        <meta property="og:url" content="https://gerardgascon.github.io/Projects/megadrive.html" />
+        <meta property="og:title" content="Mega Drive Project - Gerard Gascón" />
+        <meta property="og:description" content="Hey! I'm Gerard, also known as Geri, a young student who makes games as a hobby." />
+        <meta property="og:image" content="https://gerardgascon.github.io/assets/embed.png" />
+        <meta property="twitter:image" content="https://gerardgascon.github.io/assets/twitterEmbed.png"/>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="megadrive.css">
+        <link rel="shortcut icon" href="/MainPageResources/logo.png"/>
+        <title>Mega Drive Project</title>
+        <script src="https://kit.fontawesome.com/28575038bf.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/assets/header.css">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script>
+            $(function(){
+                $("#header").load("/assets/header.html");
+            })
+        </script>
+    </head>
+
+    <body>
+        <div id="header"></div>
+
+        <div class="dynamic">
+            <div class="heading">
+                <aside><img src="/MainPageResources/GameImages/MegaDrive.webp" height="400vh" style="box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);"/></aside>
+                <div style="padding-top: 70px;">
+                    <h1 style="font-size: 50px; text-align: center; line-height: 45px;">Mega Drive Project</h1>
+                    <h3 style="text-align: center; font-size: 30px; line-height: 30px;">Making a Mega Drive game in 2021</h3>
+                    <p style="margin-top: -10px; text-align: justify; margin-right: 16px; font-size: 20px; line-height: 20px;">The <strong>SEGA Mega Drive</strong> is quite an old console right? But that's no reason for not trying to make a game, so here I am, procrastinating while trying to accomplish my goal to complete a full game that can runs on original hardware without any problem.</p>
+                </div>
+            </div>
+            
+            <div class="synopsis">
+                <div class="iframe-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLr0TbcYi_M4EXXX5cos0Gs3f7cATU0jZ1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div style="color: whitesmoke;">
+                    <h1 style="font-size: 50px; text-align: center;">The reason</h1>
+                    <p style="margin-top: -10px; text-align: justify; margin-right: 16px; font-size: 20px; line-height: 20px;">Sometimes while I'm really bored I start thinking about <strong>weird projects to do</strong> and suddenly a random video pops up and for some reason that was about making a game for the NES.</p>
+                    <p style="margin-top: -10px; text-align: justify; margin-right: 16px; font-size: 20px; line-height: 20px;">When I went to search how expensive that was I remembered that I had a Mega Drive at home so after a quick Google search I found the solution with the name of <strong>SGDK</strong>.</p>
+                    <p style="margin-top: -10px; text-align: justify; margin-right: 16px; font-size: 20px; line-height: 20px;">After some time of doing nothing I got something, a ball moving across the screen, right after that I wanted more so I decided to work a bit on a project and then start a <a style="color: whitesmoke;" href="https://www.youtube.com/channel/UCB669nq6P6WU2mP6RYVtEig">YouTube channel</a> with the main goal of keeping me motivated for finishing that amazing project.</p>
+                </div>
+            </div>
+
+            <div class="development">
+                <div style="overflow: hidden;">
+                    <aside><img src="sgdk_logo.png" height="400vh" style="float: right;"></aside>
+                    <div style="color: whitesmoke;">
+                        <h1 style="font-size: 50px; text-align: center;">How</h1>
+                        <p style="margin-top: -10px; text-align: justify; margin-left: 16px; margin-right: 16px; font-size: 20px; line-height: 20px;">Nowadays, we make games using engines like Unity or Unreal, but there is still a few people that want to make games for "retro" consoles, such as the NES or in this case, the Mega Drive. This type of games receive the name of <strong>Homebrew Games</strong>, for being games made by hobbyists for proprietary hardware.</p>
+                        <p style="margin-top: -10px; text-align: justify; margin-left: 16px; margin-right: 16px; font-size: 20px; line-height: 20px;">But what enables us to easily create our games for that consoles is by using some tools for making our life a bit easier, such as sprite editors which didn't exist at that time or SDKs like the <strong><a style="color: whitesmoke;" href="https://github.com/Stephane-D/SGDK" target="_blank">SGDK</a></strong> for the Mega Drive, which enables me to program the games using C and then compile it as a ROM.</p>
+                        <p style="margin-top: -10px; text-align: justify; margin-left: 16px; margin-right: 16px; font-size: 20px; line-height: 20px;">Despite of that, there are still some limitations such as the limited color palette of 512 colors only 64 of them that without the transparency end up being 60. The sound also has its limitations, you have to put a whole soundtrack inside a really small space, so what you make is using a tool such as <strong>Deflemask</strong> and write the songs there, then they are exported as .vgm files and the Mega Drive reads that as music sheets for its channels.</p>
+                    </div>
+                </div>
+                <div style="overflow: hidden;">
+                    <aside><img src="HelloWorld.png" height="400vh" style="float: left;"></aside>
+                    <div style="color: whitesmoke;">
+                        <h1 style="font-size: 50px; text-align: center;">Hello, World!</h1>
+                        <p style="margin-top: -10px; text-align: justify; margin-left: 16px; margin-right: 16px; font-size: 20px; line-height: 22px;">Yes, if you write those lines of code and compile it using the SGDK you'll have a fully working "game" that can run on real hardware.</p>
+                        <p style="margin-top: -10px; text-align: justify; margin-left: 16px; margin-right: 16px; font-size: 20px; line-height: 22px;">Now you might be wondering what do those lines mean, so well, let me explain:</p>
+                        <p style="margin-top: -10px; text-align: justify; margin-left: 16px; margin-right: 16px; font-size: 20px; line-height: 22px;">The first line is obiously including the SGDK library with the functions and all the things you need for doing that and then we have the main function, the <code>int main()</code>. Right after that you have an SGDK function which tell the game to draw <i>Hello, World!</i> at the tiles 5 and 8, each one of them is 8px so it will be at the position 40px and 64px. Right after that there's an infinite loop with the <code>SYS_doVBlankProcess();</code> function, which tells the game to end the current frame and start the next one and finally the <code>return 0;</code> which is because C needs to return something on that function.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="conclusions">
+                <div style="overflow: hidden;">
+                    <aside><img src="mega-everdrive-x3.jpg" height="400vh"></aside>
+                    <div>
+                        <div style="text-align: justify;">
+                            <h1 style="font-size: 50px; text-align: center;">Development</h1>
+                            <h3 style="font-size: 30px; margin-left: 16px; line-height: 25px;">Progress made</h3>
+                            <p style="margin-top: -10px; text-align: justify; margin-left: 16px; margin-right: 16px; font-size: 20px; line-height: 22px;">Until now, I have been working bit by bit and made some progress:</p>
+                            <ul style="font-size: 20px; padding-left: 0px; margin-left: 16px; margin-right: 16px; margin-top: -10px; line-height: 22px;">
+                                <li style="list-style-position: inside;"><strong>Basic collision system:</strong> One of the things that were more difficult for me was to make the "physics system" which works like a grid collision system but with some freedom in it.</li>
+                                <li style="list-style-position: inside;"><strong>Scroll system:</strong> Another thing I have done is to make some metroidvania style room system where you reach the edge of a room and the game automatically transitions from one room to another smoothly.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div style="overflow: hidden;">
+                    <aside><img src="LevelExample.png" style="float: right;" height="400vh"></aside>
+                    <div>
+                        <div style="text-align: justify;">
+                            <h3 style="font-size: 30px; margin-left: 16px; line-height: 25px;">The next step</h3>
+                            <p style="margin-top: -10px; text-align: justify; margin-left: 16px; margin-right: 16px; font-size: 20px; line-height: 22px;">As you can see, there isn't much progress yet, but what I am currently building is a strong base for not having to refactorize everything when I make new things.</p>
+                            <ul style="font-size: 20px; padding-left: 0px; margin-left: 16px; margin-right: 16px; margin-top: -10px; line-height: 22px;">
+                                <li style="list-style-position: inside;"><strong>Enemies:</strong> The next step that there's to come is to make enemies for the game, the game is a sidescroller similar to <a style="color: #2f2c48;" href="https://yachtclubgames.com/shovel-knight/">Shovel Knight</a> and the game needs some enemies, so this will be my next step.</li>
+                                <li style="list-style-position: inside;"><strong>Destroyable map:</strong> With destroyable map I don't mean a map where everything can be destroyed, I mean that there will be some tiles that the player will be able to destroy by attacking them or using a certain ability, we'll see it on the future.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

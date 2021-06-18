@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="Hey! I'm Gerard Gascón, also known as Geri, a young student who makes games as a hobby."/>
+        
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:creator" content="@G_of_Geri" />
+        <meta property="og:url" content="https://gerardgascon.github.io/projects.html" />
+        <meta property="og:title" content="Projects - Gerard Gascón" />
+        <meta property="og:description" content="Hey! I'm Gerard, also known as Geri, a young student who makes games as a hobby." />
+        <meta property="og:image" content="https://gerardgascon.github.io/assets/embed.png" />
+        <meta property="twitter:image" content="https://gerardgascon.github.io/assets/twitterEmbed.png"/>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="projects.css">
+        <title>Projects</title>
+        <link rel="shortcut icon" href="../MainPageResources/logo.png"/>
+        <script src="https://kit.fontawesome.com/28575038bf.js" crossorigin="anonymous"></script>
+        <!--Load header using jQuery-->
+        <link rel="stylesheet" href="/assets/header.css">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script>
+            $(function(){
+                $("#header").load("/assets/header.html");
+            })
+        </script>
+    </head>
+
+    <body>
+        <div id="header"></div>
+
+        <div class="projects" style="margin-top: -34px;">
+            <h1 style="font-size: 50px; text-align: center; padding-top: 32px; line-height: 10px;">Projects</h1>
+
+            <div class="project">
+                <aside>
+                    <img src="/MainPageResources/GameImages/MegaDrive.jpg"/>
+                </aside>
+                <div style="padding-left: 2.5vh; padding-right: 2.5vh;">
+                    <h1>Mega Drive Project</h1>
+                    <p>Creating a retro game that can run on a Mega Drive</p>
+                    <p>Nowadays, people makes games thanks to all the facilities we have now, but what would happen if we traveled 30 years back to develop a game for one of the most powerful systems at that time?</p>
+                    <a href="megadrive/"><button class="learn-more-button">Learn More</button></a>
+                </div>
+            </div>
+
+            <div class="project">
+                <aside>
+                    <img src="/MainPageResources/GameImages/SimpleTools.png"/>
+                </aside>
+                <div style="padding-left: 2.5vh; padding-right: 2.5vh;">
+                    <h1>Simple Tools Project</h1>
+                    <p>A Unity package that contains simple tools to use in your project.</p>
+                    <p>While I was in a game jam in 2020, I saw that I was spending too much time programming the exact same tools, so one day I decided to put them all inside a package with the main goal of spending as few time as possible implementing them.</p>
+                    <a href="https://github.com/GerardGascon/SimpleTools" target="_blank"><button class="learn-more-button">Visit Repository</button></a>
+                </div>
+            </div>
+
+            <div class="empty-space" style="height: .5vh;"></div>
+        </div>
+
+        <div class="experiments">
+            <h1 style="font-size: 50px; text-align: center; padding-top: 32px; line-height: 10px; color: whitesmoke;">Experiments</h1>
+            <div class="description" style="width: 75vw;">
+                <p style="color: whitesmoke;">Here I will be posting the source code for experiments I make while learning new things.</p>
+            </div>
+
+            <div class="experiment">
+                <aside>
+                    <img src="/MainPageResources/ExperimentsImages/TilemapEditor.png"/>
+                </aside>
+                <div style="padding-right: 2.5vh; padding-left: 2.5vh">
+                    <h1>Tile Map Editor</h1>
+                    <p>A really basic tile map editor that can export the image and a 2D array of the collision map.</p>
+                    <p style="margin-top: -10px;">This tile map editor can create a tile map with three different layers and then export all of them or just the ones you want, there you can also create a basic collision map and then export it as a 2D array.</p>
+                    <div style="display: flex;">
+                        <a href="tileMapEditor/"><button class="learn-more-button">Try it</button></a>
+                        <a style="margin-left: 12px;" href="https://github.com/GerardGascon/TileMapEditor" target="_blank"><button class="learn-more-button">Download the source code</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="empty-space" style="height: .5vh;"></div>
+        </div>
+    </body>
+</html>

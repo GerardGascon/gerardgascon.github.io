@@ -1,0 +1,184 @@
+html { height: 100%; }
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 1em;
+    background: url("../Images/MercoronaBackground.png");
+    background-attachment: fixed;
+    justify-content: space-around;
+    color: #2f2c48;
+    font-size: 20px;
+}
+
+
+.development a {
+    color: whitesmoke;
+}
+
+.heading {
+    line-height: 1em;
+    overflow: hidden;
+    background-color: #E8AA14;
+    border-radius: 28px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    margin: auto;
+}
+@media screen and (max-width: 919px){
+    .heading img {
+        width: 100%;
+        display: block;
+        object-fit: contain;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 562.5px;
+        max-height: 450px;
+        border-radius: 28px;
+    }
+    .heading p {
+        margin-left: 16px;
+    }
+    .heading button {
+        margin-left: 16px;
+    }
+
+    .synopsis img, .conclusions img {
+        width: 100%;
+        display: block;
+        object-fit: contain;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 28px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    }
+    .synopsis p, .synopsis ul, .synopsis h3 {
+        margin-top: -10px;
+        text-align: justify;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+    .development img {
+        width: 100%;
+        display: block;
+        object-fit: contain;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 28px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    }
+}
+@media screen and (min-width: 920px){
+    .heading img {
+        float: left;
+        border-radius: 28px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .synopsis img, .conclusions img {
+        float: left;
+        margin-left: 20px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+        border-radius: 28px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .development img {
+        margin-left: 20px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+        border-radius: 28px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+}
+.heading button {
+    border: 0;
+    background: #166EC0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid #125a9c;
+    color: #fff;
+    border-radius: 6px;
+    outline: 0;
+    padding: 6px 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition-duration: 100ms;
+}
+.heading button:hover {
+    background: #2F2C48;
+    border-bottom: 4px solid #1e1d2b;
+}
+
+.synopsis, .conclusions {
+    margin-top: 16px;
+    background-color: #166EC0;
+    border-radius: 28px;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+}
+
+.development {
+    margin-top: 16px;
+    background-color: #166EC0;
+    border-radius: 28px;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+}
+
+.team {
+    margin-top: 16px;
+    background-color: #E8AA14;
+    border-radius: 28px;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+}
+
+.person {
+    border-radius: 28px;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.person img {   
+    float: left;
+    margin-left: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    border-radius: 200px;
+    height: 125px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition-duration: 100ms;
+}
+.person img:hover {
+    transform: scale(1.05);
+}
+.person h3 {
+    margin-top: -30px;
+}
+.person p {
+    margin-top: -15px;
+    text-align: justify;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 20px;
+    line-height: 20px;
+}
