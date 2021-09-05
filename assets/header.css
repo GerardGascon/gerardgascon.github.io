@@ -118,7 +118,7 @@ header .pc-nav button:hover {
     transform: scale(1.1);
 }
 
-@media screen and (min-width: 730px){
+@media screen and (min-width: 805px){
     .openMenu {
         visibility: hidden;
     }
@@ -126,7 +126,7 @@ header .pc-nav button:hover {
         visibility: hidden;
     }
 }
-@media screen and (max-width: 730px){
+@media screen and (max-width: 805px){
     header .pc-nav {
         visibility: hidden;
         display: none;

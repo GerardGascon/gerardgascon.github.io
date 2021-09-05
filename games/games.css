@@ -60,6 +60,10 @@ body {
     border-radius: 28px;
 }
 
+.game aside {
+    margin-bottom: -6px;
+}
+
 @media screen and (min-width: 920px){
     .game {
         display: flex;
