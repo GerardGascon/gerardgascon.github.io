@@ -32,9 +32,7 @@ figure {
 .project h3 {
     color: whitesmoke;
     margin: 1;
-}
-.project p {
-    margin-top: -22px;
+    margin-top: 1em;
 }
 .cta {
     margin: .5em 0;
