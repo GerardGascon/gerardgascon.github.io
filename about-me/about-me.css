@@ -1,0 +1,109 @@
+html { height: 100%; }
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 1em;
+    background: linear-gradient(180deg, #dff3f8 0%, #d9f5f5 100%);
+    justify-content: space-around;
+    color: #2f2c48;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 960px) {
+    .heading {
+        line-height: 1em;
+        overflow: hidden;
+        background-color: #E8AA14;
+        border-radius: 28px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    }
+    .heading img {
+        float: left;
+        margin: 20px 20px 20px 20px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+        border-radius: 28px;
+    }
+}
+@media screen and (max-width: 959px){
+    .heading {
+        line-height: 1em;
+        background-color: #E8AA14;
+        border-radius: 28px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    }
+    #geri-photo {
+        width: 100%;
+        display: block;
+        object-fit: contain;
+        margin-bottom: -50px;
+    }
+    .heading img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+        max-width: 395px;
+        height: auto;
+        max-height: 300px;
+        border-radius: 28px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+    }
+}
+@media screen and (max-width: 960px){
+    .iframe-container {
+        position: relative;
+        width: calc(100% - 40px);
+        height: 0;
+        padding-bottom: 56.25%;
+        margin-bottom: 15%;
+    }
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 22.5px);
+    }
+}
+@media screen and (min-width: 960px){
+    .iframe-container {
+        text-align: center;
+    }
+    .heading-text {
+        margin-top: 200px;
+    }
+}
+
+.more-games-button {
+    border: 0;
+    background: #2F2C48;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid #1e1d2b;
+    color: #fff;
+    border-radius: 6px;
+    outline: 0;
+    padding: 6px 16px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 100ms;
+}
+.more-games-button:hover {
+    transform: scale(1.1);
+}
+
+.beginning {
+    background-color: rgb(22, 110, 192);
+    border-radius: 28px;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+}
+.beginning a {
+    color: whitesmoke;
+}
+.beginning p {
+    margin: 2.5vw;
+    text-align: justify;
+}
