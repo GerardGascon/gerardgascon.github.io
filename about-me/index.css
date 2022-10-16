@@ -1,0 +1,23 @@
+p {
+    font-weight: 300;
+}
+b {
+    font-weight: 500;
+}
+.description {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: black;
+    transition-duration: 150ms;
+}
+a:hover {
+	color: #00b4ff;;
+}
+@media (max-width: 600px){
+    .main p {
+        font-size: 20px;
+    }
+}

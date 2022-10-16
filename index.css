@@ -4,62 +4,7 @@ body {
 	font-family: 'Readex Pro', sans-serif;
 	margin: 0px;
 	overflow-x: hidden;
-}
-
-.sidenav {
-	height: 100%;
-	width: 256px;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: #fff;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	overflow-x: hidden;
-	padding-top: 20px;
-
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	-ms-flex-direction: column;
-	flex-direction: column;
-}
-
-.sidenav img {
-	width: 80%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 10px;
-}
-
-.sidenav .name {
-	text-align: center;
-	text-decoration: none;
-	font-size: 20px;
-	font-weight: 400;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	color: #000000;
-	display: block;
-	font-variant: small-caps;
-}
-
-.sidenav .contacts h1 {
-	text-align: center;
-	text-decoration: none;
-	font-size: 20px;
-	font-weight: lighter;
-	margin-top: 10px;
-	margin-bottom: 0px;
-	color: #000000;
-	display: block;
-	font-variant: small-caps;
-	font-weight: normal;
+	width: 100vw;
 }
 
 .main h1 {
@@ -69,48 +14,6 @@ body {
 .main h2 {
 	font-weight: 200;
 	text-align: center;
-	line-height: 0.5em;
-}
-
-.sidenav .contacts ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-align: center;
-}
-
-.sidenav .contacts li {
-	display: inline-block;
-}
-
-.sidenav .contacts i {
-	display: inline-block;
-	font-size: 20px;
-}
-
-.sidenav .description {
-	text-align: center;
-	text-decoration: none;
-	font-size: 15px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	color: #5e5e5e;
-	display: block;
-}
-
-.sidenav footer {
-	margin-top: auto;
-	padding-bottom: 40px;
-}
-
-.sidenav hr {
-	height: 0px;
-	width: 90%;
-	color: #5e5e5e;
-	border: 1px solid #5e5e5e;
-	border-bottom: 0px;
-	border-right: 0px;
-	border-left: 0px;
 }
 
 .pages {
@@ -123,9 +26,8 @@ body {
 .pages a {
 	text-decoration: none;
 	color: #000000;
-	transition: 0.2s;
+	transition: 150ms;
 	display: block;
-	transform-origin: top left;
 }
 
 .button {
@@ -135,38 +37,24 @@ body {
 .button a {
     margin: 0 auto 16px;
     display: inline-block;
-    color: #000 !important;
+    color: #000;
 	border: 1px solid #000;
     font-weight: 500;
     font-size: 18px;
     border-radius: 5px;
     line-height: 48px;
-    transition: background-color 0.15s ease;
+	transition-duration: 150ms;
     text-decoration: none !important;
     min-width: 200px;
     padding: 0 20px;
 }
+.button a:hover {
+	color: #00b4ff;
+	border-color: #00b4ff;
+}
 
 .pages a:hover {
-	transform: scale(1.05);
-}
-
-.sidenav footer a {
-	padding: 6px 8px 6px 16px;
-	text-decoration: none;
-	font-size: 25px;
-	color: #5e5e5e;
-	display: block;
-	transition: 0.2s;
-}
-.sidenav footer a:hover {
-	transform: scale(1.2);
-}
-
-.main {
-	margin-left: 256px; /* Same as the width of the sidenav */
-	font-size: 28px; /* Increased text to enable scrolling */
-	padding: 0px 18px;
+	color: #00b4ff;
 }
 
 .banner {

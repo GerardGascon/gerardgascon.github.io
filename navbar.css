@@ -1,0 +1,280 @@
+@media (min-width: 750px){
+    .mobile-nav {
+        display: none;
+    }
+    .mobile-contacts {
+        display: none;
+    }
+    .sidenav {
+    	height: 100%;
+    	width: 256px;
+    	position: fixed;
+    	z-index: 1;
+    	top: 0;
+    	left: 0;
+    	background-color: #fff;
+    	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    	overflow-x: hidden;
+    	padding-top: 20px;
+
+    	display: -webkit-box;
+    	display: -webkit-flex;
+    	display: -ms-flexbox;
+    	display: flex;
+    	-webkit-box-orient: vertical;
+    	-webkit-box-direction: normal;
+    	-webkit-flex-direction: column;
+    	-ms-flex-direction: column;
+    	flex-direction: column;
+    }
+
+    .sidenav img {
+    	width: 80%;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	border-radius: 10px;
+    }
+
+    .sidenav .name {
+    	text-align: center;
+    	text-decoration: none;
+    	font-size: 20px;
+    	font-weight: 400;
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+    	color: #000000;
+    	display: block;
+    	font-variant: small-caps;
+    }
+
+    .sidenav .contacts h1 {
+    	text-align: center;
+    	text-decoration: none;
+    	font-size: 20px;
+    	font-weight: lighter;
+    	margin-top: 10px;
+    	margin-bottom: 0px;
+    	color: #000000;
+    	display: block;
+    	font-variant: small-caps;
+    	font-weight: normal;
+    }
+
+    .main {
+        margin-left: 256px; /* Same as the width of the sidenav */
+        font-size: 28px; /* Increased text to enable scrolling */
+        padding: 0px 18px;
+    }
+
+    .sidenav .contacts ul {
+    	margin: 0;
+    	padding: 0;
+    	list-style: none;
+    	text-align: center;
+    }
+
+    .sidenav .contacts li {
+    	display: inline-block;
+    }
+
+    .sidenav .contacts i {
+    	display: inline-block;
+    	font-size: 20px;
+    }
+
+    .sidenav .description {
+    	text-align: center;
+    	text-decoration: none;
+    	font-size: 15px;
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+    	color: #5e5e5e;
+    	display: block;
+    }
+
+    .sidenav footer {
+    	margin-top: auto;
+    	padding-bottom: 40px;
+    }
+
+    .sidenav hr {
+    	height: 0px;
+    	width: 90%;
+    	color: #5e5e5e;
+    	border: 1px solid #5e5e5e;
+    	border-bottom: 0px;
+    	border-right: 0px;
+    	border-left: 0px;
+    }
+
+    .sidenav footer a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #5e5e5e;
+        display: block;
+        transition: 150ms;
+    }
+    .sidenav footer a:hover {
+        color: #00b4ff;
+    }
+}
+@media (max-width: 750px){
+    .banner,
+    .sidenav {
+        display: none;
+    }
+    .mobile-nav {
+    	height: auto;
+    	width: 100%;
+    	z-index: 1;
+    	top: 0;
+    	left: 0;
+    	background-color: #fff;
+    	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    	overflow-x: hidden;
+    	padding-top: 20px;
+
+        text-align: center;
+    	/*display: -webkit-box;
+    	display: -webkit-flex;
+    	display: -ms-flexbox;
+    	display: flex;
+    	-webkit-box-orient: horizontal;
+    	-webkit-box-direction: normal;
+    	-webkit-flex-direction: row;
+    	-ms-flex-direction: row;
+    	flex-direction: row;*/
+    }
+
+    .mobile-nav img {
+    	height: 75px;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	border-radius: 10px;
+    }
+
+    .mobile-nav .name {
+    	text-align: center;
+    	text-decoration: none;
+    	font-size: 20px;
+    	font-weight: 400;
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+    	color: #000000;
+    	display: block;
+    	font-variant: small-caps;
+    }
+
+    .mobile-nav .contacts h1 {
+    	text-align: center;
+    	text-decoration: none;
+    	font-size: 20px;
+    	font-weight: lighter;
+    	margin-top: 10px;
+    	margin-bottom: 0px;
+    	color: #000000;
+    	display: block;
+    	font-variant: small-caps;
+    	font-weight: normal;
+    }
+
+    .main {
+        font-size: 28px; /* Increased text to enable scrolling */
+        padding: 0px 18px;
+    }
+
+    .mobile-nav .contacts ul {
+    	margin: 0;
+    	padding: 0;
+    	list-style: none;
+    	text-align: center;
+    }
+
+    .mobile-nav .contacts li {
+    	display: inline-block;
+    }
+
+    .mobile-nav .contacts i {
+    	display: inline-block;
+    	font-size: 20px;
+    }
+
+    .mobile-nav .description {
+    	text-align: center;
+    	text-decoration: none;
+    	font-size: 15px;
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+    	color: #5e5e5e;
+    	display: block;
+    }
+
+    .mobile-nav hr {
+    	height: 0px;
+    	width: 90%;
+    	color: #5e5e5e;
+    	border: 1px solid #5e5e5e;
+    	border-bottom: 0px;
+    	border-right: 0px;
+    	border-left: 0px;
+    }
+
+    .mobile-contacts ul {
+    	margin: 0;
+    	padding: 0;
+    	list-style: none;
+    	text-align: center;
+        padding-bottom: 10px;
+        justify-content: space-around
+    }
+
+    .mobile-contacts li {
+    	display: inline-block;
+        justify-content: space-around;
+    }
+    .mobile-contacts {
+        height: auto;
+    	width: 100%;
+    	z-index: 1;
+    	bottom: 0;
+    	left: 0;
+    	background-color: #fff;
+    	box-shadow: 0px -4px 8px 0 rgba(0, 0, 0, 0.2);
+    	overflow-x: hidden;
+
+        text-align: center;
+    }
+    .mobile-contacts h1 {
+        font-weight: 300;
+        line-height: .5em;
+        font-size: 25px;
+    }
+    .mobile-contacts a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #5e5e5e;
+        display: block;
+        transition: 150ms;
+    }
+    .mobile-contacts a:hover {
+        color: #00b4ff;
+    }
+}
+@media (max-width: 750px) and (min-width: 450px){
+    .mobile-nav .pages {
+        display: flex;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 450px){
+    .mobile-nav .pages {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

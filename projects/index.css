@@ -25,7 +25,7 @@
 	border-right: 1px solid rgba(0, 0, 0, 0.4);
 	border-bottom: 2px solid rgba(0, 0, 0, 0.4);
 	text-decoration: none;
-	transition-duration: 100ms;
+	transition-duration: 150ms;
 }
 .project .title {
 	display: flex;
