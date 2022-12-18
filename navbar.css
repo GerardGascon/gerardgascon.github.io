@@ -109,7 +109,7 @@
     }
 
     .sidenav footer a {
-        padding: 6px 8px 6px 16px;
+        padding: 6px 4px 6px 8px;
         text-decoration: none;
         font-size: 25px;
         color: #5e5e5e;
@@ -253,7 +253,7 @@
         font-size: 25px;
     }
     .mobile-contacts a {
-        padding: 6px 8px 6px 16px;
+        padding: 6px 6px 6px 12px;
         text-decoration: none;
         font-size: 20px;
         color: #5e5e5e;
