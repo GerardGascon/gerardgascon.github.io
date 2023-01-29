@@ -12,6 +12,10 @@
 			src="https://kit.fontawesome.com/28575038bf.js"
 			crossorigin="anonymous"
 		></script>
+		<script>
+			if(window.location.href.includes('?')) window.location = window.location.href.split("?")[0];
+			if(window.location.href.includes('#')) window.location = window.location.href.split("#")[0];
+		</script>
 	</head>
 	<body>
 		<div class="sidenav">
