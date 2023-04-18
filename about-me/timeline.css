@@ -177,6 +177,16 @@
     border: 1px solid black;
 	z-index: 15;
     font-weight: 300;
+	transition-duration: 150ms;
+	text-decoration: none;
+}
+.timeline a {
+	text-decoration: none;
+}
+
+.desc:hover {
+    border: 1px solid #00b4ff;
+	color: #00b4ff;
 }
 
 .direction-l .desc,

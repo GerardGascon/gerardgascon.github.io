@@ -13,9 +13,6 @@
     color: black;
     transition-duration: 150ms;
 }
-.main a:hover {
-	color: #00b4ff;;
-}
 @media (max-width: 600px){
     .main p {
         font-size: 20px;
