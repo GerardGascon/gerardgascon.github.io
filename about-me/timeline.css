@@ -1,5 +1,4 @@
 .hexa {
-	border: 0px;
 	float: left;
 	text-align: center;
 	height: 35px;
@@ -11,28 +10,20 @@
 	margin-top: 15px;
 }
 
-.hexa:before {
-	content: "";
+.timeline .hexa {
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
 	position: absolute;
+	background: white;
+	border: 1px solid #00b4ff;
+	z-index: 5;
 	left: 0;
-	width: 0;
-	height: 0;
-	border-bottom: 15px solid #f0f0f0;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	top: -15px;
-}
-
-.hexa:after {
-	content: "";
-	position: absolute;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	border-top: 15px solid #f0f0f0;
-	bottom: -15px;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: -30px;
+	margin-top: 0;
 }
 
 .timeline {
@@ -93,34 +84,6 @@
 
 .timeline li {
 	padding: 2em 0;
-}
-
-.timeline .hexa {
-	width: 16px;
-	height: 10px;
-	position: absolute;
-	background: #00b4ff;
-	z-index: 5;
-	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
-	top: -30px;
-	margin-top: 0;
-}
-
-.timeline .hexa:before {
-	border-bottom: 4px solid #00b4ff;
-	border-left-width: 8px;
-	border-right-width: 8px;
-	top: -4px;
-}
-
-.timeline .hexa:after {
-	border-left-width: 8px;
-	border-right-width: 8px;
-	border-top: 4px solid #00b4ff;
-	bottom: -4px;
 }
 
 .direction-l,
@@ -215,7 +178,7 @@
 	.timeline .hexa {
 		left: -28px;
 		right: auto;
-		top: 8px;
+		top: 11px;
 	}
 
 	.timeline .direction-l .hexa {
