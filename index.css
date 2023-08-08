@@ -16,10 +16,19 @@ body {
 	text-align: center;
 }
 
-.main iframe {
+.iframe-container {
+	max-width: 646px;
+	height: 190px;
+	overflow: hidden;
+
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.iframe-container iframe {
+	width: 100%;
+	height: 100%;
 }
 
 .pages {
