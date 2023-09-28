@@ -11,11 +11,17 @@
 	border-bottom: 0px;
 }
 
+.summary {
+	font-weight: 200;
+	font-size: 80%;
+	margin-top: -25px;
+	color: #5e5e5e;
+}
+
 .project {
 	display: block;
 	text-align: left;
 	color: #1b1b1b;
-	vertical-align: top;
 	margin-bottom: 16px;
 	padding: 16px;
 	width: calc(100% - 32px);
