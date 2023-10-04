@@ -121,3 +121,18 @@
     margin-top: -10px;
     display: block;
 }
+
+.projects-access {
+    text-decoration: none;
+    margin-bottom: 1em;
+    display: block;
+    font-size: 20px;
+}
+
+.description:last-child {
+    margin-bottom: 2em;
+}
+
+.description h1 {
+    font-weight: bold;
+}
