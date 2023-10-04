@@ -31,7 +31,7 @@
 	border-right: 1px solid rgba(0, 0, 0, 0.4);
 	border-bottom: 2px solid rgba(0, 0, 0, 0.4);
 	text-decoration: none;
-	transition-duration: 150ms;
+	transition-duration: var(--transition-duration);
 }
 .project .title {
 	display: flex;
@@ -60,7 +60,7 @@
 }
 
 .project:hover {
-	color: #00b4ff;
+	color: var(--highlight-color);
 	box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.4)-light;
-	border-color: #00b4ff;
+	border-color: var(--highlight-color);
 }

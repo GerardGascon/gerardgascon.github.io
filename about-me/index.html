@@ -10,11 +10,10 @@
 
 	<title>About Me</title>
 	<link rel="shortcut icon" href="/images/profile.png" />
+	<link rel="stylesheet" href="/global.css" />
 	<link rel="stylesheet" href="/index.css" />
 	<link rel="stylesheet" href="/navbar.css" />
 	<link rel="stylesheet" href="index.css" />
-	<link rel="stylesheet" href="timeline.css" />
-
 	<script src="https://kit.fontawesome.com/28575038bf.js" crossorigin="anonymous"></script>
 	<script>
 		if (window.location.href.includes('?')) window.location = window.location.href.split("?")[0];
@@ -32,9 +31,8 @@
 			<hr />
 			<div class="pages">
 				<p><a href="/">HOME</a></p>
-				<p><a href="/projects/">PROJECTS</a></p>
 				<p><a href="/about-me/">ABOUT ME</a></p>
-				<p><a href="https://gerardgascon.medium.com/" target="_blank">BLOG</a></p>
+				<p><a href="/projects/">PROJECTS</a></p>
 			</div>
 		</header>
 
@@ -66,99 +64,125 @@
 	</div>
 	<div class="mobile-nav">
 		<header>
-			<img src="/images/profile.png" />
 			<p class="name">Gerard Gascón</p>
 			<hr />
 			<p class="description">Self-taught game developer.</p>
 			<hr />
 			<div class="pages">
 				<p><a href="/">HOME</a></p>
-				<p><a href="/projects/">PROJECTS</a></p>
 				<p><a href="/about-me/">ABOUT ME</a></p>
-				<p><a href="https://gerardgascon.medium.com/" target="_blank">BLOG</a></p>
+				<p><a href="/projects/">PROJECTS</a></p>
 			</div>
 		</header>
 	</div>
 
 	<div class="main">
-		<h1 style="margin-bottom: 1em; margin-top: .4em;">About Gerard Gascón</h1>
-		<div class="description">
-			<p>Hello, World!</p>
-			<p>
-				I am Gerard Gascón, a young self-taught <b>Game Developer</b>
-				focused mainly on <b>programming</b>.
-			</p>
-			<p>
-				I have worked on over a dozen game jam games and developed
-				most of my programming skills such as rapid prototyping and
-				also some game design expirience like finding ways to
-				satisfy the player when playing my games.
-			</p>
-			<p>
-				I have developed other projects in order to further improve
-				my skills aside of <b>Unity Engine</b>, such as <b>programming for
-					the Sega Mega Drive in C</b> or <b>building a Graphics Card
-					from the ground up</b>.
-			</p>
-			<p>
-				I am currently studying <b>Software Engineering at the Universitat
+		<div class="content">
+			<div class="about-header">
+				<img src="/images/profile_about.png" />
+				<h2>Gerard Gascón Moliné</h2>
+				<h3>Game Developer</h3>
+				<h4><i class="fa-solid fa-location-dot"></i> La Seu d'Urgell</h4>
+				<div class="mail"><a class="highlight" href="mailto:ggasconmoline@gmail.com" target="_blank">ggasconmoline@gmail.com</a></div>
+				<div class="socials">
+					<ul>
+						<li><a class="highlight" href="https://twitter.com/G_of_Geri" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+						<li><a class="highlight" href="https://mastodon.gamedev.place/@geri" target="_blank"><i class="fa-brands fa-mastodon"></i></a></li>
+						<li><a class="highlight" href="https://t.me/G_of_Geri" target="_blank"><i class="fa-brands fa-telegram"></i></a></li>
+						<li><a class="highlight" href="https://www.linkedin.com/in/gerardgasconmoline/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+						<li><a class="highlight" href="https://geri8.itch.io/" target="_blank"><i class="fa-brands fa-itch-io"></i></a></li>
+						<li><a class="highlight" href="https://gerardgascon.medium.com/" target="_blank"><i class="fa-brands fa-medium"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<div class="description">
+				<h1>About</h1>
+				<p>
+					I am Gerard, a young, self-taught <b>game developer</b>
+					focused mainly on <b>programming</b>.
+				</p>
+				<p>
+					I have worked on over a dozen game jam games and developed
+					most of my programming skills, such as rapid prototyping, and
+					also some game design experience, like finding ways to
+					satisfy the player when playing my games.
+				</p>
+				<p>
+					Currently, I am studying <b>software engineering</b> at the <b>Universitat
 					Politècnica de Catalunya</b> and spending my free time in my
-				search for new skills.
-			</p>
-			<p>
-				You can get in touch with me whenever you want via email at:
-				<a href="mailto:ggasconmoline@gmail.com">ggasconmoline@gmail.com</a>
-			</p>
-			<div style="margin-top: 75px;" class="button">
-				<a class="resume" href="/projects/">Check out my projects</a>
+					search for new skills while also developing some games, such as
+					<b>Just in Crime</b>.
+				</p>
+			</div>
+
+			<hr>
+
+			<div class="description">
+				<h1>Skills</h1>
+				<div class="skills">
+					<p class="highlight">C</p>
+					<p class="highlight">C++</p>
+					<p class="highlight">C#</p>
+					<p class="highlight">GDScript</p>
+					<p class="highlight">HTML</p>
+					<p class="highlight">CSS</p>
+				</div>
+				<div class="skills">
+					<p class="highlight">Unity</p>
+					<p class="highlight">Godot</p>
+					<p class="highlight">SGDK</p>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="description">
+				<h1>Experience</h1>
+				<div class="experience">
+					<div class="job">
+						<p><b>Frontend Web Developer at MAGMA, Associació per Promoure la Recerca Jove</b></p>
+						<p class="date">September 2022 - Present</p>
+						<p>
+							Working as a volunteer, I focus mainly on maintaining the frontend side of MAGMA's
+							website but also on some other tasks for the association.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="description">
+				<h1>Remarkable Projects</h1>
+				<div class="projects">
+					<div class="job">
+						<p><b>Game Development in 16-bits</b></p>
+						<p class="date">2021 - 2022</p>
+						<p>
+							A research project about developing a video game for the
+							Sega Mega Drive in 2021. This is only available in Catalan.
+						</p>
+						<a class="highlight" href="/GameDevelopmentIn16Bits.pdf" ,="" target="_blank">Learn More <i class="fa-solid fa-angle-right"></i></a>
+					</div>
+					<hr>
+					<div class="job">
+						<p><b>Just in Crime</b></p>
+						<p class="date">2022 - Present</p>
+						<p>
+							A detective video game in which you play a detective dog and
+							a wizard cat. With a twist; you are able to travel back in time
+							and examine the crime scene a few seconds before it happened.
+						</p>
+						<a class="highlight" href="https://s.team/a/2482980" ,="" target="_blank">Learn More <i class="fa-solid fa-angle-right"></i></a>
+					</div>
+				</div>
+				
+				<div style="margin-top: 75px;" class="button">
+					<a class="resume" href="/projects/">Check all my projects</a>
+				</div>
 			</div>
 		</div>
-
-		<ul class="timeline">
-			<li>
-				<div class="direction-r">
-					<div class="flag-wrapper">
-						<span class="hexa"></span>
-						<span class="flag">🔍</span>
-						<span class="time-wrapper">Mar 2022</span>
-					</div>
-					<a href="https://drive.google.com/uc?id=1qtjMi9166I4ldZNH6r7D4Tj8iUD3sj6B&export=download" ,="" target="_blank"><div class="desc">1st Jóvenes Investigadores Award at XXIII Exporecerca Jove</div></a>
-				</div>
-			</li>
-
-			<li>
-				<div class="direction-l">
-					<div class="flag-wrapper">
-						<span class="hexa"></span>
-						<span class="flag">📖</span>
-						<span class="time-wrapper">May 2022</span>
-					</div>
-					<a href="https://www.url.edu/ca/sala-de-premsa/noticies/institucional/2022/els-premis-ramon-llull-treballs-de-recerca-premien-13-estudiants-de-batxillerat" ,="" target="_blank"><div class="desc">Ramon Llull a Treballs de Recerca de Batxillerat en Tecnologia Award</div></a>
-				</div>
-			</li>
-
-			<li>
-				<div class="direction-r">
-					<div class="flag-wrapper">
-						<span class="hexa"></span>
-						<span class="flag">🧑‍💻</span>
-						<span class="time-wrapper">Sep 2022 - Present</span>
-					</div>
-					<a href="https://www.magmarecerca.org" ,="" target="_blank"><div class="desc">Frontend Web Developer at MAGMA, Associació per Promoure la Recerca Jove</div></a>
-				</div>
-			</li>
-
-			<li>
-				<div class="direction-l">
-					<div class="flag-wrapper">
-						<span class="hexa"></span>
-						<span class="flag">🥇</span>
-						<span class="time-wrapper">Oct 2022</span>
-					</div>
-					<a href="https://itch.io/jam/indie-spain-jam" ,="" target="_blank"><div class="desc">Indie Spain Jam Winner</div></a>
-				</div>
-			</li>
-		</ul>
 	</div>
 
 	<footer class="mobile-contacts">

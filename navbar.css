@@ -119,10 +119,10 @@
         font-size: 25px;
         color: #5e5e5e;
         display: block;
-        transition: 150ms;
+        transition: var(--transition-duration);
     }
     .sidenav footer a:hover {
-        color: #00b4ff;
+        color: var(--highlight-color);
     }
 }
 @media (max-width: 750px){
@@ -142,23 +142,6 @@
     	padding-top: 20px;
 
         text-align: center;
-    	/*display: -webkit-box;
-    	display: -webkit-flex;
-    	display: -ms-flexbox;
-    	display: flex;
-    	-webkit-box-orient: horizontal;
-    	-webkit-box-direction: normal;
-    	-webkit-flex-direction: row;
-    	-ms-flex-direction: row;
-    	flex-direction: row;*/
-    }
-
-    .mobile-nav img {
-    	height: 75px;
-    	display: block;
-    	margin-left: auto;
-    	margin-right: auto;
-    	border-radius: 10px;
     }
 
     .mobile-nav .name {
@@ -263,10 +246,10 @@
         font-size: 20px;
         color: #5e5e5e;
         display: block;
-        transition: 150ms;
+        transition: var(--transition-duration);
     }
     .mobile-contacts a:hover {
-        color: #00b4ff;
+        color: var(--highlight-color);
     }
 }
 @media (max-width: 750px) and (min-width: 450px){

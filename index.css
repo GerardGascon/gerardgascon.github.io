@@ -58,18 +58,18 @@ body {
     font-size: 18px;
     border-radius: 5px;
     line-height: 48px;
-	transition-duration: 150ms;
+	transition-duration: var(--transition-duration);
     text-decoration: none !important;
     min-width: 200px;
     padding: 0 20px;
 }
 .button a:hover {
-	color: #00b4ff;
-	border-color: #00b4ff;
+	color: var(--highlight-color);
+	border-color: var(--highlight-color);
 }
 
 .pages a:hover {
-	color: #00b4ff;
+	color: var(--highlight-color);
 }
 
 .banner {
