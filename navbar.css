@@ -252,7 +252,7 @@
         color: var(--highlight-color);
     }
 }
-@media (max-width: 750px) and (min-width: 450px){
+@media (max-width: 750px) and (min-width: 375px){
     .mobile-nav .pages {
         display: flex;
         justify-content: space-around;
@@ -260,7 +260,7 @@
         margin-right: auto;
     }
 }
-@media (max-width: 450px){
+@media (max-width: 375px){
     .mobile-nav .pages {
         margin-left: auto;
         margin-right: auto;
