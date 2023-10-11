@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
+
+body {
+	font-family: "Readex Pro", sans-serif;
+	margin: 0px;
+	overflow-x: hidden;
+	width: 100vw;
+
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.main h3 {
+	font-weight: 200;
+	text-align: center;
+}
+
+.content {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-header {
+	text-align: center;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-header h2 {
+	font-size: 25;
+	margin-top: 10px;
+}
+.about-header h3 {
+	font-size: 20;
+	font-weight: 400;
+	margin-top: -20px;
+}
+.about-header h4 {
+	font-size: 15;
+	font-weight: 200;
+	margin-top: -15px;
+}
+
+.about-header img {
+	border-radius: 50%;
+	max-width: 100px;
+}
+
+.links {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+:root {
+	--link-height: 75px;
+}
+
+.link {
+	text-decoration: none;
+	display: flex;
+	border: 1px solid black;
+	max-height: var(--link-height);
+	color: #1b1b1b;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+
+	border-radius: 5px;
+	border-top: 1px solid rgba(0, 0, 0, 0.3);
+	border-left: 1px solid rgba(0, 0, 0, 0.4);
+	border-right: 1px solid rgba(0, 0, 0, 0.4);
+	border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+	transition-duration: var(--transition-duration);
+}
+
+.link:hover {
+	color: var(--highlight-color);
+	box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.4)-light;
+	border-color: var(--highlight-color);
+}
+
+.link .image_container {
+	padding: 5px;
+	max-height: var(--link-height);
+	max-width: var(--link-height);
+}
+
+.link .image_container img {
+	border-radius: 5px;
+	object-fit: contain;
+	max-height: 100%;
+}
+
+.link p {
+	font-weight: 500;
+	margin: auto;
+}
