@@ -42,7 +42,6 @@
 @media (min-width: 1200px) {
 	.project {
 		overflow: hidden;
-		display: flex;
 		text-align: left;
 		color: #1b1b1b;
 		margin-bottom: 16px;
@@ -54,9 +53,13 @@
 		text-decoration: none;
 		transition-duration: var(--transition-duration);
 		height: 200px;
+		display: grid;
+		grid-template-columns: auto 1fr;
+		grid-template-rows: 100%;
 	}
 	.project img {
 		height: 100%;
+		width: auto;
 	}
 }
 
