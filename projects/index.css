@@ -1,9 +1,9 @@
-.projects {
+#projects {
 	margin: 0 auto;
 	width: calc(100% - 2px);
 	max-width: 840px;
 }
-.projects hr {
+#projects hr {
 	margin-top: 50px;
 	border-top: .1px solid rgba(0, 0, 0, .3);
 	border-right: 0px;
@@ -33,28 +33,28 @@
 	text-decoration: none;
 	transition-duration: var(--transition-duration);
 }
-.project .title {
+.project .content .title {
 	display: flex;
 	justify-content: space-between;
 }
-.project p {
+.project .content p {
 	font-weight: 200;
 	text-align: right;
 	font-size: smaller;
 	line-height: 1.25em;
 	opacity: .5;
 }
-.projects h2 {
+#projects h2 {
 	font-weight: 200;
 	text-align: left;
 }
-.project h3 {
+.project .content h3 {
 	font-weight: bold;
 	text-align: left;
 	font-size: smaller;
 	line-height: 1.25em;
 }
-.project blockquote {
+.project .content blockquote {
 	font-size: 70%;
 	margin-top: 0;
 }

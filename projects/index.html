@@ -23,6 +23,19 @@
 			if(window.location.href.includes('?')) window.location = window.location.href.split("?")[0];
 			if(window.location.href.includes('#')) window.location = window.location.href.split("#")[0];
 		</script>
+
+		<template id="project-template">
+			<a class="project" ,="" target="_blank">
+				<div class="content">
+					<div class="title">
+						<h3></h3>
+						<p><nobr></nobr></p>
+					</div>
+					<blockquote>
+					</blockquote>
+				</div>
+			</a>
+		</template>
 	</head>
 	<body>
 		<div class="sidenav">
@@ -88,283 +101,75 @@
 
 		<div class="main">
 			<h1 style="line-height: 2em;">Projects</h1>
-			<div id="body" class="projects">
+			<div id="projects">
 				<hr>
 				<h2>Games</h2>
 				<p class="summary">
 					Complete games that I've been part of
 				</p>
-				<a class="project" href="https://s.team/a/2482980" ,="" target="_blank">
-					<div class="title">
-						<h3>🔍 Just in Crime</h3>
-						<p><nobr>TBD</nobr></p>
-					</div>
-					<blockquote>
-						A detective video game in which you play a detective dog and
-						a wizard cat. With a twist; you are able to travel back in time
-						and examine the crime scene a few seconds before it happened.
-					</blockquote>
-				</a>
-				<a class="project" href="https://geri8.itch.io/mercorona" ,="" target="_blank">
-					<div class="title">
-						<h3>🛒 Mercorona</h3>
-						<p><nobr>2020</nobr></p>
-					</div>
-					<blockquote>
-						A post-jam game from the Coronavirus Game Jam about trying to buy the
-						maximum amount of food in an infinite runner game.
-					</blockquote>
-				</a>
+				<div id="game"></div>
+
 				<hr>
 				<h2>Researches</h2>
 				<p class="summary">
 					Interesting topics that I've investigated and written about
 				</p>
-				<a class="project" href="/GameDevelopmentIn16Bits.pdf" ,="" target="_blank">
-					<div class="title">
-						<h3>👾 Game Development in <nobr>16-bits</nobr></h3>
-						<p><nobr>2021-22</nobr></p>
-					</div>
-					<blockquote>
-						A research project about developing a video game for the
-						Sega Mega Drive in 2021. This is only available in Catalan.
-					</blockquote>
-				</a>
-				<a class="project" href="https://hackaday.io/project/186465-yet-another-worlds-worst-video-card" ,="" target="_blank">
-					<div class="title">
-						<h3>📽️ Yet Another World’s Worst Video Card</h3>
-						<p><nobr>2022</nobr></p>
-					</div>
-					<blockquote>
-						A simple research project based on Ben Eater’s video series
-						about building a video card on breadboards.
-						In this project, I reduced the memory usage by only having 1-bit images.
-					</blockquote>
-				</a>
+				<div id="research"></div>
+
 				<hr>
 				<h2>Development Tools</h2>
 				<p class="summary">
 					Tools that I have developed mainly for myself, but also for anyone to use
 				</p>
-				<a class="project" href="https://github.com/GerardGascon/SimpleTools" ,="" target="_blank">
-					<div class="title">
-						<h3>🛠️ Simple Tools</h3>
-						<p><nobr>2020-22</nobr></p>
-					</div>
-					<blockquote>
-						Made during the Game Jams for the Game Jams, Simple Tools
-						is a bunch of simple and useful tools to use in your Unity
-						projects, with the main goal of making them simple and as fast as possible to implement.
-					</blockquote>
-				</a>
-				<a class="project" href="https://github.com/GerardGascon/PlatformerEngine" ,="" target="_blank">
-					<div class="title">
-						<h3>🏃 Platformer Engine</h3>
-						<p><nobr>2022</nobr></p>
-					</div>
-					<blockquote>
-						A basic SGDK project to learn how it works and also be
-						a good basis to learn how to make a platformer game for the Mega Drive.
-					</blockquote>
-				</a>
+				<div id="tool"></div>
+
 				<hr>
 				<h2>Game Jams</h2>
 				<p class="summary">
 					A list of some game jam projects that I've developed over the years.
 				</p>
-				<a class="project" href="https://froglake.itch.io/figments-of-the-night" ,="" target="_blank">
-					<div class="title">
-						<h3>🌴 Figments of the Night</h3>
-						<p><nobr>2023</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the Indie Spain Jam 2023 where you wake up on a
-						deserted island with no memory
-					</blockquote>
-				</a>
-				<a class="project" href="https://froglake.itch.io/trorb" ,="" target="_blank">
-					<div class="title">
-						<h3>🔮 TRORB</h3>
-						<p><nobr>2023</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the List Jam 2 about a troll that must protect the orb
-						that constantly changes the level and gameplay from an unstoppable ghost.
-					</blockquote>
-				</a>
-				<a class="project" href="https://geri8.itch.io/mr-flurfels-catarina-y-la-tarta-perdida" ,="" target="_blank">
-					<div class="title">
-						<h3>🎂 Mr. Flurfels & Catarina y la tarta perdida</h3>
-						<p><nobr>2022</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the Indie Spain Jam 2022 about solving a
-						mystery through time of a cake that went missing.
-					</blockquote>
-				</a>
-				<a class="project" href="https://geri8.itch.io/domyno" ,="" target="_blank">
-					<div class="title">
-						<h3>🔴 Domyno</h3>
-						<p><nobr>2021</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the MashUp Game Jam 2 about using dominoes
-						to press a button.
-					</blockquote>
-				</a>
-				<a class="project" href="https://geri8.itch.io/twin-hook" ,="" target="_blank">
-					<div class="title">
-						<h3>🪢 Twin Hook</h3>
-						<p><nobr>2021</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the GMTK Game Jam 2021 about two fishes joined
-						together by a rope trying to survive the maximum amount of time.
-					</blockquote>
-				</a>
-				<a class="project" href="https://geri8.itch.io/ropasci-forest" ,="" target="_blank">
-					<div class="title">
-						<h3>🌲 Ropasci Forest</h3>
-						<p><nobr>2020</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the Mix and Game Jam (2020) about playing
-						Rock, Paper, Scissors to get out of the forest.
-					</blockquote>
-				</a>
-				<a class="project" href="https://charliebluewood.itch.io/cd-room" ,="" target="_blank">
-					<div class="title">
-						<h3>💿 CD-ROOM</h3>
-						<p><nobr>2020</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the Disc Room Game Jam about a character that
-						shoots CDs, but they are also its health.
-					</blockquote>
-				</a>
-				<a class="project" href="https://geri8.itch.io/mediepals" ,="" target="_blank">
-					<div class="title">
-						<h3>⚔️ Mediepals</h3>
-						<p><nobr>2020</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the Spain Game Devs Jam II about a birthday party
-						with a "medieval" tournament inside it.
-					</blockquote>
-				</a>
-				<a class="project" href="https://geri8.itch.io/fur-war" ,="" target="_blank">
-					<div class="title">
-						<h3>🦊 Fur War</h3>
-						<p><nobr>2020</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the Coronavirus Game Jam II about a red panda with
-						a spaceship that has to enable all the base platforms.
-					</blockquote>
-				</a>
-				<a class="project" href="https://geri8.itch.io/chess2-counterattack" ,="" target="_blank">
-					<div class="title">
-						<h3>♟️ Chess II: Counterattack</h3>
-						<p><nobr>2020</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the Brackeys Jam 2020.2 about a chess king that fights
-						alone against an infinite number of opponents.
-					</blockquote>
-				</a>
-				<a class="project" href="https://geri8.itch.io/pong-pong" ,="" target="_blank">
-					<div class="title">
-						<h3>🏓 Pong-Pong</h3>
-						<p><nobr>2020</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the Ludum Dare 46 about a character that has to keep
-						the car alive from the enemies that try to destroy it.
-					</blockquote>
-				</a>
-				<a class="project" href="https://geri8.itch.io/isoulated" ,="" target="_blank">
-					<div class="title">
-						<h3>🏮 Isoulated</h3>
-						<p><nobr>2020</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the Coronavirus Game Jam about trying to arrive home
-						before your protective lantern goes out.
-					</blockquote>
-				</a>
-				<a class="project" href="https://geri8.itch.io/wowie-game-jam" ,="" target="_blank">
-					<div class="title">
-						<h3>👹 Wowie Game Jam Feb.2019</h3>
-						<p><nobr>2019</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the Wowie Jam! about controlling a character with
-						the blowback of its gun.
-					</blockquote>
-				</a>
+				<div id="jam"></div>
+
 				<hr>
 				<h2>Experimental Game Jams</h2>
 				<p class="summary">
 					Smaller game jam games that I developed
 				</p>
-				<a class="project" href="https://geri8.itch.io/spirinaut" ,="" target="_blank">
-					<div class="title">
-						<h3>👻 Spirinaut</h3>
-						<p><nobr>2020</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the United Game Jam about two characters, but you can
-						only control one at a time.
-					</blockquote>
-				</a>
-				<a class="project" href="https://geri8.itch.io/qu" ,="" target="_blank">
-					<div class="title">
-						<h3>🔠 Qu</h3>
-						<p><nobr>2020</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the Tricky Text Jam whose art is made out of
-						only text characters.
-					</blockquote>
-				</a>
-				<a class="project" href="https://teamdoss.itch.io/train-of-thought" ,="" target="_blank">
-					<div class="title">
-						<h3>🪖 Train Of Thought</h3>
-						<p><nobr>2020</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the Retro 8-Bit Game Jam about a character that
-						has to travel across the war zone to meet his love.
-					</blockquote>
-				</a>
-				<a class="project" href="https://geri8.itch.io/fisec" ,="" target="_blank">
-					<div class="title">
-						<h3>⏱️ Fisec</h3>
-						<p><nobr>2020</nobr></p>
-					</div>
-					<blockquote>
-						A game developed for the JackSParrot Jam about several silly mini-games
-						that change every five seconds.
-					</blockquote>
-				</a>
+				<div id="experimental"></div>
 
 				<hr>
 				<h2>Experiments</h2>
 				<p class="summary">
 					Small projects that act more as an experiment than anything else
 				</p>
-				<a class="project" href="https://devpost.com/software/vuequest" ,="" target="_blank">
-					<div class="title">
-						<h3>✈️ VueQuest</h3>
-						<p><nobr>2023</nobr></p>
-					</div>
-					<blockquote>
-						A project developed for the HackUPC 2023 about making a multiplayer flight
-						application with generative storytelling using <nobr>Chat-GPT</nobr> and Unity.
-					</blockquote>
-				</a>
+				<div id="experiment"></div>
 			</div>
 		</div>
+
+		<script>
+			const jsonFileUrl = 'index.json';
+
+			const template = document.getElementById('project-template');
+
+			fetch(jsonFileUrl)
+            .then(response => response.json())
+            .then(data => {
+                data.forEach(dataItem => {
+                    const clone = document.importNode(template.content, true);
+
+                    clone.querySelector('a').href = dataItem.url;
+                    clone.querySelector('h3').innerHTML = dataItem.title;
+                    clone.querySelector('p').querySelector('nobr').textContent = dataItem.date;
+                    clone.querySelector('blockquote').innerHTML = dataItem.description;
+
+					document.getElementById(dataItem.type).appendChild(clone);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching JSON data:', error);
+            });
+
+		</script>
 
 		<footer class="mobile-contacts">
 			<h1>Contact</h1>
