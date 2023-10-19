@@ -1,6 +1,7 @@
 [
     {
         "type": "game",
+        "image": "/images/projects/just_in_crime.png",
         "title": "🔍 Just in Crime",
         "url": "https://s.team/a/2482980",
         "date": "TBD",
@@ -8,6 +9,7 @@
     },
     {
         "type": "game",
+        "image": "/images/projects/mercorona.png",
         "title": "🛒 Mercorona",
         "url": "https://geri8.itch.io/mercorona",
         "date": "2020",
@@ -15,6 +17,7 @@
     },
     {
         "type": "research",
+        "image": "/images/projects/16_bits.png",
         "title": "👾 Game Development in <nobr>16-bits</nobr>",
         "url": "/GameDevelopmentIn16Bits.pdf",
         "date": "2021-22",
@@ -22,6 +25,7 @@
     },
     {
         "type": "research",
+        "image": "/images/projects/video_card.png",
         "title": "📽️ Yet Another World’s Worst Video Card",
         "url": "https://hackaday.io/project/186465-yet-another-worlds-worst-video-card",
         "date": "2022",
@@ -29,6 +33,7 @@
     },
     {
         "type": "tool",
+        "image": "/images/projects/simple_tools.png",
         "title": "🛠️ Simple Tools",
         "url": "https://geri8.itch.io/mercorona",
         "date": "2020-22",
@@ -36,6 +41,7 @@
     },
     {
         "type": "tool",
+        "image": "/images/projects/platformer_engine.png",
         "title": "🏃 Platformer Engine",
         "url": "https://github.com/GerardGascon/PlatformerEngine",
         "date": "2022",
@@ -43,6 +49,7 @@
     },
     {
         "type": "jam",
+        "image": "/images/projects/figments.png",
         "title": "🌴 Figments of the Night",
         "url": "https://froglake.itch.io/figments-of-the-night",
         "date": "2023",
@@ -50,6 +57,7 @@
     },
     {
         "type": "jam",
+        "image": "/images/projects/trorb.png",
         "title": "🔮 TRORB",
         "url": "https://froglake.itch.io/trorb",
         "date": "2023",
@@ -57,6 +65,7 @@
     },
     {
         "type": "jam",
+        "image": "/images/projects/flurfels.png",
         "title": "🎂 Mr. Flurfels & Catarina y la tarta perdida",
         "url": "https://geri8.itch.io/mr-flurfels-catarina-y-la-tarta-perdida",
         "date": "2022",
@@ -64,6 +73,7 @@
     },
     {
         "type": "jam",
+        "image": "/images/projects/domyno.png",
         "title": "🔴 Domyno",
         "url": "https://geri8.itch.io/domyno",
         "date": "2021",
@@ -71,6 +81,7 @@
     },
     {
         "type": "jam",
+        "image": "/images/projects/twin_hook.png",
         "title": "🪢 Twin Hook",
         "url": "https://geri8.itch.io/twin-hook",
         "date": "2021",
@@ -78,6 +89,7 @@
     },
     {
         "type": "jam",
+        "image": "/images/projects/ropasci.png",
         "title": "🌲 Ropasci Forest",
         "url": "https://geri8.itch.io/ropasci-forest",
         "date": "2020",
@@ -85,6 +97,7 @@
     },
     {
         "type": "jam",
+        "image": "/images/projects/cd_room.png",
         "title": "💿 CD-ROOM",
         "url": "https://charliebluewood.itch.io/cd-room",
         "date": "2020",
@@ -92,6 +105,7 @@
     },
     {
         "type": "jam",
+        "image": "/images/projects/mediepals.png",
         "title": "⚔️ Mediepals",
         "url": "https://geri8.itch.io/mediepals",
         "date": "2020",
@@ -99,6 +113,7 @@
     },
     {
         "type": "jam",
+        "image": "/images/projects/fur_war.png",
         "title": "🦊 Fur War",
         "url": "https://geri8.itch.io/fur-war",
         "date": "2020",
@@ -106,6 +121,7 @@
     },
     {
         "type": "jam",
+        "image": "/images/projects/chess.png",
         "title": "♟️ Chess II: Counterattack",
         "url": "https://geri8.itch.io/chess2-counterattack",
         "date": "2020",
@@ -113,6 +129,7 @@
     },
     {
         "type": "jam",
+        "image": "/images/projects/pong_pong.png",
         "title": "🏓 Pong-Pong",
         "url": "https://geri8.itch.io/pong-pong",
         "date": "2020",
@@ -120,6 +137,7 @@
     },
     {
         "type": "jam",
+        "image": "/images/projects/isoulated.png",
         "title": "🏮 Isoulated",
         "url": "https://geri8.itch.io/isoulated",
         "date": "2020",
@@ -127,6 +145,7 @@
     },
     {
         "type": "jam",
+        "image": "/images/projects/wowie.png",
         "title": "👹 Wowie Game Jam Feb.2019",
         "url": "https://geri8.itch.io/wowie-game-jam",
         "date": "2019",
@@ -134,6 +153,7 @@
     },
     {
         "type": "experimental",
+        "image": "/images/projects/spirinaut.png",
         "title": "👻 Spirinaut",
         "url": "https://geri8.itch.io/spirinaut",
         "date": "2020",
@@ -141,6 +161,7 @@
     },
     {
         "type": "experimental",
+        "image": "/images/projects/qu.png",
         "title": "🔠 Qu",
         "url": "https://geri8.itch.io/qu",
         "date": "2020",
@@ -148,13 +169,15 @@
     },
     {
         "type": "experimental",
+        "image": "/images/projects/train_of_thought.png",
         "title": "🪖 Train Of Thought",
-        "url": "https://geri8.itch.io/chess2-counterattack",
+        "url": "https://teamdoss.itch.io/train-of-thought",
         "date": "2020",
         "description": "A game developed for the Retro 8-Bit Game Jam about a character that has to travel across the war zone to meet his love."
     },
     {
         "type": "experimental",
+        "image": "/images/projects/fisec.png",
         "title": "⏱️ Fisec",
         "url": "https://geri8.itch.io/fisec",
         "date": "2020",
@@ -162,8 +185,9 @@
     },
     {
         "type": "experiment",
+        "image": "/images/projects/vuequest.png",
         "title": "✈️ VueQuest",
-        "url": "https://geri8.itch.io/fisec",
+        "url": "https://devpost.com/software/vuequest",
         "date": "2023",
         "description": "A project developed for the HackUPC 2023 about making a multiplayer flight application with generative storytelling using <nobr>Chat-GPT</nobr> and Unity."
     }

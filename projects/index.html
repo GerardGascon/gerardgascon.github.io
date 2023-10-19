@@ -26,6 +26,7 @@
 
 		<template id="project-template">
 			<a class="project" ,="" target="_blank">
+				<img src="/images/profile.png" />
 				<div class="content">
 					<div class="title">
 						<h3></h3>
@@ -157,6 +158,7 @@
                 data.forEach(dataItem => {
                     const clone = document.importNode(template.content, true);
 
+					clone.querySelector('img').src = dataItem.image;
                     clone.querySelector('a').href = dataItem.url;
                     clone.querySelector('h3').innerHTML = dataItem.title;
                     clone.querySelector('p').querySelector('nobr').textContent = dataItem.date;
@@ -168,7 +170,6 @@
             .catch(error => {
                 console.error('Error fetching JSON data:', error);
             });
-
 		</script>
 
 		<footer class="mobile-contacts">
