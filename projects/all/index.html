@@ -26,17 +26,7 @@
 		</script>
 
 		<template id="project-template">
-			<a class="project" ,="" target="_blank">
-				<img src="/images/profile.png" />
-				<div class="content">
-					<div class="title">
-						<h3></h3>
-						<p><nobr></nobr></p>
-					</div>
-					<blockquote>
-					</blockquote>
-				</div>
-			</a>
+			<a class="project" ,="" target="_blank"><b>%title%</b> (%date%) &mdash; %description%</a>
 		</template>
 	</head>
 	<body>
@@ -106,39 +96,27 @@
 		</div>
 
 		<div class="main">
-			<h1 style="line-height: 2em;">Projects</h1>
+			<h1 style="line-height: 2em;">All Projects</h1>
 			<div id="projects">
 				<hr>
 				<h2>Games</h2>
-				<p class="summary">
-					Complete games that I've been part of.
-				</p>
 				<div id="game"></div>
 
 				<hr>
 				<h2>Researches</h2>
-				<p class="summary">
-					Interesting topics that I've investigated and written about.
-				</p>
 				<div id="research"></div>
 
 				<hr>
 				<h2>Development Tools</h2>
-				<p class="summary">
-					Tools that I have developed mainly for myself, but also for anyone to use.
-				</p>
 				<div id="tool"></div>
 
 				<hr>
 				<h2>Game Jams</h2>
-				<p class="summary">
-					A list of some game jam projects that I've developed over the years.
-				</p>
 				<div id="jam"></div>
 
 				<hr>
-				<h2>But Wait, There's More!</h2>
-				<a class="more" href="all/" ,="">Learn More <i class="fa-solid fa-angle-right"></i></a>
+				<h2>Other</h2>
+				<div id="other"></div>
 			</div>
 		</div>
 
@@ -153,11 +131,15 @@
                 data.forEach(dataItem => {
                     const clone = document.importNode(template.content, true);
 
-					clone.querySelector('img').src = dataItem.image;
-                    clone.querySelector('a').href = dataItem.url;
-                    clone.querySelector('h3').innerHTML = dataItem.title;
-                    clone.querySelector('p').querySelector('nobr').textContent = dataItem.date;
-                    clone.querySelector('blockquote').innerHTML = dataItem.description;
+					var htmlContent = clone.querySelector('a').innerHTML.replace(
+						/%(\w*)%/g,
+						function( m, key ){
+							return dataItem.hasOwnProperty(key) ? dataItem[key] : "";
+						}
+					);
+
+					clone.querySelector('a').innerHTML = htmlContent;
+					clone.querySelector('a').href = dataItem.url;
 
 					document.getElementById(dataItem.type).appendChild(clone);
                 });

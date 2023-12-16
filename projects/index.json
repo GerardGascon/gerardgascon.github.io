@@ -3,7 +3,7 @@
         "type": "game",
         "image": "/images/projects/just_in_crime.png",
         "title": "🔍 Just in Crime",
-        "url": "https://s.team/a/2482980",
+        "url": "https://steam.gerardgascon.com",
         "date": "TBD",
         "description": "A detective video game in which you play a detective dog and a wizard cat. With a twist; you are able to travel back in time and examine the crime scene a few seconds before it happened."
     },
@@ -11,7 +11,7 @@
         "type": "game",
         "image": "/images/projects/mercorona.png",
         "title": "🛒 Mercorona",
-        "url": "https://geri8.itch.io/mercorona",
+        "url": "https://itch.gerardgascon.com/mercorona",
         "date": "2020",
         "description": "A post-jam game from the Coronavirus Game Jam about trying to buy the maximum amount of food in an infinite runner game."
     },
@@ -35,7 +35,7 @@
         "type": "tool",
         "image": "/images/projects/simple_tools.png",
         "title": "🛠️ Simple Tools",
-        "url": "https://geri8.itch.io/simple-tools",
+        "url": "https://itch.gerardgascon.com/simple-tools",
         "date": "2020-22",
         "description": "Made during the Game Jams for the Game Jams, Simple Tools is a bunch of simple and useful tools to use in your Unity projects, with the main goal of making them simple and as fast as possible to implement."
     },
@@ -43,7 +43,7 @@
         "type": "tool",
         "image": "/images/projects/platformer_engine.png",
         "title": "🏃 Platformer Engine",
-        "url": "https://github.com/GerardGascon/PlatformerEngine",
+        "url": "https://github.gerardgascon.com/PlatformerEngine",
         "date": "2022",
         "description": "A basic SGDK project to learn how it works and also be a good basis to learn how to make a platformer game for the Mega Drive."
     },
@@ -53,7 +53,7 @@
         "title": "🌴 Figments of the Night",
         "url": "https://froglake.itch.io/figments-of-the-night",
         "date": "2023",
-        "description": "A game developed for the Indie Spain Jam 2023 where you wake up on a deserted island with no memory"
+        "description": "A game developed for the Indie Spain Jam 2023 where you wake up on a deserted island with no memory."
     },
     {
         "type": "jam",
@@ -67,7 +67,7 @@
         "type": "jam",
         "image": "/images/projects/flurfels.png",
         "title": "🎂 Mr. Flurfels & Catarina y la tarta perdida",
-        "url": "https://geri8.itch.io/mr-flurfels-catarina-y-la-tarta-perdida",
+        "url": "https://itch.gerardgascon.com/mr-flurfels-catarina-y-la-tarta-perdida",
         "date": "2022",
         "description": "A game developed for the Indie Spain Jam 2022 about solving a mystery through time of a cake that went missing."
     },
@@ -75,25 +75,9 @@
         "type": "jam",
         "image": "/images/projects/domyno.png",
         "title": "🔴 Domyno",
-        "url": "https://geri8.itch.io/domyno",
+        "url": "https://itch.gerardgascon.com/domyno",
         "date": "2021",
         "description": "A game developed for the MashUp Game Jam 2 about using dominoes to press a button."
-    },
-    {
-        "type": "jam",
-        "image": "/images/projects/twin_hook.png",
-        "title": "🪢 Twin Hook",
-        "url": "https://geri8.itch.io/twin-hook",
-        "date": "2021",
-        "description": "A game developed for the GMTK Game Jam 2021 about two fishes joined together by a rope trying to survive the maximum amount of time."
-    },
-    {
-        "type": "jam",
-        "image": "/images/projects/ropasci.png",
-        "title": "🌲 Ropasci Forest",
-        "url": "https://geri8.itch.io/ropasci-forest",
-        "date": "2020",
-        "description": "A game developed for the Mix and Game Jam (2020) about playing Rock, Paper, Scissors to get out of the forest."
     },
     {
         "type": "jam",
@@ -107,7 +91,7 @@
         "type": "jam",
         "image": "/images/projects/mediepals.png",
         "title": "⚔️ Mediepals",
-        "url": "https://geri8.itch.io/mediepals",
+        "url": "https://itch.gerardgascon.com/mediepals",
         "date": "2020",
         "description": "A game developed for the Spain Game Devs Jam II about a birthday party with a \"medieval\" tournament inside it."
     },
@@ -115,80 +99,8 @@
         "type": "jam",
         "image": "/images/projects/fur_war.png",
         "title": "🦊 Fur War",
-        "url": "https://geri8.itch.io/fur-war",
+        "url": "https://itch.gerardgascon.com/fur-war",
         "date": "2020",
         "description": "A game developed for the Coronavirus Game Jam II about a red panda with a spaceship that has to enable all the base platforms."
-    },
-    {
-        "type": "jam",
-        "image": "/images/projects/chess.png",
-        "title": "♟️ Chess II: Counterattack",
-        "url": "https://geri8.itch.io/chess2-counterattack",
-        "date": "2020",
-        "description": "A game developed for the Brackeys Jam 2020.2 about a chess king that fights alone against an infinite number of opponents."
-    },
-    {
-        "type": "jam",
-        "image": "/images/projects/pong_pong.png",
-        "title": "🏓 Pong-Pong",
-        "url": "https://geri8.itch.io/pong-pong",
-        "date": "2020",
-        "description": "A game developed for the Ludum Dare 46 about a character that has to keep the car alive from the enemies that try to destroy it."
-    },
-    {
-        "type": "jam",
-        "image": "/images/projects/isoulated.png",
-        "title": "🏮 Isoulated",
-        "url": "https://geri8.itch.io/isoulated",
-        "date": "2020",
-        "description": "A game developed for the Coronavirus Game Jam about trying to arrive home before your protective lantern goes out."
-    },
-    {
-        "type": "jam",
-        "image": "/images/projects/wowie.png",
-        "title": "👹 Wowie Game Jam Feb.2019",
-        "url": "https://geri8.itch.io/wowie-game-jam",
-        "date": "2019",
-        "description": "A game developed for the Wowie Jam! about controlling a character with the blowback of its gun."
-    },
-    {
-        "type": "experimental",
-        "image": "/images/projects/spirinaut.png",
-        "title": "👻 Spirinaut",
-        "url": "https://geri8.itch.io/spirinaut",
-        "date": "2020",
-        "description": "A game developed for the United Game Jam about two characters, but you can only control one at a time."
-    },
-    {
-        "type": "experimental",
-        "image": "/images/projects/qu.png",
-        "title": "🔠 Qu",
-        "url": "https://geri8.itch.io/qu",
-        "date": "2020",
-        "description": "A game developed for the Tricky Text Jam whose art is made out of only text characters."
-    },
-    {
-        "type": "experimental",
-        "image": "/images/projects/train_of_thought.png",
-        "title": "🪖 Train Of Thought",
-        "url": "https://teamdoss.itch.io/train-of-thought",
-        "date": "2020",
-        "description": "A game developed for the Retro 8-Bit Game Jam about a character that has to travel across the war zone to meet his love."
-    },
-    {
-        "type": "experimental",
-        "image": "/images/projects/fisec.png",
-        "title": "⏱️ Fisec",
-        "url": "https://geri8.itch.io/fisec",
-        "date": "2020",
-        "description": "A game developed for the JackSParrot Jam about several silly mini-games that change every five seconds."
-    },
-    {
-        "type": "experiment",
-        "image": "/images/projects/vuequest.png",
-        "title": "✈️ VueQuest",
-        "url": "https://devpost.com/software/vuequest",
-        "date": "2023",
-        "description": "A project developed for the HackUPC 2023 about making a multiplayer flight application with generative storytelling using <nobr>Chat-GPT</nobr> and Unity."
     }
 ]

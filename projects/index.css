@@ -18,6 +18,17 @@
 	color: #5e5e5e;
 }
 
+.more {
+	font-weight: 200;
+	font-size: 80%;
+	margin-top: -25px;
+	color: #5e5e5e;
+	text-decoration: none;
+
+	display: block;
+    margin-block-end: 2em;
+}
+
 @media (max-width: 1200px) {
 	.project {
 		overflow: hidden;
