@@ -28,8 +28,12 @@
 	text-decoration: none;
 	transition-duration: var(--transition-duration);
 
-	margin-left: 25px;
-	text-indent: -25px;
+	margin-left: 35px;
+	text-indent: -35px;
+}
+
+.project i {
+	font-weight: 200;
 }
 
 .main hr:not(:first-child) {

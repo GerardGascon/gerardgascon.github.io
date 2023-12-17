@@ -28,6 +28,9 @@
 		<template id="project-template">
 			<a class="project" ,="" target="_blank"><b>%title%</b> (%date%) &mdash; %description%</a>
 		</template>
+		<template id="talk-template">
+			<a class="project" ,="" target="_blank"><b>%title%</b> <i> %place%</i> (%date%) &mdash; %description%</a>
+		</template>
 	</head>
 	<body>
 		<div class="sidenav">
@@ -107,6 +110,10 @@
 				<div id="research"></div>
 
 				<hr>
+				<h2>Talks</h2>
+				<div id="talk"></div>
+
+				<hr>
 				<h2>Development Tools</h2>
 				<div id="tool"></div>
 
@@ -124,24 +131,41 @@
 			const jsonFileUrl = 'index.json';
 
 			const template = document.getElementById('project-template');
+			const talk_template = document.getElementById('talk-template');
 
 			fetch(jsonFileUrl)
             .then(response => response.json())
             .then(data => {
                 data.forEach(dataItem => {
-                    const clone = document.importNode(template.content, true);
+					if(dataItem.type === "talk"){
+						const clone = document.importNode(talk_template.content, true);
 
-					var htmlContent = clone.querySelector('a').innerHTML.replace(
-						/%(\w*)%/g,
-						function( m, key ){
-							return dataItem.hasOwnProperty(key) ? dataItem[key] : "";
-						}
-					);
+						var htmlContent = clone.querySelector('a').innerHTML.replace(
+							/%(\w*)%/g,
+							function( m, key ){
+								return dataItem.hasOwnProperty(key) ? dataItem[key] : "";
+							}
+						);
 
-					clone.querySelector('a').innerHTML = htmlContent;
-					clone.querySelector('a').href = dataItem.url;
+						clone.querySelector('a').innerHTML = htmlContent;
+						clone.querySelector('a').href = dataItem.url;
 
-					document.getElementById(dataItem.type).appendChild(clone);
+						document.getElementById(dataItem.type).appendChild(clone);
+					}else{
+						const clone = document.importNode(template.content, true);
+
+						var htmlContent = clone.querySelector('a').innerHTML.replace(
+							/%(\w*)%/g,
+							function( m, key ){
+								return dataItem.hasOwnProperty(key) ? dataItem[key] : "";
+							}
+						);
+
+						clone.querySelector('a').innerHTML = htmlContent;
+						clone.querySelector('a').href = dataItem.url;
+
+						document.getElementById(dataItem.type).appendChild(clone);
+					}
                 });
             })
             .catch(error => {
