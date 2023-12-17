@@ -27,6 +27,12 @@
 
 	display: block;
     margin-block-end: 2em;
+
+	transition: 150ms;
+}
+
+.more:hover {
+	color: var(--highlight-color);
 }
 
 @media (max-width: 1200px) {
