@@ -46,17 +46,17 @@
     margin-right: auto;
 }
 
-.about-header h2 { 
-    font-size: 30; 
+.about-header h2 {
+    font-size: 30;
     margin-top: 10px;
 }
-.about-header h3 { 
-    font-size: 25; 
+.about-header h3 {
+    font-size: 25;
     font-weight: 400;
     margin-top: -20px;
 }
-.about-header h4 { 
-    font-size: 20; 
+.about-header h4 {
+    font-size: 20;
     font-weight: 200;
     margin-top: -15px;
 }
@@ -119,13 +119,13 @@
     text-decoration: none;
     font-size: 17px;
     margin-top: -10px;
-    display: block;
+    display: table;
 }
 
 .projects-access {
     text-decoration: none;
     margin-bottom: 1em;
-    display: block;
+    display: table;
     font-size: 20px;
 }
 

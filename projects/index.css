@@ -25,7 +25,7 @@
 	color: #5e5e5e;
 	text-decoration: none;
 
-	display: block;
+	display: table;
     margin-block-end: 2em;
 
 	transition: 150ms;

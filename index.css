@@ -50,7 +50,7 @@ footer {
 	text-decoration: none;
 	color: #000000;
 	transition: 150ms;
-	display: block;
+	display: table;
 }
 
 .button {
