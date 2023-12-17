@@ -17,12 +17,17 @@
   </url>
   <url>
     <loc>https://gerardgascon.com/projects/</loc>
-    <lastmod>2023-10-30T21:13:35+00:00</lastmod>
+    <lastmod>2023-12-17T00:03:53+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://gerardgascon.com/GameDevelopmentIn16Bits.pdf</loc>
     <lastmod>2023-10-30T21:13:35+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://gerardgascon.com/projects/all/</loc>
+    <lastmod>2023-12-17T00:03:53+00:00</lastmod>
     <priority>0.64</priority>
   </url>
 </urlset>
