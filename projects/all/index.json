@@ -171,7 +171,7 @@
     {
         "type": "talk",
         "title": "🧙 The art of programming: the invisible magic behind video games",
-        "url": "/talks/art_programacio.pdf",
+        "url": "https://github.gerardgascon.com/Recerca-Cerdanya-Talk",
         "place": "A l’estiu, recerca’t!",
         "date": "2023",
         "description": "An introduction to game feel."
