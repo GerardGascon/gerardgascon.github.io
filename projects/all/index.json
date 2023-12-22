@@ -162,13 +162,6 @@
         "description": "The recoil is your movement."
     },
     {
-        "type": "other",
-        "title": "✈️ VueQuest",
-        "url": "https://devpost.com/software/vuequest",
-        "date": "2023",
-        "description": "Multiplayer narrative game with generative story."
-    },
-    {
         "type": "talk",
         "title": "🧙 The art of programming: the invisible magic behind video games",
         "url": "https://github.gerardgascon.com/Recerca-Cerdanya-Talk",
@@ -191,5 +184,19 @@
         "place": "Arxiu Comarcal de l'Alt Urgell",
         "date": "2022",
         "description": "The development of the research."
+    },
+    {
+        "type": "other",
+        "title": "🖼️ GLCD Image Converter",
+        "url": "https://github.gerardgascon.com/GLCDImageConverter",
+        "date": "2023",
+        "description": "A basic tool for converting an image to a GLCD-compatible format."
+    },
+    {
+        "type": "other",
+        "title": "✈️ VueQuest",
+        "url": "https://devpost.com/software/vuequest",
+        "date": "2023",
+        "description": "Multiplayer narrative game with generative story."
     }
 ]
