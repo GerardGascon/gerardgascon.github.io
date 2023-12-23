@@ -1,0 +1,26 @@
+[
+    {
+        "type": "talk",
+        "title": "🧙 The art of programming: the invisible magic behind video games",
+        "url": "https://github.gerardgascon.com/Recerca-Cerdanya-Talk",
+        "place": "A l’estiu, recerca’t!",
+        "date": "2023",
+        "description": "An introduction to game feel."
+    },
+    {
+        "type": "talk",
+        "title": "🧪 Game Development in 16-bits",
+        "url": "/talks/16bits_exporecerca.pdf",
+        "place": "XXIII Exporecerca Jove",
+        "date": "2022",
+        "description": "A short-form presentation about the research."
+    },
+    {
+        "type": "talk",
+        "title": "🧑‍💻 Game Development in 16-bits",
+        "url": "/talks/16bits_arxiu.pdf",
+        "place": "Arxiu Comarcal de l'Alt Urgell",
+        "date": "2022",
+        "description": "The development of the research."
+    }
+]

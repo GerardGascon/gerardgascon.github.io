@@ -110,7 +110,7 @@
 				<div id="research"></div>
 
 				<hr>
-				<h2>Talks</h2>
+				<h2>Talks & Interviews</h2>
 				<div id="talk"></div>
 
 				<hr>
@@ -127,51 +127,7 @@
 			</div>
 		</div>
 
-		<script>
-			const jsonFileUrl = 'index.json';
-
-			const template = document.getElementById('project-template');
-			const talk_template = document.getElementById('talk-template');
-
-			fetch(jsonFileUrl)
-            .then(response => response.json())
-            .then(data => {
-                data.forEach(dataItem => {
-					if(dataItem.type === "talk"){
-						const clone = document.importNode(talk_template.content, true);
-
-						var htmlContent = clone.querySelector('a').innerHTML.replace(
-							/%(\w*)%/g,
-							function( m, key ){
-								return dataItem.hasOwnProperty(key) ? dataItem[key] : "";
-							}
-						);
-
-						clone.querySelector('a').innerHTML = htmlContent;
-						clone.querySelector('a').href = dataItem.url;
-
-						document.getElementById(dataItem.type).appendChild(clone);
-					}else{
-						const clone = document.importNode(template.content, true);
-
-						var htmlContent = clone.querySelector('a').innerHTML.replace(
-							/%(\w*)%/g,
-							function( m, key ){
-								return dataItem.hasOwnProperty(key) ? dataItem[key] : "";
-							}
-						);
-
-						clone.querySelector('a').innerHTML = htmlContent;
-						clone.querySelector('a').href = dataItem.url;
-
-						document.getElementById(dataItem.type).appendChild(clone);
-					}
-                });
-            })
-            .catch(error => {
-                console.error('Error fetching JSON data:', error);
-            });
-		</script>
+		<script src="index.js"></script>
 
 		<footer class="mobile-contacts">
 			<h1>Contact</h1>

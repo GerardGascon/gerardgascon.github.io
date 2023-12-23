@@ -1,47 +1,5 @@
 [
     {
-        "type": "game",
-        "title": "🔍 Just in Crime",
-        "url": "https://steam.gerardgascon.com",
-        "date": "TBD",
-        "description": "Solve crimes with time travel."
-    },
-    {
-        "type": "game",
-        "title": "🛒 Mercorona",
-        "url": "https://itch.gerardgascon.com/mercorona",
-        "date": "2020",
-        "description": "Go shopping during the quarentine."
-    },
-    {
-        "type": "research",
-        "title": "👾 Game Development in <nobr>16-bits</nobr>",
-        "url": "/GameDevelopmentIn16Bits.pdf",
-        "date": "2021-22",
-        "description": "Programming for the Sega Mega Drive."
-    },
-    {
-        "type": "research",
-        "title": "📽️ Yet Another World’s Worst Video Card",
-        "url": "https://hackaday.io/project/186465-yet-another-worlds-worst-video-card",
-        "date": "2022",
-        "description": "Creating a video card from scratch."
-    },
-    {
-        "type": "tool",
-        "title": "🛠️ Simple Tools",
-        "url": "https://github.gerardgascon.com/SimpleTools",
-        "date": "2020-22",
-        "description": "Set of unity tools for the game jams."
-    },
-    {
-        "type": "tool",
-        "title": "🏃 Platformer Engine",
-        "url": "https://github.gerardgascon.com/PlatformerEngine",
-        "date": "2022",
-        "description": "A platformer sample for SGDK."
-    },
-    {
         "type": "jam",
         "title": "🌴 Figments of the Night",
         "url": "https://froglake.itch.io/figments-of-the-night",
@@ -160,43 +118,5 @@
         "url": "https://itch.gerardgascon.com/wowie-game-jam",
         "date": "2019",
         "description": "The recoil is your movement."
-    },
-    {
-        "type": "talk",
-        "title": "🧙 The art of programming: the invisible magic behind video games",
-        "url": "https://github.gerardgascon.com/Recerca-Cerdanya-Talk",
-        "place": "A l’estiu, recerca’t!",
-        "date": "2023",
-        "description": "An introduction to game feel."
-    },
-    {
-        "type": "talk",
-        "title": "🧪 Game Development in 16-bits",
-        "url": "/talks/16bits_exporecerca.pdf",
-        "place": "XXIII Exporecerca Jove",
-        "date": "2022",
-        "description": "A short-form presentation about the research."
-    },
-    {
-        "type": "talk",
-        "title": "🧑‍💻 Game Development in 16-bits",
-        "url": "/talks/16bits_arxiu.pdf",
-        "place": "Arxiu Comarcal de l'Alt Urgell",
-        "date": "2022",
-        "description": "The development of the research."
-    },
-    {
-        "type": "other",
-        "title": "🖼️ GLCD Image Converter",
-        "url": "https://github.gerardgascon.com/GLCDImageConverter",
-        "date": "2023",
-        "description": "A basic tool for converting an image to a GLCD-compatible format."
-    },
-    {
-        "type": "other",
-        "title": "✈️ VueQuest",
-        "url": "https://devpost.com/software/vuequest",
-        "date": "2023",
-        "description": "Multiplayer narrative game with generative story."
     }
 ]
