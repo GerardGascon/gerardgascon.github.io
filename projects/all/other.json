@@ -1,13 +1,11 @@
 [
     {
-        "type": "other",
         "title": "🖼️ GLCD Image Converter",
         "url": "https://github.gerardgascon.com/GLCDImageConverter",
         "date": "2023",
         "description": "A basic tool for converting an image to a GLCD-compatible format."
     },
     {
-        "type": "other",
         "title": "✈️ VueQuest",
         "url": "https://devpost.com/software/vuequest",
         "date": "2023",
