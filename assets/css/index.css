@@ -24,20 +24,6 @@ footer {
 	text-align: center;
 }
 
-.pages {
-	margin-left: 20px;
-	font-size: 25px;
-	line-height: 10px;
-	font-weight: 200;
-}
-
-.pages a {
-	text-decoration: none;
-	color: #000000;
-	transition: 150ms;
-	display: table;
-}
-
 .button {
     text-align: center;
     margin: 32px auto;
@@ -59,10 +45,6 @@ footer {
 .button a:hover {
 	color: var(--highlight-color);
 	border-color: var(--highlight-color);
-}
-
-.pages a:hover {
-	color: var(--highlight-color);
 }
 
 .banner {

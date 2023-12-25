@@ -1,0 +1,76 @@
+<div class="sidenav">
+    <header>
+        <img src="{{ "/assets/images/profile.png" | relative_url }}" />
+        <p class="name">Gerard Gascón</p>
+        <hr />
+        <p class="description">Self-taught game developer.</p>
+        <hr />
+        <div class="pages">
+            <p><a href="/"><i class="fa-solid fa-house"></i><span>HOME</span></a></p>
+            <p><a href="{{ "/about-me/" | relative_url }}"><i class="fa-solid fa-circle-info"></i><span>ABOUT ME</span></a></p>
+            <p><a href="/projects/"><i class="fas fa-folder"></i><span>PROJECTS</span></a></p>
+        </div>
+    </header>
+
+    <footer class="contacts">
+        <h1>Contact</h1>
+        <ul>
+            <li>
+                <a
+                    href="https://linkedin.gerardgascon.com" target="_blank"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+            </li>
+            <li>
+                <a href="https://twitter.gerardgascon.com" target="_blank"
+                    ><i class="fa-brands fa-twitter"></i
+                ></a>
+            </li>
+            <li>
+                <a href="mailto:ggasconmoline@gmail.com" target="_blank"
+                    ><i class="fa-solid fa-envelope"></i
+                ></a>
+            </li>
+            <li>
+                <a href="https://threads.gerardgascon.com" target="_blank">
+                    <i class="fa-brands fa-threads"></i
+                ></a>
+            </li>
+            <li>
+                <a rel="me" href="https://mastodon.gerardgascon.com" target="_blank"
+                    ><i class="fa-brands fa-mastodon"></i
+                ></a>
+            </li>
+            <li>
+                <a href="https://telegram.gerardgascon.com" target="_blank"
+                    ><i class="fa-brands fa-telegram"></i
+                ></a>
+            </li>
+        </ul>
+    </footer>
+</div>
+
+<div class="header">
+    <div class="content">
+        <button id="sidebar-enable" onclick="toggleSidebar()"><i class="fas fa-bars fa-fw"></i></button>
+        <button id="sidebar-disable" onclick="toggleSidebar()"><i class="fa-solid fa-x"></i></button>
+        <div id="topbar-title">Gerard Gascón</div>
+        <button id="dummy"><i class="fas fa-bars fa-fw"></i></button>
+    </div>
+</div>
+
+<script>
+    function toggleSidebar() {
+        var body = document.body;
+
+        // Check if the sidebar is currently enabled
+        var isSidebarEnabled = body.hasAttribute('sidebar-display');
+
+        // Toggle the attribute based on the current state
+        if (isSidebarEnabled) {
+            body.removeAttribute('sidebar-display');
+        } else {
+            body.setAttribute('sidebar-display', '');
+        }
+    }
+</script>

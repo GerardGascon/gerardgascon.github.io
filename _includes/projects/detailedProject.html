@@ -1,0 +1,12 @@
+<a class="project" href="{{game.url}}" ,="" target="_blank">
+    <img src="{{ "{{game.image}}" | relative_url }}" />
+    <div class="content">
+        <div class="title">
+            <h3>{{ game.title }}</h3>
+            <p><nobr>{{ game.release }}</nobr></p>
+        </div>
+        <blockquote>
+            {{ game.description }}
+        </blockquote>
+    </div>
+</a>
