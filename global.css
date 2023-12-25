@@ -1,4 +1,4 @@
 :root {
 	--highlight-color: #00b4ff;
-    --transition-duration: 150ms;
+    --transition-duration: .35s;
 }
