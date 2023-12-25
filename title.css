@@ -1,0 +1,21 @@
+@media (min-width: 850px){
+    .main h1 {
+        font-size: 150px;
+        font-weight: bold;
+    }
+    .main .mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 850px){
+    .main h1 {
+        margin-bottom: 1em; 
+        margin-top: 1em;
+        font-size: 75px;
+        font-weight: bold;
+    }
+    .main .pc {
+        display: none;
+    }
+}

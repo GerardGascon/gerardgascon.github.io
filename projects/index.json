@@ -1,0 +1,106 @@
+[
+    {
+        "type": "game",
+        "image": "/images/projects/just_in_crime.png",
+        "title": "🔍 Just in Crime",
+        "url": "https://steam.gerardgascon.com",
+        "date": "TBD",
+        "description": "A detective video game in which you play a detective dog and a wizard cat. With a twist; you are able to travel back in time and examine the crime scene a few seconds before it happened."
+    },
+    {
+        "type": "game",
+        "image": "/images/projects/mercorona.png",
+        "title": "🛒 Mercorona",
+        "url": "https://itch.gerardgascon.com/mercorona",
+        "date": "2020",
+        "description": "A post-jam game from the Coronavirus Game Jam about trying to buy the maximum amount of food in an infinite runner game."
+    },
+    {
+        "type": "research",
+        "image": "/images/projects/16_bits.png",
+        "title": "👾 Game Development in <nobr>16-bits</nobr>",
+        "url": "/GameDevelopmentIn16Bits.pdf",
+        "date": "2021-22",
+        "description": "A research project about developing a video game for the Sega Mega Drive in 2021. This is only available in Catalan."
+    },
+    {
+        "type": "research",
+        "image": "/images/projects/video_card.png",
+        "title": "📽️ Yet Another World’s Worst Video Card",
+        "url": "https://hackaday.io/project/186465-yet-another-worlds-worst-video-card",
+        "date": "2022",
+        "description": "A simple research project based on Ben Eater’s video series about building a video card on breadboards. In this project, I reduced the memory usage by only having 1-bit images."
+    },
+    {
+        "type": "tool",
+        "image": "/images/projects/simple_tools.png",
+        "title": "🛠️ Simple Tools",
+        "url": "https://itch.gerardgascon.com/simple-tools",
+        "date": "2020-22",
+        "description": "Made during the Game Jams for the Game Jams, Simple Tools is a bunch of simple and useful tools to use in your Unity projects, with the main goal of making them simple and as fast as possible to implement."
+    },
+    {
+        "type": "tool",
+        "image": "/images/projects/platformer_engine.png",
+        "title": "🏃 Platformer Engine",
+        "url": "https://github.gerardgascon.com/PlatformerEngine",
+        "date": "2022",
+        "description": "A basic SGDK project to learn how it works and also be a good basis to learn how to make a platformer game for the Mega Drive."
+    },
+    {
+        "type": "jam",
+        "image": "/images/projects/figments.png",
+        "title": "🌴 Figments of the Night",
+        "url": "https://froglake.itch.io/figments-of-the-night",
+        "date": "2023",
+        "description": "A game developed for the Indie Spain Jam 2023 where you wake up on a deserted island with no memory."
+    },
+    {
+        "type": "jam",
+        "image": "/images/projects/trorb.png",
+        "title": "🔮 TRORB",
+        "url": "https://froglake.itch.io/trorb",
+        "date": "2023",
+        "description": "A game developed for the List Jam 2 about a troll that must protect the orb that constantly changes the level and gameplay from an unstoppable ghost."
+    },
+    {
+        "type": "jam",
+        "image": "/images/projects/flurfels.png",
+        "title": "🎂 Mr. Flurfels & Catarina y la tarta perdida",
+        "url": "https://itch.gerardgascon.com/mr-flurfels-catarina-y-la-tarta-perdida",
+        "date": "2022",
+        "description": "A game developed for the Indie Spain Jam 2022 about solving a mystery through time of a cake that went missing."
+    },
+    {
+        "type": "jam",
+        "image": "/images/projects/domyno.png",
+        "title": "🔴 Domyno",
+        "url": "https://itch.gerardgascon.com/domyno",
+        "date": "2021",
+        "description": "A game developed for the MashUp Game Jam 2 about using dominoes to press a button."
+    },
+    {
+        "type": "jam",
+        "image": "/images/projects/cd_room.png",
+        "title": "💿 CD-ROOM",
+        "url": "https://charliebluewood.itch.io/cd-room",
+        "date": "2020",
+        "description": "A game developed for the Disc Room Game Jam about a character that shoots CDs, but they are also its health."
+    },
+    {
+        "type": "jam",
+        "image": "/images/projects/mediepals.png",
+        "title": "⚔️ Mediepals",
+        "url": "https://itch.gerardgascon.com/mediepals",
+        "date": "2020",
+        "description": "A game developed for the Spain Game Devs Jam II about a birthday party with a \"medieval\" tournament inside it."
+    },
+    {
+        "type": "jam",
+        "image": "/images/projects/fur_war.png",
+        "title": "🦊 Fur War",
+        "url": "https://itch.gerardgascon.com/fur-war",
+        "date": "2020",
+        "description": "A game developed for the Coronavirus Game Jam II about a red panda with a spaceship that has to enable all the base platforms."
+    }
+]
