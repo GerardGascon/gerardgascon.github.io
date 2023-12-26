@@ -60,16 +60,35 @@
 </div>
 
 <script>
-    function toggleSidebar() {
-        var body = document.body;
+    var savedScrollPosition;
+    var body = document.body;
 
+    function openPopup() {
+        // Save the current scroll position
+        savedScrollPosition = window.pageYOffset;
+        var main = document.querySelector('.main');
+        // Lock the scroll
+        main.style.top = `-${savedScrollPosition}px`;
+    }
+
+    function closePopup() {
+        // Restore the scroll position
+        window.scrollTo(0, savedScrollPosition);
+        var main = document.querySelector('.main');
+        main.style.top = null;
+        //window.scrollBy(0, savedScrollPosition);
+    }
+
+    function toggleSidebar() {
         // Check if the sidebar is currently enabled
         var isSidebarEnabled = body.hasAttribute('sidebar-display');
 
         // Toggle the attribute based on the current state
         if (isSidebarEnabled) {
             body.removeAttribute('sidebar-display');
+            closePopup();
         } else {
+            openPopup();
             body.setAttribute('sidebar-display', '');
         }
     }
