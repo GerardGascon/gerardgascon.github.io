@@ -138,6 +138,13 @@
 		transform: translateX(0)
 	}
 
+	[sidebar-display] {
+		transform: translateX(0);
+		overflow-y: hidden;
+		height: 100vh;
+		height: 100dvh;
+	}
+
 	[sidebar-display] .main, [sidebar-display] .header {
 		transform: translateX(260px)
 	}
