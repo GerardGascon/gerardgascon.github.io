@@ -1,0 +1,63 @@
+<html lang="{{ site.lang | default: "en-US" }}">
+	<head>
+		{% include head.html %}
+
+		<link rel="stylesheet" href="{{ "/assets/css/projects.css" | relative_url }}" />
+	</head>
+	<body>
+		{% include sidenav.html %}
+
+		<div class="main">
+			<h1 style="line-height: 2em;">Projects</h1>
+			<div id="projects">
+				<hr>
+				<h2>Games</h2>
+				<p class="summary">
+					Complete games that I've been part of.
+				</p>
+				{% for list in site.projects %}
+					{%for game in list.games %}
+						{% include projects/detailedProject.html %}
+					{% endfor %}
+				{% endfor %}
+
+				<hr>
+				<h2>Researches</h2>
+				<p class="summary">
+					Interesting topics that I've investigated and written about.
+				</p>
+				{% for list in site.projects %}
+					{%for game in list.researches %}
+						{% include projects/detailedProject.html %}
+					{% endfor %}
+				{% endfor %}
+
+				<hr>
+				<h2>Development Tools</h2>
+				<p class="summary">
+					Tools that I have developed mainly for myself, but also for anyone to use.
+				</p>
+				{% for list in site.projects %}
+					{%for game in list.tools %}
+						{% include projects/detailedProject.html %}
+					{% endfor %}
+				{% endfor %}
+
+				<hr>
+				<h2>Game Jams</h2>
+				<p class="summary">
+					A list of some game jam projects that I've developed over the years.
+				</p>
+				{% for list in site.projects %}
+					{%for game in list.jams %}
+						{% include projects/detailedProject.html %}
+					{% endfor %}
+				{% endfor %}
+
+				<hr>
+				<h2>But Wait, There's More!</h2>
+				<a class="more" href="all/" ,="">See all projects <i class="fa-solid fa-angle-right"></i></a>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,62 @@
+<html lang="{{ site.lang | default: "en-US" }}">
+	<head>
+		{% include head.html %}
+		<link rel="stylesheet" href="{{ "/assets/css/projects.all.css" | relative_url }}" />
+	</head>
+	<body>
+		{% include sidenav.html %}
+
+		<div class="main">
+			<h1 style="line-height: 2em;">All Projects</h1>
+			<div id="projects">
+				<hr>
+				<h2>Games</h2>
+				{% for list in site.projectsall %}
+					{%for game in list.games %}
+						{% include projects/simplifiedProject.html %}
+					{% endfor %}
+				{% endfor %}
+
+				<hr>
+				<h2>Researches</h2>
+				{% for list in site.projectsall %}
+					{%for game in list.researches %}
+						{% include projects/simplifiedProject.html %}
+					{% endfor %}
+				{% endfor %}
+
+				<hr>
+				<h2>Talks & Interviews</h2>
+				{% for list in site.projectsall %}
+					{%for game in list.talks %}
+						{% include projects/simplifiedTalk.html %}
+					{% endfor %}
+				{% endfor %}
+
+				<hr>
+				<h2>Development Tools</h2>
+				{% for list in site.projectsall %}
+					{%for game in list.tools %}
+						{% include projects/simplifiedProject.html %}
+					{% endfor %}
+				{% endfor %}
+
+				<hr>
+				<h2>Game Jams</h2>
+				{% for list in site.projectsall %}
+					{%for game in list.jams %}
+						{% include projects/simplifiedProject.html %}
+					{% endfor %}
+				{% endfor %}
+
+				<hr>
+				<h2>Other</h2>
+				{% for list in site.projectsall %}
+					{%for game in list.other %}
+						{% include projects/simplifiedProject.html %}
+					{% endfor %}
+				{% endfor %}
+			</div>
+		</div>
+	</body>
+</html>
