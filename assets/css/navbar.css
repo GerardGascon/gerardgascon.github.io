@@ -178,7 +178,7 @@
 		transition: transform .4s ease;
         font-size: 28px; /* Increased text to enable scrolling */
         padding: 0px 18px;
-		margin-top: 3rem;
+		margin-top: var(--header-height);
     }
 
 	.header {
@@ -215,5 +215,14 @@
 
 	.header #dummy {
 		visibility: hidden;
+	}
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav footer a {
+		font-size: 18px;
 	}
 }
