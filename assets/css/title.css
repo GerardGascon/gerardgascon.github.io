@@ -52,15 +52,12 @@
     text-align: center;
 }
 .icon a {
-    margin: 0 auto 16px;
     display: inline-block;
     color: #000;
     font-weight: 500;
     font-size: 2em;
 	transition-duration: var(--transition-duration);
     text-decoration: none !important;
-    min-width: 200px;
-    padding: 0 20px;
 }
 .icon a:hover {
 	transform: scale(1.1);
