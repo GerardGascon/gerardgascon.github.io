@@ -53,16 +53,15 @@
 }
 .icon a {
     display: inline-block;
-    color: #000;
+    color: var(--highlight-color);
     font-weight: 500;
     font-size: 2em;
 	transition-duration: var(--transition-duration);
     text-decoration: none !important;
+    user-select: none;
 }
 .icon a:hover {
 	transform: scale(1.1);
-	color: var(--highlight-color);
-	border-color: var(--highlight-color);
 }
 
 .icon a:active {

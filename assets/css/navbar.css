@@ -4,6 +4,7 @@
 	font-size: 18px;
 	line-height: 10px;
 	font-weight: normal;
+	user-select: none;
 }
 
 .pages a {
@@ -47,6 +48,8 @@
 	-webkit-flex-direction: column;
 	-ms-flex-direction: column;
 	flex-direction: column;
+
+	user-select: none;
 }
 .sidenav img {
 	width: 80%;
@@ -74,7 +77,6 @@
 	margin-bottom: 0px;
 	color: #000000;
 	display: block;
-	font-variant: small-caps;
 	font-weight: normal;
 }
 .sidenav .contacts ul {
@@ -113,15 +115,17 @@
 	border-left: 0px;
 }
 .sidenav footer a {
-    padding: 6px 4px 6px 8px;
+    padding: 6px;
     text-decoration: none;
     font-size: 25px;
     color: #5e5e5e;
     display: block;
     transition: var(--transition-duration);
+	border-radius: 0.625rem;
 }
 .sidenav footer a:hover {
-    color: var(--highlight-color);
+	transform: scale(1.2);
+	background-color: #e9eff5;
 }
 @media (min-width: 750px){
 	.main {
@@ -186,6 +190,7 @@
 		background-color: white;
 		border-bottom: 1px solid #efefef;
 		position: fixed;
+		user-select: none;
 		width: 100vw;
 	}
 
