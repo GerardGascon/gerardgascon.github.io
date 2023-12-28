@@ -9,6 +9,10 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{site.url}}{{page.url}}" />
 <meta property="og:image" content="{{site.url}}/assets/images/profile.png" />
+<meta property="og:description" content="{{page.description}}" />
+{% if page.isMain == false %}
+<meta property="og:site_name" content="{{site.title}}" />
+{% endif %}
 
 <link rel="canonical" href="{{site.url}}{{page.url}}" />
 
