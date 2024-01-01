@@ -4,6 +4,19 @@
 	--highlight-color: #00b4ff;
     --transition-duration: 0.35s;
     --header-height: 3rem;
+
+	--text-color: black;
+	--default-box-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0, rgba(211, 209, 209, 0.15) 0 0 0 1px;
+	--hr-color: rgba(0, 0, 0, .3);
+
+	--sidenav-color: #f6f8fa;
+	--sidenav-border-color: #efefef;
+	--sidenav-link-color: #5e5e5e;
+	--sidenav-button-background: #e9eff5;
+	--sidenav-button-color: #545454;
+
+	--project-color: #1b1b1b;
+	--project-hover-overlay: rgba(0, 0, 0, 0.035);
 }
 
 body {

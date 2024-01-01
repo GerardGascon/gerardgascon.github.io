@@ -11,7 +11,7 @@
 	padding-left: 10px;
 	padding-right: 10px;
 	text-decoration: none;
-	color: #545454;
+	color: var(--sidenav-button-color);
 	transition: var(--transition-duration);
 	display: block;
 	line-height: 2.5rem;
@@ -24,7 +24,7 @@
 }
 
 .pages a:hover {
-	background-color: #e9eff5;
+	background-color: var(--sidenav-button-background);
 }
 
 .sidenav {
@@ -35,8 +35,8 @@
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: #f6f8fa;
-	border-right: 1px solid #efefef;
+	background-color: var(--sidenav-color);
+	border-right: 1px solid var(--sidenav-border-color);
 	overflow-x: hidden;
 	padding-top: 20px;
 	display: -webkit-box;
@@ -65,7 +65,7 @@
 	font-weight: bold;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	color: #000000;
+	color: var(--text-color);
 	display: block;
 }
 .sidenav .contacts h1 {
@@ -75,7 +75,7 @@
 	font-weight: lighter;
 	margin-top: 10px;
 	margin-bottom: 0px;
-	color: #000000;
+	color: var(--text-color);
 	display: block;
 	font-weight: normal;
 }
@@ -98,7 +98,7 @@
 	font-size: 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	color: #5e5e5e;
+	color: var(--sidenav-link-color);
 	display: block;
 }
 .sidenav footer {
@@ -108,8 +108,8 @@
 .sidenav hr {
 	height: 0px;
 	width: 90%;
-	color: #5e5e5e;
-	border: 1px solid #5e5e5e;
+	color: var(--sidenav-link-color);
+	border: 1px solid var(--sidenav-link-color);
 	border-bottom: 0px;
 	border-right: 0px;
 	border-left: 0px;
@@ -118,14 +118,14 @@
     padding: 6px;
     text-decoration: none;
     font-size: 25px;
-    color: #5e5e5e;
+    color: var(--sidenav-link-color);
     display: block;
     transition: var(--transition-duration);
 	border-radius: 0.625rem;
 }
 .sidenav footer a:hover {
 	transform: scale(1.2);
-	background-color: #e9eff5;
+	background-color: var(--sidenav-button-background);
 }
 @media (min-width: 750px){
 	.main {
@@ -187,8 +187,8 @@
 
 	.header {
 		z-index: 1;
-		background-color: white;
-		border-bottom: 1px solid #efefef;
+		background-color: var(--sidenav-color);
+		border-bottom: 1px solid var(--sidenav-border-color);
 		position: fixed;
 		user-select: none;
 		width: 100vw;

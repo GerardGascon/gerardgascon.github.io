@@ -5,7 +5,7 @@
 }
 #projects hr {
 	margin-top: 50px;
-	border-top: .1px solid rgba(0, 0, 0, .3);
+	border-top: .1px solid var(--hr-color);
 	border-right: 0px;
 	border-left: 0px;
 	border-bottom: 0px;
@@ -15,14 +15,14 @@
 	font-weight: 200;
 	font-size: 80%;
 	margin-top: -25px;
-	color: #5e5e5e;
+	color: var(--sidenav-link-color);
 }
 
 .more {
 	font-weight: 200;
 	font-size: 80%;
 	margin-top: -25px;
-	color: #5e5e5e;
+	color: var(--sidenav-link-color);
 	text-decoration: none;
 
 	display: table;
@@ -40,10 +40,10 @@
 		overflow: hidden;
 		display: block;
 		text-align: left;
-		color: #1b1b1b;
+		color: var(--project-color);
 		margin-bottom: 16px;
 		border-radius: 0.625rem;
-		box-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0, rgba(211, 209, 209, 0.15) 0 0 0 1px;
+		box-shadow: var(--default-box-shadow);
 		text-decoration: none;
 		transition-duration: var(--transition-duration);
 	}
@@ -57,10 +57,10 @@
 	.project {
 		overflow: hidden;
 		text-align: left;
-		color: #1b1b1b;
+		color: var(--project-color);
 		margin-bottom: 16px;
 		border-radius: 0.625rem;
-		box-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0, rgba(211, 209, 209, 0.15) 0 0 0 1px;
+		box-shadow: var(--default-box-shadow);
 		text-decoration: none;
 		transition-duration: var(--transition-duration);
 		height: 200px;
@@ -118,7 +118,7 @@
 	transition-duration: var(--transition-duration);
 }
 .project:hover::before {
-	background-color: rgba(0, 0, 0, 0.035);
+	background-color: var(--project-hover-overlay);
 }
 .project:hover {
 	transform: scale(1.01);
