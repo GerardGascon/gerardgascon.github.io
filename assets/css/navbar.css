@@ -30,7 +30,7 @@
 .sidenav {
 	height: 100vh;
 	height: 100dvh;
-	width: 256px;
+	width: var(--sidenav-width);
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -129,7 +129,7 @@
 }
 @media (min-width: 750px){
 	.main {
-		margin-left: 256px; /* Same as the width of the sidenav */
+		margin-left: var(--sidenav-width); /* Same as the width of the sidenav */
 		font-size: 28px; /* Increased text to enable scrolling */
 		padding: 0px 18px;
 	}
@@ -148,7 +148,7 @@
 	}
 
 	[sidebar-display] .main, [sidebar-display] .header {
-		transform: translateX(260px)
+		transform: translateX(var(--sidenav-width))
 	}
 
 	[sidebar-display] .header #sidebar-enable {
@@ -165,9 +165,10 @@
 	}
 
 	.sidenav {
+		z-index: 2;
 		transition: transform .4s ease;
-		transform: translateX(-260px);
-		-webkit-transform: translateX(-260px)
+		transform: translateX(calc(var(--sidenav-width) * -1));
+		-webkit-transform: translateX(calc(var(--sidenav-width) * -1))
 	}
 
     .banner {
