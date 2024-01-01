@@ -46,6 +46,7 @@
 		box-shadow: var(--default-box-shadow);
 		text-decoration: none;
 		transition-duration: var(--transition-duration);
+		background-color: var(--project-background-color);
 	}
 	.project img {
 		object-fit: cover;
@@ -67,6 +68,7 @@
 		display: grid;
 		grid-template-columns: auto 1fr;
 		grid-template-rows: 100%;
+		background-color: var(--project-background-color);
 	}
 	.project img {
 		height: 100%;
