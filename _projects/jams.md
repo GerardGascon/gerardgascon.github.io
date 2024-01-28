@@ -1,5 +1,11 @@
 ---
 jams:
+- image: "/assets/images/projects/emojiji.png"
+  title: "😂 Emojiji"
+  url: https://geri8.itch.io/emojiji
+  release: '2024'
+  description: A game developed for the MálagaJam Weekend 17 where you have to complete
+    some jokes using only emojis.
 - image: "/assets/images/projects/figments.png"
   title: "🌴 Figments of the Night"
   url: https://froglake.itch.io/figments-of-the-night

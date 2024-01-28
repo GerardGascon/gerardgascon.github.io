@@ -1,5 +1,9 @@
 ---
 jams:
+- title: "😂 Emojiji"
+  url: https://geri8.itch.io/emojiji
+  release: '2024'
+  description: Try completing the joke using only emojis.
 - title: "🌴 Figments of the Night"
   url: https://froglake.itch.io/figments-of-the-night
   release: '2023'
