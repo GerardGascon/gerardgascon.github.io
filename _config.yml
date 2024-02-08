@@ -5,5 +5,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "Gerard Gascón" # the name of your site, e.g. ACME Corp.
 
 collections:
-  - projects
-  - projectsall
+  - games
+  - jams
+  - other
+  - researches
+  - talks
+  - tools

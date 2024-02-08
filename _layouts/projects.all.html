@@ -11,50 +11,44 @@
 			<div id="projects">
 				<hr>
 				<h2>Games</h2>
-				{% for list in site.projectsall %}
-					{%for game in list.games %}
-						{% include projects/simplifiedProject.html %}
-					{% endfor %}
+				{% assign games = site.games | reverse %}
+				{% for game in games %}
+					{% include projects/simplifiedProject.html %}
 				{% endfor %}
 
 				<hr>
 				<h2>Researches</h2>
-				{% for list in site.projectsall %}
-					{%for game in list.researches %}
-						{% include projects/simplifiedProject.html %}
-					{% endfor %}
+				{% assign researches = site.researches | reverse %}
+				{% for game in researches %}
+					{% include projects/simplifiedProject.html %}
 				{% endfor %}
 
 				<hr>
 				<h2>Talks & Interviews</h2>
-				{% for list in site.projectsall %}
-					{%for game in list.talks %}
-						{% include projects/simplifiedTalk.html %}
-					{% endfor %}
+				{% assign talks = site.talks | reverse %}
+				{% for game in talks %}
+					{% include projects/simplifiedTalk.html %}
 				{% endfor %}
 
 				<hr>
 				<h2>Development Tools</h2>
-				{% for list in site.projectsall %}
-					{%for game in list.tools %}
-						{% include projects/simplifiedProject.html %}
-					{% endfor %}
+				{% assign tools = site.tools | reverse %}
+				{% for game in tools %}
+					{% include projects/simplifiedProject.html %}
 				{% endfor %}
 
 				<hr>
 				<h2>Game Jams</h2>
-				{% for list in site.projectsall %}
-					{%for game in list.jams %}
-						{% include projects/simplifiedProject.html %}
-					{% endfor %}
+				{% assign jams = site.jams | reverse %}
+				{% for game in jams %}
+					{% include projects/simplifiedProject.html %}
 				{% endfor %}
 
 				<hr>
 				<h2>Other</h2>
-				{% for list in site.projectsall %}
-					{%for game in list.other %}
-						{% include projects/simplifiedProject.html %}
-					{% endfor %}
+				{% assign other = site.other | reverse %}
+				{% for game in other %}
+					{% include projects/simplifiedProject.html %}
 				{% endfor %}
 			</div>
 		</div>

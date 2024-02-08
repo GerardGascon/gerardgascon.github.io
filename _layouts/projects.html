@@ -15,10 +15,11 @@
 				<p class="summary">
 					Complete games that I've been part of.
 				</p>
-				{% for list in site.projects %}
-					{%for game in list.games %}
+				{% assign games = site.games | reverse %}
+				{% for game in games %}
+					{% if game.remarkable == true %}
 						{% include projects/detailedProject.html %}
-					{% endfor %}
+					{% endif %}
 				{% endfor %}
 
 				<hr>
@@ -26,10 +27,11 @@
 				<p class="summary">
 					Interesting topics that I've investigated and written about.
 				</p>
-				{% for list in site.projects %}
-					{%for game in list.researches %}
+				{% assign researches = site.researches | reverse %}
+				{% for game in researches %}
+					{% if game.remarkable == true %}
 						{% include projects/detailedProject.html %}
-					{% endfor %}
+					{% endif %}
 				{% endfor %}
 
 				<hr>
@@ -37,10 +39,11 @@
 				<p class="summary">
 					Tools that I have developed mainly for myself, but also for anyone to use.
 				</p>
-				{% for list in site.projects %}
-					{%for game in list.tools %}
+				{% assign tools = site.tools | reverse %}
+				{% for game in tools %}
+					{% if game.remarkable == true %}
 						{% include projects/detailedProject.html %}
-					{% endfor %}
+					{% endif %}
 				{% endfor %}
 
 				<hr>
@@ -48,10 +51,11 @@
 				<p class="summary">
 					A list of some game jam projects that I've developed over the years.
 				</p>
-				{% for list in site.projects %}
-					{%for game in list.jams %}
+				{% assign jams = site.jams | reverse %}
+				{% for game in jams %}
+					{% if game.remarkable == true %}
 						{% include projects/detailedProject.html %}
-					{% endfor %}
+					{% endif %}
 				{% endfor %}
 
 				<hr>
