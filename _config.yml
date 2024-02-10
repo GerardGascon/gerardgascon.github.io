@@ -5,9 +5,21 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "Gerard Gascón" # the name of your site, e.g. ACME Corp.
 
 collections:
-  - games
-  - jams
-  - other
-  - researches
-  - talks
-  - tools
+  games:
+    output: true
+    permalink: /games/:title
+  jams:
+    output: true
+    permalink: /jams/:title
+  other:
+    output: true
+    permalink: /other/:title
+  researches:
+    output: true
+    permalink: /researches/:title
+  talks:
+    output: true
+    permalink: /talks/:year/:month/:day/:title
+  tools:
+    output: true
+    permalink: /tools/:title

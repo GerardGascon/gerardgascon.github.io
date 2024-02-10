@@ -24,7 +24,7 @@
 				{% endfor %}
 
 				<hr>
-				<h2>Talks & Interviews</h2>
+				<h2>Talks</h2>
 				{% assign talks = site.talks | reverse %}
 				{% for game in talks %}
 					{% include projects/simplifiedTalk.html %}
@@ -48,7 +48,7 @@
 				<h2>Other</h2>
 				{% assign other = site.other | reverse %}
 				{% for game in other %}
-					{% include projects/simplifiedProject.html %}
+					{% include projects/simplifiedOther.html %}
 				{% endfor %}
 			</div>
 		</div>

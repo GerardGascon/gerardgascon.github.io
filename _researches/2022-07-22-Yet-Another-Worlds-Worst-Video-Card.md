@@ -2,8 +2,25 @@
 title: "📽️ Yet Another World’s Worst Video Card"
 image: "/assets/images/projects/video_card.png"
 release: 2022
-link: https://hackaday.io/project/186465-yet-another-worlds-worst-video-card
 description: A simple research project based on Ben Eater’s video series about building a video card on breadboards. In this project, I reduced the memory usage by only having 1-bit images.
 short-description: Creating a video card from scratch.
 remarkable: true
+banner: /assets/images/banners/GraphicsCard.png
+tools:
+ - "/assets/images/logos/Kicad.png"
+ - "/assets/images/logos/Arduino.png"
+download:
+  - img: "/assets/images/logos/Hackaday.png"
+    link: https://hackaday.io/project/186465-yet-another-worlds-worst-video-card
+layout: research
 ---
+
+I once stumbled across with Ben Eater's "[World's Worst Video Card](https://www.youtube.com/watch?v=l7rce6IQDWs/){:target="_blank"}" video. When I saw his implementation with a 6502 computer, I thought that by reducing the memory use I could use a dual port SRAM and skip all the video card's cycle stealing.
+
+So, this is what I did, a 1-bit sequel to the World's Worst Video Card that nobody asked for.
+
+The video card uses a 4kB dual port SRAM, a 25.175MHz oscillator downclocked to 6.29375MHz by a counter and has been tested using an Arduino Mega. In this version I generate an image with the size of 160x120px (An eighth part of 640x480).
+
+## Languages
+
+> English
