@@ -1,5 +1,5 @@
 ---
-title: "🧪 Game Development in 16-bits"
+title: "🧪 Game Development in 16&#8209;bits"
 image: null
 release: 2022
 place: XXIII Exporecerca Jove

@@ -1,5 +1,5 @@
 ---
-title: "👾 Game Development in <nobr>16-bits</nobr>"
+title: "👾 Game Development in 16&#8209;bits"
 image: "/assets/images/projects/16_bits.png"
 release: 2021-22
 description: A research project about developing a video game from scratch for the Sega Mega Drive in 2021 using SGDK.
