@@ -13,7 +13,7 @@ tools:
 download:
   - img: "/assets/images/logos/Pdf.png"
     link: /assets/talks/art_programacio.pdf
-  - img: "/assets/images/logos/GitHub.png"
+  - img: "/assets/images/logos/Github.png"
     link: https://github.gerardgascon.com/Recerca-Cerdanya-Talk
 layout: talk
 ---
