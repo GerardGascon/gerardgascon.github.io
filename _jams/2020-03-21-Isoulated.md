@@ -19,6 +19,10 @@ layout: game
 
 Equiped with your lantern, reach your house in a village totally dominated by beings of darkness...
 
+## Awards
+
+> Coronavirus Game Jam --- Most Original Game
+
 ## The Team
 
 > Gerard Gascón Moliné
