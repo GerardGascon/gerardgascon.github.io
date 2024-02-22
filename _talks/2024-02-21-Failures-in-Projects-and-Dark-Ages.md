@@ -1,0 +1,25 @@
+---
+title: "🌑 Failures in Projects and Dark Ages"
+image: null
+release: 2024
+place: Barcelona Game Creators
+description: null
+short-description: Every game developer has some failures.
+remarkable: false
+banner: /assets/images/banners/Failures.png
+city: Barcelona
+download:
+  - img: "/assets/images/logos/Pdf.png"
+    link: /assets/talks/fracasos_proyectos.pdf
+  - img: "/assets/images/logos/Blog.png"
+    link: https://blog.gerardgascon.com/posts/una-paseada-por-el-fracaso/
+layout: talk
+---
+
+Every game developer has abandoned or "failed" at completing at least one of their projects. Surprisingly, even though it's a wide-spread fact that this happens, no one wants to talk about it.
+
+For this reason, I wanted to showcase some of my abandoned projects and tell other developers how abandoning them don't make you a worse developer, but they help you become a better one.
+
+## Language
+
+> Spanish
