@@ -19,7 +19,7 @@ I once stumbled across with Ben Eater's "[World's Worst Video Card](https://www.
 
 So, this is what I did, a 1-bit sequel to the World's Worst Video Card that nobody asked for.
 
-The video card uses a 4kB dual port SRAM, a 25.175MHz oscillator downclocked to 6.29375MHz by a counter and has been tested using an Arduino Mega. In this version I generate an image with the size of 160x120px (An eighth part of 640x480).
+The video card uses a 4kB dual port SRAM, a 25.175MHz oscillator downclocked to 6.29375MHz by a counter and has been tested using an Arduino Mega. In this version I generate an image with the size of 160x120px (A sixteenth part of 640x480).
 
 ## Languages
 
