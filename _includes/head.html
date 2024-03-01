@@ -23,7 +23,11 @@
 
 <link rel="canonical" href="{{site.url}}{{page.url}}" />
 
+{% if page.isMain == true %}
 <title>{{ page.title }}</title>
+{% else %}
+<title>{{ page.title }} | {{ site.title }}</title>
+{% endif %}
 <link rel="stylesheet" href="{{ "/assets/css/global.css" | relative_url }}" />
 <link rel="stylesheet" href="{{ "/assets/css/navbar.css" | relative_url }}" />
 
