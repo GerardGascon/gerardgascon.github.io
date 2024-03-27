@@ -24,18 +24,17 @@
     }
 }
 
-.main .background {
-    animation: moveHeader 500s infinite;
-    animation-timing-function: linear;
-    -webkit-animation: moveHeader 500s infinite;
-    -webkit-animation-timing-function: linear;
-    left: 0px;
+.scrolling-image {
+    background: url("/assets/images/banner.png") repeat-x;
+    height: 100lvh;
+    width: calc(100lvh * 16);
+    background-size: cover;
+    animation: moveHeader 500s linear infinite;
+    z-index: -1;
+    position: fixed;
 
     filter: blur(10px);
     opacity: .3;
-    height: 100%;
-    z-index: -1;
-    position: fixed;
 }
 
 .main .resume p {
@@ -44,7 +43,7 @@
 }
 
 @keyframes moveHeader {
-    0% { transform: translateX(-50%); }
+    0% { transform: translateX(calc(-100lvh * 8)); }
     100% { transform: translateX(0%); }
 }
 

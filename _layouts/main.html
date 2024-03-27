@@ -7,9 +7,10 @@
 	<body>
 		{% include sidenav.html %}
 
-		<!--<img class="banner" src="{{ "/assets/images/banner.png" | relative_url }}" />-->
+		<div class="scrolling-image">
+			<!--<img src="{{ "/assets/images/banner.png" | relative_url }}">-->
+		</div>
 		<div class="main">
-			<img class="background" src="/assets/images/banner.png">
 			<h1>Gerard Gascón</h1>
 			<h2>Developer Portfolio</h2>
 			<div class="icon">
@@ -18,10 +19,8 @@
 					<i class="fa-solid fa-chevron-down"></i>
 				</a>
 			</div>
-
-			<!--<div style="margin-top: 75px;" class="button">
-				<a class="resume" href="/about-me/">Get To Know Me</a>
-			</div>-->
 		</div>
+
+		<script src="/assets/js/title.js"></script>
 	</body>
 </html>
