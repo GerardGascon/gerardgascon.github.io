@@ -18,8 +18,6 @@ Long time ago you started playing with a king of another kingdom to a strange ga
 
 That was like a simulation of a war, but the things have changed, the other king started killing your troops, until you are the only left...
 
-### This was solo developed
-
 ## Game Jam
 
 > [Brackeys Jam 2020.2 --- August 1st - 8th 2020 (1 week)](https://itch.io/jam/brackeys-4/){:target="_blank"}

@@ -56,8 +56,12 @@
 	color: var(--project-color);
 	font-size: 20px;
 	font-weight: normal;
-	text-decoration: none;
+	text-decoration: underline;
 	transition-duration: var(--transition-duration);
+}
+
+.main .content blockquote a {
+	text-decoration: none;
 }
 
 .main .content a:hover {

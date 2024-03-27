@@ -18,8 +18,6 @@ layout: game
 
 A game about a ball who can't move and for move it has to shoot for move to the opposite side.
 
-### This was solo developed
-
 ## Game Jam
 
 > [Wowie Jam! --- Feb. 1st - 4th 2019 (72 hours)](https://itch.io/jam/wowie-jam/){:target="_blank"}
