@@ -36,8 +36,9 @@
 
 .mt-3 {
 	height: var(--header-size);
+	box-shadow: var(--default-box-shadow);
 	overflow: hidden;
-	border-radius: 0.625rem;
+	border-radius: 1.5rem;
 	transition-duration: var(--transition-duration);
 }
 
@@ -80,7 +81,8 @@
 }
 
 .tool img {
-	border-radius: 0.625rem;
+	border-radius: 1rem;
+	box-shadow: var(--default-box-shadow);
 	width: 200px;
 }
 

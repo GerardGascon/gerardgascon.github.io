@@ -34,7 +34,7 @@
     position: fixed;
 
     filter: blur(10px);
-    opacity: .3;
+    opacity: var(--scroller-opacity);
 }
 
 .main .resume p {
