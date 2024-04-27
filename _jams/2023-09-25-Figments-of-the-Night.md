@@ -6,6 +6,23 @@ description: A game developed for the Indie Spain Jam 2023 where you wake up on 
 short-description: Explore an island with no memories.
 remarkable: true
 banner: /assets/images/banners/Figments.png
+gallery:
+  - type: image
+    link: "figments/1.png"
+  - type: image
+    link: "figments/2.png"
+  - type: image
+    link: "figments/3.png"
+  - type: image
+    link: "figments/4.png"
+  - type: image
+    link: "figments/5.png"
+  - type: image
+    link: "figments/6.png"
+  - type: image
+    link: "figments/7.png"
+  - type: image
+    link: "figments/8.png"
 tools:
  - "/assets/images/logos/Godot.png"
  - "/assets/images/logos/Ink.png"

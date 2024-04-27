@@ -6,6 +6,19 @@ description: A game developed for the Indie Spain Jam 2022 about solving a myste
 short-description: The jam game that became Just in Crime.
 remarkable: true
 banner: /assets/images/banners/Flurfels.png
+gallery:
+  - type: image
+    link: "mr-flurfels/1.png"
+  - type: image
+    link: "mr-flurfels/2.png"
+  - type: image
+    link: "mr-flurfels/3.png"
+  - type: image
+    link: "mr-flurfels/4.png"
+  - type: image
+    link: "mr-flurfels/5.gif"
+  - type: image
+    link: "mr-flurfels/6.png"
 tools:
  - "/assets/images/logos/Unity.png"
  - "/assets/images/logos/SimpleTools.png"
