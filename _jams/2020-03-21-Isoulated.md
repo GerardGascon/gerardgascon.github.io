@@ -12,6 +12,12 @@ gallery:
     link: "isoulated/trailer.mp4"
   - type: image
     link: "isoulated/1.gif"
+  - type: image
+    link: "isoulated/2.png"
+  - type: image
+    link: "isoulated/3.png"
+  - type: image
+    link: "isoulated/4.png"
 tools:
  - "/assets/images/logos/Unity.png"
 download:

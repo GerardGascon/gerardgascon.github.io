@@ -6,6 +6,21 @@ description: A simple research project based on Ben Eater’s video series about
 short-description: Creating a video card from scratch.
 remarkable: true
 banner: /assets/images/banners/GraphicsCard.png
+gallery:
+  - type: image
+    link: "video-card/1.jpg"
+  - type: image
+    link: "video-card/2.jpg"
+  - type: image
+    link: "video-card/3.jpg"
+  - type: image
+    link: "video-card/4.jpg"
+  - type: image
+    link: "video-card/5.jpg"
+  - type: image
+    link: "video-card/6.jpg"
+  - type: image
+    link: "video-card/7.jpg"
 tools:
  - "/assets/images/logos/Kicad.png"
  - "/assets/images/logos/Arduino.png"

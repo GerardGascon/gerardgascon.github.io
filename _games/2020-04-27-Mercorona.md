@@ -6,6 +6,23 @@ description: A post-jam game from the Coronavirus Game Jam about trying to buy t
 short-description: Go shopping during the quarentine.
 remarkable: true
 banner: /assets/images/banners/Mercorona.png
+gallery:
+  - type: image
+    link: "mercorona/1.jpg"
+  - type: image
+    link: "mercorona/2.png"
+  - type: image
+    link: "mercorona/3.png"
+  - type: image
+    link: "mercorona/4.png"
+  - type: image
+    link: "mercorona/5.png"
+  - type: image
+    link: "mercorona/6.png"
+  - type: image
+    link: "mercorona/7.png"
+  - type: image
+    link: "mercorona/8.png"
 tools:
  - "/assets/images/logos/Unity.png"
 download:

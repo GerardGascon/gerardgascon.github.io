@@ -6,6 +6,19 @@ description: A research project about developing a video game from scratch for t
 short-description: Programming for the Sega Mega Drive.
 remarkable: true
 banner: /assets/images/banners/16Bits.png
+gallery:
+  - type: image
+    link: "miner-mole/1.jpg"
+  - type: image
+    link: "miner-mole/2.png"
+  - type: image
+    link: "miner-mole/3.png"
+  - type: image
+    link: "miner-mole/4.png"
+  - type: image
+    link: "miner-mole/5.png"
+  - type: image
+    link: "miner-mole/6.png"
 tools:
  - "/assets/images/logos/Sgdk.png"
  - "/assets/images/logos/LDtk.png"

@@ -52,6 +52,21 @@
 					{{ content }}
 				</div>
 
+				{% if page.gallery %}
+					<h2>Gallery</h2>
+					<div class="gallery">
+						{% for image in page.gallery %}
+						{% if image['type'] == 'video' %}
+						<video src="/assets/images/galleries/{{ image['link'] }}" controls></video>
+						{% else %}
+						<a href="/assets/images/galleries/{{ image['link'] }}" target="_blank">
+							<img src="/assets/images/galleries/{{ image['link'] }}" alt="">
+						</a>
+						{% endif %}
+						{% endfor %}
+					</div>
+				{% endif %}
+
 				<div class="post-tail-wrapper text-muted">
 					{% if page.download.size > 0 %}
 						<h2>Learn More</h2>

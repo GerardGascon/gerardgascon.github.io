@@ -6,6 +6,25 @@ description: A detective video game in which you play a detective dog and a wiza
 short-description: Solve crimes with time travel.
 remarkable: true
 banner: /assets/images/banners/JustInCrime.png
+gallery:
+  - type: video
+    link: "just-in-crime/trailer.mp4"
+  - type: image
+    link: "just-in-crime/1.jpg"
+  - type: image
+    link: "just-in-crime/2.jpg"
+  - type: image
+    link: "just-in-crime/3.jpg"
+  - type: image
+    link: "just-in-crime/4.jpg"
+  - type: image
+    link: "just-in-crime/5.jpg"
+  - type: image
+    link: "just-in-crime/6.jpg"
+  - type: image
+    link: "just-in-crime/7.jpg"
+  - type: image
+    link: "just-in-crime/8.jpg"
 tools:
  - "/assets/images/logos/Unity.png"
  - "/assets/images/logos/Fmod.png"
