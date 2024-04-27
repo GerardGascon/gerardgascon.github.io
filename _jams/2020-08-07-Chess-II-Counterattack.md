@@ -6,6 +6,13 @@ description: null
 short-description: The chess king fights an infinite army.
 remarkable: false
 banner: /assets/images/banners/Chess.png
+gallery:
+  - type: image
+    link: "chess/1.png"
+  - type: image
+    link: "chess/2.png"
+  - type: image
+    link: "chess/3.png"
 tools:
  - "/assets/images/logos/Unity.png"
 download:

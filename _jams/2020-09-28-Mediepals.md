@@ -6,6 +6,19 @@ description: A game developed for the Spain Game Devs Jam II about a birthday pa
 short-description: A medieval tournament inside a birthday party.
 remarkable: true
 banner: /assets/images/banners/Mediepal.png
+gallery:
+  - type: video
+    link: "mediepals/trailer.mp4"
+  - type: image
+    link: "mediepals/1.png"
+  - type: image
+    link: "mediepals/2.png"
+  - type: image
+    link: "mediepals/3.png"
+  - type: image
+    link: "mediepals/4.png"
+  - type: image
+    link: "mediepals/5.png"
 tools:
  - "/assets/images/logos/Unity.png"
 download:

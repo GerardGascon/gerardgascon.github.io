@@ -6,7 +6,15 @@ description: null
 short-description: Get out of the forest with Rock, Paper and Scissors.
 remarkable: false
 banner: /assets/images/banners/Ropasci.png
-layout: game
+gallery:
+  - type: image
+    link: "ropasci/1.png"
+  - type: image
+    link: "ropasci/2.png"
+  - type: image
+    link: "ropasci/3.png"
+  - type: image
+    link: "ropasci/4.png"
 tools:
  - "/assets/images/logos/Unity.png"
 download:

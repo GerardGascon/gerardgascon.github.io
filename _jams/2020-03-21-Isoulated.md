@@ -7,6 +7,11 @@ description: null
 short-description: Get home before it's too late.
 remarkable: false
 banner: /assets/images/banners/Isoulated.png
+gallery:
+  - type: video
+    link: "isoulated/trailer.mp4"
+  - type: image
+    link: "isoulated/1.gif"
 tools:
  - "/assets/images/logos/Unity.png"
 download:

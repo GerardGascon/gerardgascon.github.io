@@ -6,6 +6,17 @@ description: null
 short-description: The recoil is your movement.
 remarkable: false
 banner: /assets/images/banners/Wowie.png
+gallery:
+  - type: video
+    link: "wowie/trailer.mp4"
+  - type: image
+    link: "wowie/1.jpg"
+  - type: image
+    link: "wowie/2.jpg"
+  - type: image
+    link: "wowie/3.jpg"
+  - type: image
+    link: "wowie/4.jpg"
 tools:
  - "/assets/images/logos/Unity.png"
 download:
