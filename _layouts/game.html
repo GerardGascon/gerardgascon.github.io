@@ -57,7 +57,9 @@
 					<div class="gallery">
 						{% for image in page.gallery %}
 							{% if image['type'] == 'video' %}
-								<video src="/assets/images/galleries/{{ image['link'] }}" controls></video>
+								<a href="/assets/images/galleries/{{ image['link'] }}" target="_blank">
+									<video src="/assets/images/galleries/{{ image['link'] }}" muted autoplay loop></video>
+								</a>
 							{% else %}
 								<a href="/assets/images/galleries/{{ image['link'] }}" target="_blank">
 									<img src="/assets/images/galleries/{{ image['link'] }}" alt="">

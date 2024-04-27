@@ -136,4 +136,10 @@
 	display: block;
 	border-radius: 1rem;
 	box-shadow: var(--default-box-shadow);
+	transition-duration: var(--transition-duration);
+}
+
+.gallery img:hover,
+.gallery video:hover {
+	transform: scale(1.05);
 }
