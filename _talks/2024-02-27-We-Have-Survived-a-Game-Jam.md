@@ -13,6 +13,8 @@ download:
     link: /assets/talks/survived_gamejam.pdf
   - img: "/assets/images/logos/Github.png"
     link: https://github.gerardgascon.com/GameGenPresentation
+  - img: "/assets/images/logos/Youtube.png"
+    link: https://www.youtube.com/watch?v=UkV-TfXwnNU
 tools:
   - "/assets/images/logos/Godot.png"
 layout: talk
