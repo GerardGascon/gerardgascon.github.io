@@ -7,9 +7,9 @@
 
 .main hr {
 	border-top: .1px solid var(--hr-color);
-	border-right: 0px;
-	border-left: 0px;
-	border-bottom: 0px;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 0;
 }
 
 .description {
@@ -54,16 +54,16 @@
 }
 
 .about-header h2 {
-    font-size: 30;
+    font-size: 30px;
     margin-top: 10px;
 }
 .about-header h3 {
-    font-size: 25;
+    font-size: 25px;
     font-weight: 400;
     margin-top: -20px;
 }
 .about-header h4 {
-    font-size: 20;
+    font-size: 20px;
     font-weight: 200;
     margin-top: -15px;
 }
@@ -82,20 +82,18 @@
 
 .skills {
     display: flex;
+    flex-flow: wrap;
+    gap: 10px;
 }
 .skills p {
     border-radius: .625rem;
     background-color: var(--sidenav-color);
-    margin-right: 10px;
     box-shadow: var(--default-box-shadow);
 
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 4px;
-    padding-top: 2px;
+    padding: 2px 7px 4px;
 
     user-select: none;
     transition: var(--transition-duration);
