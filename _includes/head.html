@@ -23,7 +23,7 @@
 
 <link rel="canonical" href="{{site.url}}{{page.url}}" />
 
-{% if page.isMain == true %}
+{% if page.url == "/" %}
 <title>{{ page.title }}</title>
 {% else %}
 <title>{{ page.title }} | {{ site.title }}</title>
