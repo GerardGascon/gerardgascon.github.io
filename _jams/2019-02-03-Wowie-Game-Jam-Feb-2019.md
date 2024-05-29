@@ -1,8 +1,8 @@
 ---
 title: "👹 Wowie Game Jam Feb.2019"
-image: null
+image: /assets/images/projects/wowie.png
 release: 2019
-description: null
+description: My first game jam ever at the Wowie Game Jam 2019 about moving with your recoil.
 short-description: The recoil is your movement.
 remarkable: false
 banner: /assets/images/banners/Wowie.png

@@ -1,9 +1,9 @@
 ---
 title: "🪖 Train Of Thought"
-image: null
+image: /assets/images/projects/train-of-thought.png
 release: 2020
-description: null
-short-description: Survive a world field to find your love.
+description: A game developed for the Retro 8-Bit Game Jam about surviving a war field to find your love.
+short-description: Survive a war field to find your love.
 remarkable: false
 banner: /assets/images/banners/Train.png
 tools:

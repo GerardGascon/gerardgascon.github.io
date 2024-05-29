@@ -1,0 +1,27 @@
+---
+title: "Researches"
+permalink: /researches/
+description: "A list of all my researches that I've done."
+---
+
+<html lang="{{ site.lang | default: "en-US" }}">
+	<head>
+		{% include head.html %}
+
+		<link rel="stylesheet" href="{{ "/assets/css/projects.css" | relative_url }}" />
+	</head>
+	<body>
+		{% include sidenav.html %}
+
+		<div class="main">
+			<h1 style="line-height: 2em;">Researches</h1>
+			<div id="projects">
+				<hr>
+				{% assign researches = site.researches | reverse %}
+				{% for game in researches %}
+					{% include projects/detailedProject.html %}
+				{% endfor %}
+			</div>
+		</div>
+	</body>
+</html>

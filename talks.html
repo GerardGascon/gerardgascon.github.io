@@ -1,0 +1,27 @@
+---
+title: "Talks"
+permalink: /talks/
+description: "A list of all the talks that I've given."
+---
+
+<html lang="{{ site.lang | default: "en-US" }}">
+	<head>
+		{% include head.html %}
+
+		<link rel="stylesheet" href="{{ "/assets/css/projects.css" | relative_url }}" />
+	</head>
+	<body>
+		{% include sidenav.html %}
+
+		<div class="main">
+			<h1 style="line-height: 2em;">Talks</h1>
+			<div id="projects">
+				<hr>
+				{% assign talks = site.talks | reverse %}
+				{% for game in talks %}
+					{% include projects/detailedProject.html %}
+				{% endfor %}
+			</div>
+		</div>
+	</body>
+</html>

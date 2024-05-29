@@ -1,8 +1,8 @@
 ---
 title: "♟️ Chess II: Counterattack"
-image: null
+image: /assets/images/projects/chess.png
 release: 2020
-description: null
+description: A game developed for the Brackeys Jam 2020.2 about being the chess king and survive an infinite number of troops.
 short-description: The chess king fights an infinite army.
 remarkable: false
 banner: /assets/images/banners/Chess.png

@@ -1,0 +1,27 @@
+---
+title: "Development Tools"
+permalink: /tools/
+description: "A list of all my tools that I've done."
+---
+
+<html lang="{{ site.lang | default: "en-US" }}">
+	<head>
+		{% include head.html %}
+
+		<link rel="stylesheet" href="{{ "/assets/css/projects.css" | relative_url }}" />
+	</head>
+	<body>
+		{% include sidenav.html %}
+
+		<div class="main">
+			<h1 style="line-height: 2em;">Development Tools</h1>
+			<div id="projects">
+				<hr>
+				{% assign tools = site.tools | reverse %}
+				{% for game in tools %}
+					{% include projects/detailedProject.html %}
+				{% endfor %}
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,9 +1,9 @@
 ---
 title: "🏮 Isoulated"
-image: null
+image: /assets/images/projects/isoulated.png
 release: 2020
 link: https://itch.gerardgascon.com/isoulated
-description: null
+description: A game developed for the Coronavirus Game Jam about getting home before the monsters outside catch you.
 short-description: Get home before it's too late.
 remarkable: false
 banner: /assets/images/banners/Isoulated.png

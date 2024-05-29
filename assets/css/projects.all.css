@@ -68,3 +68,12 @@
 	color: var(--highlight-color);
 	border-color: var(--highlight-color);
 }
+
+.project-category {
+	text-decoration: none;
+	color: inherit;
+	transition-duration: var(--transition-duration);
+}
+.project-category:hover {
+	color: var(--highlight-color);
+}

@@ -1,9 +1,9 @@
 ---
 title: "🧪 Game Development in 16&#8209;bits"
-image: null
+image: /assets/images/projects/16_bits_exporecerca.png
 release: 2022
 place: XXIII Exporecerca Jove
-description: null
+description: A short-form presentation about how I developed a game for the Sega Mega Drive and what can be done with this research.
 short-description: A short-form presentation about the research.
 remarkable: false
 banner: /assets/images/banners/Exporecerca.png

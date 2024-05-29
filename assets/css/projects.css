@@ -110,7 +110,6 @@
 	z-index: 1;
 	width: 100%;
 	height: 100%;
-	position: 0;
 	transition-duration: var(--transition-duration);
 }
 .project:hover::before {
@@ -122,4 +121,13 @@
 
 .project:active {
 	transform: scale(0.95);
+}
+
+.project-category {
+	text-decoration: none;
+	color: inherit;
+	transition-duration: var(--transition-duration);
+}
+.project-category:hover {
+	color: var(--highlight-color);
 }

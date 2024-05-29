@@ -1,0 +1,27 @@
+---
+title: "Game Jams"
+permalink: /jams/
+description: "A list of all the game jams that I've participated in."
+---
+
+<html lang="{{ site.lang | default: "en-US" }}">
+	<head>
+		{% include head.html %}
+
+		<link rel="stylesheet" href="{{ "/assets/css/projects.css" | relative_url }}" />
+	</head>
+	<body>
+		{% include sidenav.html %}
+
+		<div class="main">
+			<h1 style="line-height: 2em;">Game Jams</h1>
+			<div id="projects">
+				<hr>
+				{% assign jams = site.jams | reverse %}
+				{% for game in jams %}
+					{% include projects/detailedProject.html %}
+				{% endfor %}
+			</div>
+		</div>
+	</body>
+</html>

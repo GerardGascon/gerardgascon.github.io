@@ -1,8 +1,8 @@
 ---
 title: "👻 Spirinaut"
-image: null
+image: /assets/images/projects/spirinaut.png
 release: 2020
-description: null
+description: A game developed for the United Game Jam about alternating controls between two characters.
 short-description: Alternate controls between two characters.
 remarkable: false
 banner: /assets/images/banners/Spirinaut.png
