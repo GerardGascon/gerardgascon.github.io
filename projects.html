@@ -66,6 +66,18 @@ Learn each and every project I've released over the years and what I am working 
 				{% endfor %}
 
 				<hr>
+				<h2>Talks</h2>
+				<p class="summary">
+					Talks that I've given at some point.
+				</p>
+				{% assign talks = site.talks | reverse %}
+				{% for game in talks %}
+					{% if game.remarkable == true %}
+						{% include projects/detailedProject.html %}
+					{% endif %}
+				{% endfor %}
+
+				<hr>
 				<h2>But Wait, There's More!</h2>
 				<a class="more" href="all/" ,="">See all projects <i class="fa-solid fa-angle-right"></i></a>
 			</div>

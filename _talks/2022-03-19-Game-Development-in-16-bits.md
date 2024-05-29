@@ -1,11 +1,11 @@
 ---
 title: "🧑‍💻 Game Development in 16&#8209;bits"
-image: null
+image: /assets/images/projects/16_bits_talk.png
 release: 2022
 place: Arxiu Comarcal de l'Alt Urgell
-description: null
+description: A talk explaining the development of a complete video game for the Sega Mega Drive.
 short-description: The development of the research.
-remarkable: false
+remarkable: true
 banner: /assets/images/banners/Arxiu.png
 city: La Seu d'Urgell
 download:
