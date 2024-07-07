@@ -3,7 +3,7 @@ title: "🌑 Failures in Projects and Dark Ages"
 image: /assets/images/projects/failures.png
 release: 2024
 place: Barcelona Game Creators
-description: A talks where I shown a lot of my abandoned projects and explained how failing at completing projects can actually be a good thing.
+description: A talk where I've shown a lot of my abandoned projects and explained how failing at completing projects can actually be a good thing.
 short-description: Every game developer has some failures.
 remarkable: false
 banner: /assets/images/banners/Failures.png
