@@ -46,7 +46,7 @@ you can simply relax in this paradise in the middle of the ocean and accept igno
 
 > [Gerard Gascón - Programming](https://twitter.com/G_of_Geri/){:target="_blank"}
 >
-> [Marc Batlle - Character Design & 3D Modeling](https://twitter.com/Atrichocke/){:target="_blank"}
+> [Marc Batlle - Character Design, 3D Modeling & Narrative](https://twitter.com/Atrichocke/){:target="_blank"}
 >
 > [Oriol Jaumot - Level Design & Environment Art](https://twitter.com/onex_urii/){:target="_blank"}
 >
