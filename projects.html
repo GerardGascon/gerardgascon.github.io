@@ -18,69 +18,92 @@ Learn each and every project I've released over the years and what I am working 
 			<h1 style="line-height: 2em;">Projects</h1>
 			<div id="projects">
 				<hr>
-				<a class="project-category" href="/games"><h2>Games</h2></a>
+				<button class="project-category">🎮 Games</button>
 				<p class="summary">
 					Complete games that I've been part of.
 				</p>
-				{% assign games = site.games | reverse %}
-				{% for game in games %}
-					{% if game.remarkable == true %}
+				<div class="project-content">
+					{% assign games = site.games | reverse %}
+					{% for game in games %}
 						{% include projects/detailedProject.html %}
-					{% endif %}
-				{% endfor %}
+					{% endfor %}
+				</div>
 
 				<hr>
-				<a class="project-category" href="/researches"><h2>Researches</h2></a>
+				<button class="project-category">🔬 Researches</button>
 				<p class="summary">
 					Interesting topics that I've investigated and written about.
 				</p>
-				{% assign researches = site.researches | reverse %}
-				{% for game in researches %}
-					{% if game.remarkable == true %}
+				<div class="project-content">
+					{% assign researches = site.researches | reverse %}
+					{% for game in researches %}
 						{% include projects/detailedProject.html %}
-					{% endif %}
-				{% endfor %}
+					{% endfor %}
+				</div>
 
 				<hr>
-				<a class="project-category" href="/tools"><h2>Development Tools</h2></a>
+				<button class="project-category">⚙️ Development Tools</button>
 				<p class="summary">
 					Tools that I have developed mainly for myself, but also for anyone to use.
 				</p>
-				{% assign tools = site.tools | reverse %}
-				{% for game in tools %}
-					{% if game.remarkable == true %}
+				<div class="project-content">
+					{% assign tools = site.tools | reverse %}
+					{% for game in tools %}
 						{% include projects/detailedProject.html %}
-					{% endif %}
-				{% endfor %}
+					{% endfor %}
+				</div>
 
 				<hr>
-				<a class="project-category" href="/jams"><h2>Game Jams</h2></a>
+				<button class="project-category">🍯 Game Jams</button>
 				<p class="summary">
-					A list of some game jam projects that I've developed over the years.
+					A list of all game jam projects that I've developed over the years.
 				</p>
-				{% assign jams = site.jams | reverse %}
-				{% for game in jams %}
-					{% if game.remarkable == true %}
+				<div class="project-content">
+					{% assign jams = site.jams | reverse %}
+					{% for game in jams %}
 						{% include projects/detailedProject.html %}
-					{% endif %}
-				{% endfor %}
+					{% endfor %}
+				</div>
 
 				<hr>
-				<a class="project-category" href="/talks"><h2>Talks</h2></a>
+				<button class="project-category">🧑‍🏫 Talks</button>
 				<p class="summary">
 					Talks that I've given at some point.
 				</p>
-				{% assign talks = site.talks | reverse %}
-				{% for game in talks %}
-					{% if game.remarkable == true %}
+				<div class="project-content">
+					{% assign talks = site.talks | reverse %}
+					{% for game in talks %}
 						{% include projects/detailedProject.html %}
-					{% endif %}
-				{% endfor %}
+					{% endfor %}
+				</div>
 
 				<hr>
-				<h2>But Wait, There's More!</h2>
-				<a class="more" href="all/" ,="">See all projects <i class="fa-solid fa-angle-right"></i></a>
+				<button class="project-category">❓ Other</button>
+				<p class="summary">
+					Small but interesting projects that I've done in my free time.
+				</p>
+				<div class="project-content">
+					{% assign other = site.other | reverse %}
+					{% for game in other %}
+						{% include projects/detailedOther.html %}
+					{% endfor %}
+				</div>
 			</div>
 		</div>
+
+		<script>
+			let collapsible = document.getElementsByClassName("project-category");
+			for (let i = 0; i < collapsible.length; i++) {
+				collapsible[i].addEventListener("click", function (){
+					this.classList.toggle("active");
+					let content = this.nextElementSibling.nextElementSibling;
+					if (content.style.maxHeight){
+						content.style.maxHeight = null;
+					} else {
+						content.style.maxHeight = content.scrollHeight + "px";
+					}
+				});
+			}
+		</script>
 	</body>
 </html>

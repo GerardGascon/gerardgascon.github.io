@@ -1,0 +1,16 @@
+<a class="project other" href="{{game.url}}" ,="">
+    <img src="{{ "{{game.image}}" | relative_url }}" />
+    <div class="content">
+        <div class="title">
+            <h3>{{ game.title }}</h3>
+            <p><nobr>{{ game.release }}</nobr></p>
+        </div>
+        <blockquote>
+            {% if game.description %}
+                {{ game.description }}
+            {% else %}
+                {{ game.short-description }}
+            {% endif %}
+        </blockquote>
+    </div>
+</a>
