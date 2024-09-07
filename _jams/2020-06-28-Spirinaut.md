@@ -1,15 +1,15 @@
 ---
 title: "👻 Spirinaut"
-image: /assets/images/projects/spirinaut.png
+image: spirinaut.png
 release: 2020
 description: A game developed for the United Game Jam about alternating controls between two characters.
 short-description: Alternate controls between two characters.
 remarkable: false
-banner: /assets/images/banners/Spirinaut.png
+banner: Spirinaut.png
 tools:
- - "/assets/images/logos/Unity.png"
+ - "Unity.png"
 download:
-  - img: "/assets/images/logos/Itch.png"
+  - img: "Itch.png"
     link: https://itch.gerardgascon.com/spirinaut
 layout: game
 ---

@@ -1,18 +1,18 @@
 ---
 title: "💪 Unnecessary Challenges and Retro Pleasures: Homebrew in 16-bits"
-image: /assets/images/projects/homebrew_development.png
+image: homebrew_development.png
 release: 2024
 place: Software Crafters en Videojuegos
 description: A talk showcasing how people can make games from hardware restrictions from my experience on working with the Sega Mega Drive.
 short-description: Making games for the fun of restrictions.
 remarkable: true
-banner: /assets/images/banners/HomebrewDevelopment.png
+banner: HomebrewDevelopment.png
 city: Online
 download:
-  - img: "/assets/images/logos/Pdf.png"
+  - img: "Pdf.png"
     link: /assets/talks/homebrew_development.pdf
 tools:
-  - "/assets/images/logos/Sgdk.png"
+  - "Sgdk.png"
 layout: talk
 ---
 

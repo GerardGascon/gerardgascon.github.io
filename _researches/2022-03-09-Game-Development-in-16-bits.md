@@ -1,11 +1,11 @@
 ---
 title: "👾 Game Development in 16&#8209;bits"
-image: "/assets/images/projects/16_bits.png"
+image: "16_bits.png"
 release: 2021-22
 description: A research project about developing a video game from scratch for the Sega Mega Drive in 2021 using SGDK.
 short-description: Programming for the Sega Mega Drive.
 remarkable: true
-banner: /assets/images/banners/16Bits.png
+banner: 16Bits.png
 gallery:
   - type: image
     link: "miner-mole/1.jpg"
@@ -20,11 +20,11 @@ gallery:
   - type: image
     link: "miner-mole/6.png"
 tools:
- - "/assets/images/logos/Sgdk.png"
- - "/assets/images/logos/LDtk.png"
- - "/assets/images/logos/Unity.png"
+ - "Sgdk.png"
+ - "LDtk.png"
+ - "Unity.png"
 download:
-  - img: "/assets/images/logos/Pdf.png"
+  - img: "Pdf.png"
     link: /assets/GameDevelopmentIn16Bits.pdf
 layout: research
 ---

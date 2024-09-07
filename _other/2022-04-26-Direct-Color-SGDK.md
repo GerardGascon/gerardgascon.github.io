@@ -1,6 +1,6 @@
 ---
 title: "🎨 Direct Color SGDK"
-image: "/assets/images/projects/direct-color.png"
+image: "direct-color.png"
 release: 2022
 link: https://github.gerardgascon.com/Direct-Color-SGDK
 description: null

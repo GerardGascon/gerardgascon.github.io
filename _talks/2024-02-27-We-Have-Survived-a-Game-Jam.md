@@ -1,22 +1,22 @@
 ---
 title: "🗺️ We Have Survived a Jam"
-image: /assets/images/projects/survived_a_jam.png
+image: survived_a_jam.png
 release: 2024
 place: GameGen 9
 description: A talk explaining how we organized the development of 'Figments of the Night' and how we survived during the entire Indie Spain Jam 2023.
 short-description: How we organized the development at the IndieSpainJam 2023.
 remarkable: true
-banner: /assets/images/banners/GameGen9.png
+banner: GameGen9.png
 city: Móstoles
 download:
-  - img: "/assets/images/logos/Pdf.png"
+  - img: "Pdf.png"
     link: /assets/talks/survived_gamejam.pdf
-  - img: "/assets/images/logos/Github.png"
+  - img: "Github.png"
     link: https://github.gerardgascon.com/GameGenPresentation
-  - img: "/assets/images/logos/Youtube.png"
+  - img: "Youtube.png"
     link: https://www.youtube.com/watch?v=UkV-TfXwnNU
 tools:
-  - "/assets/images/logos/Godot.png"
+  - "Godot.png"
 layout: talk
 ---
 

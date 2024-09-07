@@ -1,11 +1,11 @@
 ---
 title: "🔍 Just in Crime"
-image: "/assets/images/projects/just_in_crime.png"
+image: "just_in_crime.png"
 release: TBD
 description: A detective video game in which you play a detective dog and a wizard cat. With a twist; you are able to travel back in time and examine the crime scene a few seconds before it happened.
 short-description: Solve crimes with time travel.
 remarkable: true
-banner: /assets/images/banners/JustInCrime.png
+banner: JustInCrime.png
 gallery:
   - type: video
     link: "just-in-crime/trailer.mp4"
@@ -26,11 +26,11 @@ gallery:
   - type: image
     link: "just-in-crime/8.jpg"
 tools:
- - "/assets/images/logos/Unity.png"
- - "/assets/images/logos/Fmod.png"
- - "/assets/images/logos/Ink.png"
+ - "Unity.png"
+ - "Fmod.png"
+ - "Ink.png"
 download:
-  - img: "/assets/images/logos/Steam.png"
+  - img: "Steam.png"
     link: https://steam.gerardgascon.com
 layout: game
 ---

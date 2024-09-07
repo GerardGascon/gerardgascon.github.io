@@ -1,11 +1,11 @@
 ---
 title: "🕹️ Astromovida"
-image: "/assets/images/projects/astromovida.png"
+image: "astromovida.png"
 release: 2024
 description: An alt.ctrl game developed for the MálagaJam Weekend 18 about trying to control a spaceship in the middle of an accident.
 short-description: Try control a spaceship with chaotic controls.
 remarkable: true
-banner: /assets/images/banners/astromovida.png
+banner: astromovida.png
 gallery:
   - type: image
     link: "astromovida/1.png"
@@ -18,10 +18,10 @@ gallery:
   - type: image
     link: "astromovida/5.jpg"
 tools:
- - "/assets/images/logos/Godot.png"
- - "/assets/images/logos/Arduino.png"
+ - "Godot.png"
+ - "Arduino.png"
 download:
-  - img: "/assets/images/logos/Itch.png"
+  - img: "Itch.png"
     link: https://itch.gerardgascon.com/astromovida
 layout: game
 ---

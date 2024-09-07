@@ -1,11 +1,11 @@
 ---
 title: "♟️ Chess II: Counterattack"
-image: /assets/images/projects/chess.png
+image: chess.png
 release: 2020
 description: A game developed for the Brackeys Jam 2020.2 about being the chess king and survive an infinite number of troops.
 short-description: The chess king fights an infinite army.
 remarkable: false
-banner: /assets/images/banners/Chess.png
+banner: Chess.png
 gallery:
   - type: image
     link: "chess/1.png"
@@ -14,9 +14,9 @@ gallery:
   - type: image
     link: "chess/3.png"
 tools:
- - "/assets/images/logos/Unity.png"
+ - "Unity.png"
 download:
-  - img: "/assets/images/logos/Itch.png"
+  - img: "Itch.png"
     link: https://itch.gerardgascon.com/chess2-counterattack
 layout: game
 ---

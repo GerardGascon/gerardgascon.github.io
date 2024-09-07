@@ -1,11 +1,11 @@
 ---
 title: "🌲 Ropasci Forest"
-image: /assets/images/projects/ropasci.png
+image: ropasci.png
 release: 2020
 description: A game developed for the Mix and Game Jam about getting out of a cursed forest by playing Rock, Paper and Scissors.
 short-description: Get out of the forest with Rock, Paper and Scissors.
 remarkable: false
-banner: /assets/images/banners/Ropasci.png
+banner: Ropasci.png
 gallery:
   - type: image
     link: "ropasci/1.png"
@@ -16,9 +16,9 @@ gallery:
   - type: image
     link: "ropasci/4.png"
 tools:
- - "/assets/images/logos/Unity.png"
+ - "Unity.png"
 download:
-  - img: "/assets/images/logos/Itch.png"
+  - img: "Itch.png"
     link: https://itch.gerardgascon.com/ropasci-forest
 layout: game
 ---

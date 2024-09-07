@@ -1,18 +1,18 @@
 ---
 title: "☀️ Game of the Day"
-image: "/assets/images/projects/game-of-the-day.png"
+image: "game-of-the-day.png"
 release: 2024
 description: A website that shows a random small free game from a small developer each day.
 short-description: Discover a small game each day.
 remarkable: true
-banner: /assets/images/banners/GameOfTheDay.png
+banner: GameOfTheDay.png
 tools:
- - "/assets/images/logos/Actions.png"
- - "/assets/images/logos/Aws.png"
+ - "Actions.png"
+ - "Aws.png"
 download:
-  - img: "/assets/images/logos/GameOfTheDay.png"
+  - img: "GameOfTheDay.png"
     link: https://gameoftheday.org/
-  - img: "/assets/images/logos/Github.png"
+  - img: "Github.png"
     link: https://github.gerardgascon.com/game-of-the-day
 layout: game
 ---

@@ -1,19 +1,19 @@
 ---
 title: "🧙 The art of programming: the invisible magic behind video games"
-image: /assets/images/projects/art_of_programming.png
+image: art_of_programming.png
 release: 2023
 place: A l’estiu, recerca’t!
 description: A talk explaining the little tricks that programmers make in order to improve the feel of the games.
 short-description: An introduction to game feel.
 remarkable: true
-banner: /assets/images/banners/RecercaCerdanya.png
+banner: RecercaCerdanya.png
 city: Puigcerdà
 tools:
- - "/assets/images/logos/Unity.png"
+ - "Unity.png"
 download:
-  - img: "/assets/images/logos/Pdf.png"
+  - img: "Pdf.png"
     link: /assets/talks/art_programacio.pdf
-  - img: "/assets/images/logos/Github.png"
+  - img: "Github.png"
     link: https://github.gerardgascon.com/Recerca-Cerdanya-Talk
 layout: talk
 ---

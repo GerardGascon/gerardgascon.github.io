@@ -1,6 +1,6 @@
 ---
 title: "🖼️ GLCD Image Converter"
-image: "/assets/images/projects/glcd.png"
+image: "glcd.png"
 release: 2023
 link: https://github.gerardgascon.com/GLCDImageConverter
 description: null

@@ -1,11 +1,11 @@
 ---
 title: "🎂 Mr. Flurfels & Catarina y la tarta perdida"
-image: "/assets/images/projects/flurfels.png"
+image: "flurfels.png"
 release: 2022
 description: A game developed for the Indie Spain Jam 2022 about solving a mystery through time of a cake that went missing.
 short-description: The jam game that became Just in Crime.
 remarkable: true
-banner: /assets/images/banners/Flurfels.png
+banner: Flurfels.png
 gallery:
   - type: image
     link: "mr-flurfels/1.png"
@@ -20,10 +20,10 @@ gallery:
   - type: image
     link: "mr-flurfels/6.png"
 tools:
- - "/assets/images/logos/Unity.png"
- - "/assets/images/logos/SimpleTools.png"
+ - "Unity.png"
+ - "SimpleTools.png"
 download:
-  - img: "/assets/images/logos/Itch.png"
+  - img: "Itch.png"
     link: https://itch.gerardgascon.com/mr-flurfels-catarina-y-la-tarta-perdida
 layout: game
 ---

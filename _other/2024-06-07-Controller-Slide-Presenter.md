@@ -1,6 +1,6 @@
 ---
 title: "🧑‍🏫 Controller Slide Presenter"
-image: "/assets/images/projects/controller-presenter.png"
+image: "controller-presenter.png"
 release: 2024
 link: https://github.gerardgascon.com/Controller-Slide-Presenter
 description: null

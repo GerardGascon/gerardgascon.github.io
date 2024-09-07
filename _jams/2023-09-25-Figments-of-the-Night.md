@@ -1,11 +1,11 @@
 ---
 title: "🌴 Figments of the Night"
-image: "/assets/images/projects/figments.png"
+image: "figments.png"
 release: 2023
 description: A game developed for the Indie Spain Jam 2023 where you wake up on a deserted island with no memory.
 short-description: Explore an island with no memories.
 remarkable: true
-banner: /assets/images/banners/Figments.png
+banner: Figments.png
 gallery:
   - type: image
     link: "figments/1.png"
@@ -24,10 +24,10 @@ gallery:
   - type: image
     link: "figments/8.png"
 tools:
- - "/assets/images/logos/Godot.png"
- - "/assets/images/logos/Ink.png"
+ - "Godot.png"
+ - "Ink.png"
 download:
-  - img: "/assets/images/logos/Itch.png"
+  - img: "Itch.png"
     link: https://froglake.itch.io/figments-of-the-night
 layout: game
 ---

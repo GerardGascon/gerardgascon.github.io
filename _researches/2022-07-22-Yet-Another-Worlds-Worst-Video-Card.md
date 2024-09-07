@@ -1,11 +1,11 @@
 ---
 title: "📽️ Yet Another World’s Worst Video Card"
-image: "/assets/images/projects/video_card.png"
+image: "video_card.png"
 release: 2022
 description: A simple research project based on Ben Eater’s video series about building a video card on breadboards. In this project, I reduced the memory usage by only having 1-bit images.
 short-description: Creating a video card from scratch.
 remarkable: true
-banner: /assets/images/banners/GraphicsCard.png
+banner: GraphicsCard.png
 gallery:
   - type: image
     link: "video-card/1.jpg"
@@ -22,10 +22,10 @@ gallery:
   - type: image
     link: "video-card/7.jpg"
 tools:
- - "/assets/images/logos/Kicad.png"
- - "/assets/images/logos/Arduino.png"
+ - "Kicad.png"
+ - "Arduino.png"
 download:
-  - img: "/assets/images/logos/Hackaday.png"
+  - img: "Hackaday.png"
     link: https://hackaday.io/project/186465-yet-another-worlds-worst-video-card
 layout: research
 ---

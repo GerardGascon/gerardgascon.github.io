@@ -1,11 +1,11 @@
 ---
 title: "🛒 Mercorona"
-image: "/assets/images/projects/mercorona.png"
+image: "mercorona.png"
 release: 2020
 description: A post-jam game from the Coronavirus Game Jam about trying to buy the maximum amount of food in an infinite runner game.
 short-description: Go shopping during the quarentine.
 remarkable: true
-banner: /assets/images/banners/Mercorona.png
+banner: Mercorona.png
 gallery:
   - type: image
     link: "mercorona/1.jpg"
@@ -24,11 +24,11 @@ gallery:
   - type: image
     link: "mercorona/8.png"
 tools:
- - "/assets/images/logos/Unity.png"
+ - "Unity.png"
 download:
-  - img: "/assets/images/logos/Itch.png"
+  - img: "Itch.png"
     link: https://itch.gerardgascon.com/mercorona
-  - img: "/assets/images/logos/Gamejolt.png"
+  - img: "Gamejolt.png"
     link: https://gamejolt.com/games/mercorona/477924
 layout: game
 ---

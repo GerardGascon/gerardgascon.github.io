@@ -16,7 +16,7 @@
 
 					<div class="post-meta text-muted">
 						{% if page.banner %}
-							{% capture src %}src="{{ page.banner.path | default: page.banner }}"{% endcapture %}
+							{% capture src %}src="/images/banners/{{ page.banner.path | default: page.banner }}"{% endcapture %}
 							{% capture class %}class="preview-img{% if page.banner.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
 							{% capture alt %}alt="{{ page.banner.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
 
@@ -57,12 +57,12 @@
 					<div class="gallery">
 						{% for image in page.gallery %}
 							{% if image['type'] == 'video' %}
-								<a href="/assets/images/galleries/{{ image['link'] }}" target="_blank">
-									<video src="/assets/images/galleries/{{ image['link'] }}" muted autoplay loop></video>
+								<a href="/images/galleries/{{ image['link'] }}" target="_blank">
+									<video src="/images/galleries/{{ image['link'] }}" muted autoplay loop></video>
 								</a>
 							{% else %}
-								<a href="/assets/images/galleries/{{ image['link'] }}" target="_blank">
-									<img src="/assets/images/galleries/{{ image['link'] }}" alt="">
+								<a href="/images/galleries/{{ image['link'] }}" target="_blank">
+									<img src="/images/galleries/{{ image['link'] }}" alt="">
 								</a>
 							{% endif %}
 						{% endfor %}
@@ -75,7 +75,7 @@
 						<blockquote class="post-tools mb-3">
 							{% for store in page.download %}
 								<div class="tool">
-									<a href="{{ store['link'] }}" ,="" target="_blank"><img src="{{ store.img | relative_url }}"/></a>
+									<a href="{{ store['link'] }}" ,="" target="_blank"><img src="/images/logos/{{ store.img | relative_url }}"/></a>
 								</div>
 							{% endfor %}
 						</blockquote>
@@ -86,7 +86,7 @@
 						<blockquote class="post-tools mb-3">
 							{% for tool in page.tools %}
 								<div class="tool">
-									<img src="{{ tool | relative_url }}"/>
+									<img src="/images/logos/{{ tool | relative_url }}"/>
 								</div>
 							{% endfor %}
 						</blockquote>

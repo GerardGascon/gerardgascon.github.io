@@ -1,11 +1,11 @@
 ---
 title: "⚔️ Mediepals"
-image: "/assets/images/projects/mediepals.png"
+image: "mediepals.png"
 release: 2020
 description: A game developed for the Spain Game Devs Jam II about a birthday party with a "medieval" tournament inside it.
 short-description: A medieval tournament inside a birthday party.
 remarkable: true
-banner: /assets/images/banners/Mediepal.png
+banner: Mediepal.png
 gallery:
   - type: video
     link: "mediepals/trailer.mp4"
@@ -20,9 +20,9 @@ gallery:
   - type: image
     link: "mediepals/5.png"
 tools:
- - "/assets/images/logos/Unity.png"
+ - "Unity.png"
 download:
-  - img: "/assets/images/logos/Itch.png"
+  - img: "Itch.png"
     link: https://itch.gerardgascon.com/mediepals
 layout: game
 ---

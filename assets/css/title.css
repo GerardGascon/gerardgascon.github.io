@@ -25,7 +25,7 @@
 }
 
 .scrolling-image {
-    background: url("/assets/images/banner.png") repeat-x;
+    background: url("/images/banner.png") repeat-x;
     height: 100lvh;
     width: calc(100lvh * 16);
     background-size: cover;

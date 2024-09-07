@@ -1,15 +1,15 @@
 ---
 title: "🪖 Train Of Thought"
-image: /assets/images/projects/train-of-thought.png
+image: train-of-thought.png
 release: 2020
 description: A game developed for the Retro 8-Bit Game Jam about surviving a war field to find your love.
 short-description: Survive a war field to find your love.
 remarkable: false
-banner: /assets/images/banners/Train.png
+banner: Train.png
 tools:
- - "/assets/images/logos/Unity.png"
+ - "Unity.png"
 download:
-  - img: "/assets/images/logos/Itch.png"
+  - img: "Itch.png"
     link: https://teamdoss.itch.io/train-of-thought
 layout: game
 ---

@@ -1,11 +1,11 @@
 ---
 title: "👹 Wowie Game Jam Feb.2019"
-image: /assets/images/projects/wowie.png
+image: wowie.png
 release: 2019
 description: My first game jam ever at the Wowie Game Jam 2019 about moving with your recoil.
 short-description: The recoil is your movement.
 remarkable: false
-banner: /assets/images/banners/Wowie.png
+banner: Wowie.png
 gallery:
   - type: video
     link: "wowie/trailer.mp4"
@@ -18,9 +18,9 @@ gallery:
   - type: image
     link: "wowie/4.jpg"
 tools:
- - "/assets/images/logos/Unity.png"
+ - "Unity.png"
 download:
-  - img: "/assets/images/logos/Itch.png"
+  - img: "Itch.png"
     link: https://itch.gerardgascon.com/wowie-game-jam
 layout: game
 ---
