@@ -108,7 +108,8 @@
     transform: scale(0.9);
 }
 
-.job .date {
+.job .date,
+.job .place {
     margin-top: -10px;
     font-size: 15px;
 }
