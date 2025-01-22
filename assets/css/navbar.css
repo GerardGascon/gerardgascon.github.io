@@ -131,7 +131,7 @@
 	.main {
 		margin-left: var(--sidenav-width); /* Same as the width of the sidenav */
 		font-size: 28px; /* Increased text to enable scrolling */
-		padding: 0px 18px;
+		padding: 0 24px;
 	}
 	.header {
 		display: none;
@@ -182,7 +182,7 @@
     .main {
 		transition: transform .4s ease;
         font-size: 28px; /* Increased text to enable scrolling */
-        padding: 0px 18px;
+        padding: 0 24px;
 		margin-top: var(--header-height);
     }
 

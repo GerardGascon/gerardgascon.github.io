@@ -90,20 +90,5 @@ Learn each and every project I've released over the years and what I am working 
 				</div>
 			</div>
 		</div>
-
-		<script>
-			let collapsible = document.getElementsByClassName("project-category");
-			for (let i = 0; i < collapsible.length; i++) {
-				collapsible[i].addEventListener("click", function (){
-					this.classList.toggle("active");
-					let content = this.nextElementSibling.nextElementSibling;
-					if (content.style.maxHeight){
-						content.style.maxHeight = null;
-					} else {
-						content.style.maxHeight = content.scrollHeight + "px";
-					}
-				});
-			}
-		</script>
 	</body>
 </html>
