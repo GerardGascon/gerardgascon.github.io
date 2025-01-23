@@ -1,5 +1,6 @@
 ---
-title: "🎨 Direct Color SGDK"
+emoji: 🎨
+title: "Direct Color SGDK"
 image: "direct-color.png"
 release: 2022
 link: https://github.gerardgascon.com/Direct-Color-SGDK

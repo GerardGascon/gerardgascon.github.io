@@ -1,5 +1,6 @@
 ---
-title: "📬 Mail Creator"
+emoji: 📬
+title: "Mail Creator"
 image: "mail-creator.png"
 release: 2024
 link: https://github.com/magmarecerca/mail-creator

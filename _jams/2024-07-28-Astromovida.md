@@ -1,5 +1,6 @@
 ---
-title: "🕹️ Astromovida"
+emoji: 🕹️
+title: "Astromovida"
 image: "astromovida.png"
 release: 2024
 description: An alt.ctrl game developed for the MálagaJam Weekend 18 about trying to control a spaceship in the middle of an accident.

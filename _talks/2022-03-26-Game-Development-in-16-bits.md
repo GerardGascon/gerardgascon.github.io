@@ -1,5 +1,6 @@
 ---
-title: "🧪 Game Development in 16&#8209;bits"
+emoji: 🧪
+title: "Game Development in 16&#8209;bits"
 image: 16_bits_exporecerca.png
 release: 2022
 place: XXIII Exporecerca Jove

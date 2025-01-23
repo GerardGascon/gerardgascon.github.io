@@ -1,5 +1,6 @@
 ---
-title: "🗺️ We Have Survived a Jam"
+emoji: 🗺️
+title: "We Have Survived a Jam"
 image: survived_a_jam.png
 release: 2024
 place: GameGen 9

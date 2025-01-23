@@ -1,5 +1,6 @@
 ---
-title: "🧙 The art of programming: the invisible magic behind video games"
+emoji: 🧙
+title: "The art of programming: the invisible magic behind video games"
 image: art_of_programming.png
 release: 2023
 place: A l’estiu, recerca’t!

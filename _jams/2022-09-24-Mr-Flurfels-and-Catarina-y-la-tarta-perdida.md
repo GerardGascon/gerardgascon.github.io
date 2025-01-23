@@ -1,5 +1,6 @@
 ---
-title: "🎂 Mr. Flurfels & Catarina y la tarta perdida"
+emoji: 🎂
+title: "Mr. Flurfels & Catarina y la tarta perdida"
 image: "flurfels.png"
 release: 2022
 description: A game developed for the Indie Spain Jam 2022 about solving a mystery through time of a cake that went missing.

@@ -1,5 +1,6 @@
 ---
-title: "👹 Wowie Game Jam Feb.2019"
+emoji: 👹
+title: "Wowie Game Jam Feb.2019"
 image: wowie.png
 release: 2019
 description: My first game jam ever at the Wowie Game Jam 2019 about moving with your recoil.

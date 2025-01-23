@@ -1,5 +1,6 @@
 ---
-title: "🌑 Failures in Projects and Dark Ages"
+emoji: 🌑
+title: "Failures in Projects and Dark Ages"
 image: failures.png
 release: 2024
 place: Barcelona Game Creators

@@ -1,5 +1,6 @@
 ---
-title: "⚔️ Mediepals"
+emoji: ⚔️
+title: "Mediepals"
 image: "mediepals.png"
 release: 2020
 description: A game developed for the Spain Game Devs Jam II about a birthday party with a "medieval" tournament inside it.

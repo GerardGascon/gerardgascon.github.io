@@ -1,5 +1,6 @@
 ---
-title: "👻 Spirinaut"
+emoji: 👻
+title: "Spirinaut"
 image: spirinaut.png
 release: 2020
 description: A game developed for the United Game Jam about alternating controls between two characters.

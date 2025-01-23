@@ -1,5 +1,6 @@
 ---
-title: "🪖 Train Of Thought"
+emoji: 🪖
+title: "Train Of Thought"
 image: train-of-thought.png
 release: 2020
 description: A game developed for the Retro 8-Bit Game Jam about surviving a war field to find your love.

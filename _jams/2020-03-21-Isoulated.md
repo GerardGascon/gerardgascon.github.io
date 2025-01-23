@@ -1,5 +1,6 @@
 ---
-title: "🏮 Isoulated"
+emoji: 🏮
+title: "Isoulated"
 image: isoulated.png
 release: 2020
 link: https://itch.gerardgascon.com/isoulated

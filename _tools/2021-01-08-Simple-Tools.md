@@ -1,5 +1,6 @@
 ---
-title: "🛠️ Simple Tools"
+emoji: 🛠️
+title: "Simple Tools"
 image: "simple_tools.png"
 release: 2021-22
 description: Made during the Game Jams for the Game Jams, Simple Tools is a bunch of simple and useful tools to use in your Unity projects, with the main goal of making them simple and as fast as possible to implement.

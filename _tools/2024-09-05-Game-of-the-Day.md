@@ -1,5 +1,6 @@
 ---
-title: "☀️ Game of the Day"
+emoji: ☀️
+title: "Game of the Day"
 image: "game-of-the-day.png"
 release: 2024
 description: A website that shows a random small free game from a small developer each day.

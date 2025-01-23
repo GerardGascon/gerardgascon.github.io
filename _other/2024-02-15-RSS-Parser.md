@@ -1,5 +1,6 @@
 ---
-title: "🛜 RSS Checker"
+emoji: 🛜
+title: "RSS Checker"
 image: "rss-checker.png"
 release: 2024
 link: https://github.gerardgascon.com/RSS-Checker

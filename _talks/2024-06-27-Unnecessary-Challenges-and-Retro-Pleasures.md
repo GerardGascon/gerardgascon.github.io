@@ -1,5 +1,6 @@
 ---
-title: "💪 Unnecessary Challenges and Retro Pleasures: Homebrew in 16-bits"
+emoji: 💪
+title: "Unnecessary Challenges and Retro Pleasures: Homebrew in 16-bits"
 image: homebrew_development.png
 release: 2024
 place: Software Crafters en Videojuegos

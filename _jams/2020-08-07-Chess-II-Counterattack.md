@@ -1,5 +1,6 @@
 ---
-title: "♟️ Chess II: Counterattack"
+emoji: ♟️
+title: "Chess II: Counterattack"
 image: chess.png
 release: 2020
 description: A game developed for the Brackeys Jam 2020.2 about being the chess king and survive an infinite number of troops.

@@ -1,5 +1,6 @@
 ---
-title: "🖼️ GLCD Image Converter"
+emoji: 🖼️
+title: "GLCD Image Converter"
 image: "glcd.png"
 release: 2023
 link: https://github.gerardgascon.com/GLCDImageConverter

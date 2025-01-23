@@ -1,5 +1,6 @@
 ---
-title: "🧑‍🏫 Controller Slide Presenter"
+emoji: 🧑‍🏫
+title: "Controller Slide Presenter"
 image: "controller-presenter.png"
 release: 2024
 link: https://github.gerardgascon.com/Controller-Slide-Presenter
