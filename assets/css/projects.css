@@ -35,6 +35,7 @@
 	grid-template-columns: auto 1fr;
 	grid-template-rows: 100%;
 	width: 360px;
+	max-width: calc(100vw - 24px* 2);
 	border: 1px solid var(--sidenav-border-color);
 }
 
