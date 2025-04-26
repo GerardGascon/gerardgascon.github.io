@@ -3,9 +3,7 @@ emoji: 🔍
 title: "Just in Crime"
 image: "just_in_crime.png"
 release: TBD
-description: A detective video game in which you play a detective dog and a wizard cat. With a twist; you are able to travel back in time and examine the crime scene a few seconds before it happened.
 short-description: Solve crimes with time travel.
-remarkable: true
 banner: JustInCrime.png
 gallery:
   - type: video

@@ -3,9 +3,7 @@ emoji: 🏃
 title: "Platformer Engine"
 image: "platformer_engine.png"
 release: 2022
-description: A basic SGDK project to learn how it works and also be a good basis to learn how to make a platformer game for the Mega Drive.
 short-description: A platformer sample for SGDK.
-remarkable: true
 banner: PlatformerEngine.png
 tools:
  - "Sgdk.png"

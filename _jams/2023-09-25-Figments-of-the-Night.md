@@ -3,9 +3,7 @@ emoji: 🌴
 title: "Figments of the Night"
 image: "figments.png"
 release: 2023
-description: A game developed for the Indie Spain Jam 2023 where you wake up on a deserted island with no memory.
 short-description: Explore an island with no memories.
-remarkable: true
 banner: Figments.png
 gallery:
   - type: image

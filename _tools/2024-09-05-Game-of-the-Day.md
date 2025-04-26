@@ -3,9 +3,7 @@ emoji: ☀️
 title: "Game of the Day"
 image: "game-of-the-day.png"
 release: 2024
-description: A website that shows a random small free game from a small developer each day.
 short-description: Discover a small game each day.
-remarkable: true
 banner: GameOfTheDay.png
 tools:
  - "Actions.png"

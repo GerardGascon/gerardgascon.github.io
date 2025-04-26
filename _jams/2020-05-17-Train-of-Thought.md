@@ -3,9 +3,7 @@ emoji: 🪖
 title: "Train Of Thought"
 image: train-of-thought.png
 release: 2020
-description: A game developed for the Retro 8-Bit Game Jam about surviving a war field to find your love.
 short-description: Survive a war field to find your love.
-remarkable: false
 banner: Train.png
 tools:
  - "Unity.png"

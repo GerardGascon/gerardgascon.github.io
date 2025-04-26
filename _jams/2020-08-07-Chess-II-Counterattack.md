@@ -3,9 +3,7 @@ emoji: ♟️
 title: "Chess II: Counterattack"
 image: chess.png
 release: 2020
-description: A game developed for the Brackeys Jam 2020.2 about being the chess king and survive an infinite number of troops.
 short-description: The chess king fights an infinite army.
-remarkable: false
 banner: Chess.png
 gallery:
   - type: image

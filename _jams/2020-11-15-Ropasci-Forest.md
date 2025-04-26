@@ -3,9 +3,7 @@ emoji: 🌲
 title: "Ropasci Forest"
 image: ropasci.png
 release: 2020
-description: A game developed for the Mix and Game Jam about getting out of a cursed forest by playing Rock, Paper and Scissors.
 short-description: Get out of the forest with Rock, Paper and Scissors.
-remarkable: false
 banner: Ropasci.png
 gallery:
   - type: image
