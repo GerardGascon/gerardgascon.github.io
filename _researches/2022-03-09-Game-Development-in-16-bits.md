@@ -25,6 +25,8 @@ tools:
 download:
   - img: "Pdf.png"
     link: /assets/GameDevelopmentIn16Bits.pdf
+  - img: "Itch.png"
+    link: https://geri8.itch.io/miner-mole
 layout: research
 ---
 
