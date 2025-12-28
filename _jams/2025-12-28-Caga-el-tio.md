@@ -3,7 +3,7 @@ emoji: 🪵
 title: "Caga el tió"
 image: "tio.png"
 release: 2025
-short-description: Share the dragons that live at the corner of your screen.
+short-description: Make the Tió poop.
 banner: Tio.png
 gallery:
   - type: video
