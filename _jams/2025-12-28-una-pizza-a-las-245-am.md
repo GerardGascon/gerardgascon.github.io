@@ -15,6 +15,12 @@ layout: game
 
 It's August 26th 2005 at 2:45 am. You and your friend are hungry and want to order a pizza.
 
+## The Team
+
+> [Lucía Cordero 'Nanaki' - Art](https://nanakigamedev.carrd.co/){:target="_blank"}
+>
+> [Gerard Gascón Moliné - Programming](https://gerardgascon.com/){:target="_blank"}
+
 ## Game Jam
 
 > Jam Of The Year Jam --- December 26th - December 29th 2025 (72 hours)

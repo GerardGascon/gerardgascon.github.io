@@ -27,6 +27,12 @@ day-to-day life.
 
 Dragons from other towers might even come to visit you!
 
+## The Team
+
+> [Arnau Martín - Art](https://arnaums1.itch.io/){:target="_blank"}
+>
+> [Gerard Gascón Moliné - Programming](https://gerardgascon.com/){:target="_blank"}
+
 ## Game Jam
 
 > Sant Jordi Jam 2025 --- April 1st - April 22nd 2025 (22 days)
