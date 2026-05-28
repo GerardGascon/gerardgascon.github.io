@@ -1,3 +1,7 @@
+body {
+    display: inherit;
+}
+
 .main .title {
     height: auto;
     margin-top: auto;
