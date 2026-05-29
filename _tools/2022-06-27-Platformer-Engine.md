@@ -3,6 +3,7 @@ emoji: 🏃
 title: "Platformer Engine"
 image: "platformer_engine.png"
 release: 2022
+tags: ['megadrive', '2d', 'homebrew']
 short-description: A platformer sample for SGDK.
 banner: PlatformerEngine.png
 tools:

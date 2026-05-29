@@ -3,6 +3,7 @@ emoji: ⚔️
 title: "Mediepals"
 image: "mediepals.png"
 release: 2020
+tags: ['3d', 'unity']
 short-description: A medieval tournament inside a birthday party.
 banner: Mediepal.png
 gallery:

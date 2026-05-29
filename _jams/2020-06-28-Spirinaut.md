@@ -3,6 +3,7 @@ emoji: 👻
 title: "Spirinaut"
 image: spirinaut.png
 release: 2020
+tags: ['2d', 'unity']
 short-description: Alternate controls between two characters.
 banner: Spirinaut.png
 tools:

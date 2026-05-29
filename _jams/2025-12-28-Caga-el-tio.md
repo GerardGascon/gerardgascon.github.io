@@ -3,6 +3,7 @@ emoji: 🪵
 title: "Caga el tió"
 image: "tio.png"
 release: 2025
+tags: ['alt.ctrl', '3d', 'godot']
 short-description: Make the Tió poop.
 banner: Tio.png
 gallery:

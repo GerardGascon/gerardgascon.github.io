@@ -168,3 +168,18 @@
 	color: inherit;
 	transition-duration: var(--transition-duration);
 }
+
+.project .tags {
+	list-style: none;
+	padding-inline-start: 0;
+	margin: 10px 0 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+}
+
+.project .tags li {
+	border-radius: 5px;
+	padding: 2px 5px;
+	font-size: 15px;
+}

@@ -3,6 +3,7 @@ emoji: 📽️
 title: "Yet Another World’s Worst Video Card"
 image: "video_card.png"
 release: 2022
+tags: ['hardware', 'homebrew']
 short-description: Creating a video card from scratch.
 banner: GraphicsCard.png
 gallery:

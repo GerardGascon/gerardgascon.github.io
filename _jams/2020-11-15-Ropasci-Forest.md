@@ -3,6 +3,7 @@ emoji: 🌲
 title: "Ropasci Forest"
 image: ropasci.png
 release: 2020
+tags: ['2d', 'unity']
 short-description: Get out of the forest with Rock, Paper and Scissors.
 banner: Ropasci.png
 gallery:

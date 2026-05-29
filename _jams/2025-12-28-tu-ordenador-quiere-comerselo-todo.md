@@ -3,6 +3,7 @@ emoji: 😋
 title: "¡Tu ordenador quiere comerselo todo!"
 image: "comilon.png"
 release: 2025
+tags: ['desktop-pet', '2d', 'godot']
 short-description: Your computer wants to eat everything.
 banner: comilon.jpg
 gallery:

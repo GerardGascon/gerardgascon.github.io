@@ -3,6 +3,7 @@ emoji: 👾
 title: "Game Development in 16&#8209;bits"
 image: "16_bits.png"
 release: 2021-22
+tags: ['megadrive', '2d', 'homebrew']
 short-description: Programming for the Sega Mega Drive.
 banner: 16Bits.png
 gallery:

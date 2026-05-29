@@ -3,6 +3,7 @@ emoji: ♟️
 title: "Chess II: Counterattack"
 image: chess.png
 release: 2020
+tags: ['3d', 'unity']
 short-description: The chess king fights an infinite army.
 banner: Chess.png
 gallery:

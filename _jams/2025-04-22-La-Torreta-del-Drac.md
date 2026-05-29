@@ -3,6 +3,7 @@ emoji: 🐲
 title: "La Torreta del Drac"
 image: "torreta.png"
 release: 2025
+tags: ['desktop-pet', '2d', 'multiplayer', 'godot']
 short-description: Share the dragons that live at the corner of your screen.
 banner: torreta.png
 gallery:

@@ -3,6 +3,7 @@ emoji: 🌴
 title: "Figments of the Night"
 image: "figments.png"
 release: 2023
+tags: ['3d', 'godot']
 short-description: Explore an island with no memories.
 banner: Figments.png
 gallery:

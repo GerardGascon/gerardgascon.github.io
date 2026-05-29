@@ -3,6 +3,7 @@ emoji: 🛠️
 title: "Simple Tools"
 image: "simple_tools.png"
 release: 2021-22
+tags: ['unity']
 short-description: Set of unity tools for the game jams.
 banner: SimpleTools.png
 tools:

@@ -3,6 +3,7 @@ emoji: 🕹️
 title: "Astromovida"
 image: "astromovida.png"
 release: 2024
+tags: ['alt.ctrl', '2d', 'hardware', 'godot']
 short-description: Try control a spaceship with chaotic controls.
 banner: astromovida.png
 gallery:

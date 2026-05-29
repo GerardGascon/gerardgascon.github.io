@@ -3,6 +3,7 @@ emoji: 👹
 title: "Wowie Game Jam Feb.2019"
 image: wowie.png
 release: 2019
+tags: ['2d', 'unity']
 short-description: The recoil is your movement.
 banner: Wowie.png
 gallery:

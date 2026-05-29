@@ -3,6 +3,7 @@ emoji: 🛒
 title: "Mercorona"
 image: "mercorona.png"
 release: 2020
+tags: ['mobile', '3d', 'unity']
 short-description: Go shopping during the quarentine.
 banner: Mercorona.png
 gallery:

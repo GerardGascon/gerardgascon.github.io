@@ -3,6 +3,7 @@ emoji: 🎂
 title: "Mr. Flurfels & Catarina y la tarta perdida"
 image: "flurfels.png"
 release: 2022
+tags: ['2d', 'unity']
 short-description: The jam game that became Just in Crime.
 banner: Flurfels.png
 gallery:

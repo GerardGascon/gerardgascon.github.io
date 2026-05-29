@@ -23,3 +23,61 @@ collections:
   tools:
     output: true
     permalink: /tools/:title
+
+project_labels:
+  unity:
+    name: Unity
+    text_color: "#ffffff"
+    tag_color: "#1d1d1d"
+  alt.ctrl:
+    name: alt.ctrl
+    text_color: "#ffffff"
+    tag_color: "#e84b20"
+  mobile:
+    name: Mobile
+    text_color: "#1d1d1d"
+    tag_color: "#56d335"
+  steam:
+    name: Steam
+    text_color: "#fff"
+    tag_color: "#1b2838"
+  switch:
+    name: Nintendo Switch
+    text_color: "#fff"
+    tag_color: "#ec0000"
+  hardware:
+    name: Hardware
+    text_color: "#fff"
+    tag_color: "#1a1a1a"
+  homebrew:
+    name: Homebrew
+    text_color: "#fff"
+    tag_color: "#288aa4"
+  megadrive:
+    name: Mega Drive
+    text_color: "#fff"
+    tag_color: "#0060ac"
+  godot:
+    name: Godot
+    text_color: "#fff"
+    tag_color: "#468bbe"
+  web:
+    name: Web Development
+    text_color: "#fff"
+    tag_color: "#dfaa2f"
+  desktop-pet:
+    name: Desktop Pet
+    text_color: "#fff"
+    tag_color: "#5a1f51"
+  3d:
+    name: 3D
+    text_color: "#fff"
+    tag_color: "#f57904"
+  2d:
+    name: 2D
+    text_color: "#fff"
+    tag_color: "#f402a2"
+  multiplayer:
+    name: Multiplayer
+    text_color: "#fff"
+    tag_color: "#1f8b45"

@@ -3,6 +3,7 @@ emoji: ☀️
 title: "Game of the Day"
 image: "game-of-the-day.png"
 release: 2024
+tags: ['web']
 short-description: Discover a small game each day.
 banner: GameOfTheDay.png
 tools:

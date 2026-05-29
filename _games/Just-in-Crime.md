@@ -3,6 +3,7 @@ emoji: 🔍
 title: "Just in Crime"
 image: "just_in_crime.png"
 release: TBD
+tags: ['steam', 'switch', '2d', 'unity']
 short-description: Solve crimes with time travel.
 banner: JustInCrime.png
 gallery:

@@ -7,5 +7,12 @@
         <div class="title">
             <h3>{{ game.title }}</h3>
         </div>
+        <ul class="tags">
+            {% for tag in game.tags %}
+                <li style="color: {{ site.project_labels[tag].text_color }}; background-color: {{ site.project_labels[tag].tag_color }}">
+                    {{ site.project_labels[tag].name }}
+                </li>
+            {% endfor %}
+        </ul>
     </div>
 </a>

@@ -3,6 +3,7 @@ emoji: 🏮
 title: "Isoulated"
 image: isoulated.png
 release: 2020
+tags: ['3d', 'unity']
 link: https://itch.gerardgascon.com/isoulated
 short-description: Get home before it's too late.
 banner: Isoulated.png

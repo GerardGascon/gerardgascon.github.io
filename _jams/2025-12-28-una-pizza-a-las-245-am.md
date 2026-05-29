@@ -3,6 +3,7 @@ emoji: 🍕
 title: "Una pizza a las 2:45 am"
 image: "pizza.png"
 release: 2025
+tags: ['2d', 'godot']
 short-description: It's 2:45 am and you want to order a pizza.
 banner: pizza.png
 tools:

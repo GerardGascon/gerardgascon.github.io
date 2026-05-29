@@ -3,6 +3,7 @@ emoji: 🪖
 title: "Train Of Thought"
 image: train-of-thought.png
 release: 2020
+tags: ['2d', 'unity']
 short-description: Survive a war field to find your love.
 banner: Train.png
 tools:
