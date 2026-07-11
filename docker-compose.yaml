@@ -1,9 +1,15 @@
 services:
-  jekyll:
+  web:
     image: jekyll/jekyll
     volumes:
       - .:/srv/jekyll
-      - ./vendor/bundle/:/usr/local/bundle
     ports:
       - "4000:4000"
-    command: jekyll serve --force_polling --drafts --incremental
+      - "35729:35729"
+    command:
+      - sh
+      - -c
+      - |
+        bundle install
+        jekyll serve --host 0.0.0.0 --force_polling --livereload --drafts --incremental
+    restart: unless-stopped
