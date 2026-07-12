@@ -57,6 +57,10 @@ project_labels:
     name: Mega Drive
     text_color: "#fff"
     tag_color: "#0060ac"
+  nds:
+    name: Nintendo DS
+    text_color: "#fff"
+    tag_color: "#333"
   godot:
     name: Godot
     text_color: "#fff"
